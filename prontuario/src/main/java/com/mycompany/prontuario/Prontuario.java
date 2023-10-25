@@ -1,6 +1,8 @@
 
 package com.mycompany.prontuario;
 
+import com.mycompany.prontuario.telas.TelaCadPaciente;
+
 /*import com.mycompany.prontuario.DAO.PacienteDao;
 import com.mycompany.prontuario.entidades.Paciente;*/
 
