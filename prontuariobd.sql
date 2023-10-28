@@ -24,4 +24,5 @@ alter table prontuariobd.paciente add column cidade varchar(20);
 alter table prontuariobd.paciente add column telefone_trab varchar(20);
 alter table prontuariobd.paciente add column responsavel varchar (50);
 alter table prontuariobd.paciente add column telefone_responsavel varchar(20);
-alter table prontuariobd.paciente add column email_responsavel varchar(100);*/
+alter table prontuariobd.paciente add column email_responsavel varchar(100);
+alter table prontuariobd.paciente change proficao profissao varchar(100);*/

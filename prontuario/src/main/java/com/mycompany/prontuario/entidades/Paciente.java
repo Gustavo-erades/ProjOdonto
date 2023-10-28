@@ -66,7 +66,7 @@ public class Paciente {
         this.estadoCivil=estadoCivil;
     }
     private String dataNasc;
-    public String getdataNasc(){
+    public String getDataNasc(){
         return dataNasc;
     }
     public void setDataNasc(String dataNasc){
@@ -97,6 +97,9 @@ public class Paciente {
     public String getCep(){
         return cep;
     }
+    public void setCep(String cep){
+        this.cep=cep;
+    }
     private String telefoneResidencial;
     public String getTelefoneResidencial(){
         return telefoneResidencial;
@@ -124,5 +127,12 @@ public class Paciente {
     }
     public void setContatoResponsavel(String contatoResponsavel){
         this.contatoResponsavel=contatoResponsavel;
+    }
+    private String sexo;
+    public String getSexo(){
+        return sexo;
+    }
+    public void setSexo(String sexo){
+        this.sexo=sexo;
     }
 }

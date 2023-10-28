@@ -84,15 +84,14 @@ public class principal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prontuário Odontológico Estácio");
 
+        jDesktopPane1.setBackground(new java.awt.Color(204, 204, 204));
         jDesktopPane1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("1. IDENTIFICAÇÃO");
         jDesktopPane1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("NOME:");
         jDesktopPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
 
@@ -108,12 +107,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 60, 651, -1));
 
         jLabel3.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("CPF:");
         jDesktopPane1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("RG:");
         jDesktopPane1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 100, 31, -1));
 
@@ -151,12 +148,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(estadoCivil, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, 312, -1));
 
         jLabel5.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("SEXO:");
         jDesktopPane1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("COR:");
         jDesktopPane1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, -1, -1));
 
@@ -183,12 +178,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(rg, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 120, 270, -1));
 
         jLabel7.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("ESTADO CIVIL:");
         jDesktopPane1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("IDADE:");
         jDesktopPane1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 160, -1, -1));
 
@@ -204,12 +197,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(sexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 312, -1));
 
         jLabel9.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("DATA DE NASCIMENTO:");
         jDesktopPane1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("PROFISSÃO:");
         jDesktopPane1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 300, -1, -1));
 
@@ -236,7 +227,6 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(dataNasc, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 312, -1));
 
         jLabel11.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("ENDEREÇO:");
         jDesktopPane1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, -1, -1));
 
@@ -265,12 +255,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(btnCadastrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 690, 111, 39));
 
         jLabel12.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("CIDADE:");
         jDesktopPane1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("CEP:");
         jDesktopPane1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 430, 40, -1));
 
@@ -308,12 +296,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(telCelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 590, 312, -1));
 
         jLabel14.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("TELEFONE RESIDENCIAL:");
         jDesktopPane1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 490, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("E-MAIL:");
         jDesktopPane1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 560, -1, -1));
 
@@ -340,12 +326,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(cep, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 450, 270, -1));
 
         jLabel16.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("TELEFONE CELULAR:");
         jDesktopPane1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 560, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("TELEFONE TRABALHO:");
         jDesktopPane1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 490, -1, -1));
 
@@ -361,12 +345,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(telResidencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 520, 312, -1));
 
         jLabel18.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("RESPONSÁVEL LEGAL:");
         jDesktopPane1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 630, -1, -1));
 
         jLabel19.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("CONTATO RESPONSÁVEL:");
         jDesktopPane1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 630, -1, -1));
 
@@ -519,6 +501,17 @@ public class principal extends javax.swing.JFrame {
         paciente.setIdade(numIdade);
         paciente.setRg(rg.getText());
         paciente.setTelefoneCelular(telCelular.getText());
+        paciente.setCidade(cidade.getText());
+        paciente.setTelefoneResidencial(telResidencial.getText());
+        paciente.setTelefoneTrabalho(telTrabalho.getText());
+        paciente.setSexo(sexo.getText());
+        paciente.setDataNasc(dataNasc.getText());
+        paciente.setCor(cor.getText());
+        paciente.setEstadoCivil(estadoCivil.getText());
+        paciente.setCep(cep.getText());
+        paciente.setProfissao(profissao.getText());
+        paciente.setNomeResponsavel(responsavelLegal.getText());
+        paciente.setContatoResponsavel(contatoResponsavel.getText());
         new PacienteDao().cadastrarPaciente(paciente);
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
