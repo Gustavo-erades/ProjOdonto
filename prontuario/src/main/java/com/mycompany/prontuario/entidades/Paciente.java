@@ -37,12 +37,12 @@ public class Paciente {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    private String telefone;
-    public String getTelefone() {
-        return telefone;
+    private String telefoneCelular;
+    public String getTelefoneCelular() {
+        return telefoneCelular;
     }
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
+    public void setTelefoneCelular(String telefone) {
+        this.telefoneCelular = telefone;
     }
     private String email;
     public String getEmail() {
@@ -57,5 +57,72 @@ public class Paciente {
     }
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+    private String estadoCivil;
+    public String getEstadoCivil(){
+        return estadoCivil;
+    }
+    public void setEstadoCivil(String estadoCivil){
+        this.estadoCivil=estadoCivil;
+    }
+    private String dataNasc;
+    public String getdataNasc(){
+        return dataNasc;
+    }
+    public void setDataNasc(String dataNasc){
+        this.dataNasc=dataNasc;
+    }
+    private String profissao;
+    public String getProfissao(){
+        return profissao;
+    }
+    public void setProfissao(String profissao){
+        this.profissao=profissao;
+    }
+    private String cor;
+    public String getCor(){
+        return cor;
+    }
+    public void setCor(String cor){
+        this.cor=cor;
+    }
+    private String cidade;
+    public String getCidade(){
+        return cidade;
+    }
+    public void setCidade(String cidade){
+           this.cidade=cidade;
+    }
+    private String cep;
+    public String getCep(){
+        return cep;
+    }
+    private String telefoneResidencial;
+    public String getTelefoneResidencial(){
+        return telefoneResidencial;
+    }
+    public void setTelefoneResidencial(String telefoneResidencial){
+        this.telefoneResidencial=telefoneResidencial;
+    }
+    private String telefoneTrabalho;
+    public String getTelefoneTrabalho(){
+        return telefoneTrabalho;
+    }
+    public void setTelefoneTrabalho(String telefoneTrabalho){
+        this.telefoneTrabalho=telefoneTrabalho;
+    }
+    private String nomeResponsavel;
+    public String getNomeResponsavel(){
+        return nomeResponsavel;
+    }
+    public void setNomeResponsavel(String nomeResponsavel){
+        this.nomeResponsavel=nomeResponsavel;
+    }
+    private String contatoResponsavel;
+    public String getContatoResponsavel(){
+        return contatoResponsavel;
+    }
+    public void setContatoResponsavel(String contatoResponsavel){
+        this.contatoResponsavel=contatoResponsavel;
     }
 }
