@@ -379,7 +379,7 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 10, 120, 50));
 
         jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\fundo.jpg")); // NOI18N
-        jDesktopPane1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -20, -1, -1));
+        jDesktopPane1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, -1, -1));
 
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuBar1.setNextFocusableComponent(novoProntuario);
@@ -393,6 +393,11 @@ public class principal extends javax.swing.JFrame {
         jMenuBar1.add(novoProntuario);
 
         jMenu2.setText("prontuários");
+        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu2ActionPerformed(evt);
+            }
+        });
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("nova consulta");
@@ -518,6 +523,10 @@ public class principal extends javax.swing.JFrame {
         paciente.setContatoResponsavel(contatoResponsavel.getText());
         new PacienteDao().cadastrarPaciente(paciente);
     }//GEN-LAST:event_btnCadastrarActionPerformed
+
+    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenu2ActionPerformed
 
     /**
      * @param args the command line arguments

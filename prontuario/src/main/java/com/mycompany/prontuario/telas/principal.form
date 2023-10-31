@@ -44,6 +44,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="prontu&#xe1;rios"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu2ActionPerformed"/>
+          </Events>
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu3">
           <Properties>
@@ -830,7 +833,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="-40" y="-20" width="-1" height="-1"/>
+              <AbsoluteConstraints x="-180" y="0" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
