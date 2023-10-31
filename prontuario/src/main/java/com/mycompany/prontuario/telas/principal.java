@@ -71,6 +71,7 @@ public class principal extends javax.swing.JFrame {
         telTrabalho = new javax.swing.JTextField();
         responsavelLegal = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         novoProntuario = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -375,7 +376,10 @@ public class principal extends javax.swing.JFrame {
         jDesktopPane1.add(responsavelLegal, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 660, 312, -1));
 
         jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\lgEstacio.png")); // NOI18N
-        jDesktopPane1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 10, 100, 30));
+        jDesktopPane1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 10, 120, 50));
+
+        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\fundo.jpg")); // NOI18N
+        jDesktopPane1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -20, -1, -1));
 
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuBar1.setNextFocusableComponent(novoProntuario);
@@ -577,6 +581,7 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
