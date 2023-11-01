@@ -252,6 +252,11 @@ public class principal extends javax.swing.JFrame {
                 btnCadastrarActionPerformed(evt);
             }
         });
+        btnCadastrar.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                btnCadastrarKeyPressed(evt);
+            }
+        });
         jDesktopPane1.add(btnCadastrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 690, 111, 39));
 
         jLabel12.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
@@ -530,6 +535,10 @@ public class principal extends javax.swing.JFrame {
     private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenu2ActionPerformed
+
+    private void btnCadastrarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnCadastrarKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCadastrarKeyPressed
 
     /**
      * @param args the command line arguments
