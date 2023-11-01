@@ -4,8 +4,7 @@
  */
 package com.mycompany.prontuario.telas;
 
-import com.mycompany.prontuario.DAO.PacienteDao;
-import com.mycompany.prontuario.entidades.Paciente;
+import com.mycompany.prontuario.funcoesTela.CadPaciente;
 
 /**
  *
@@ -498,30 +497,34 @@ public class principal extends javax.swing.JFrame {
     private void responsavelLegalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_responsavelLegalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_responsavelLegalActionPerformed
-
+    /* cadastra paciente ao pressionar o botão */
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
         // TODO add your handling code here:
-        Paciente paciente= new Paciente();
-        paciente.setNome(nome.getText());
-        paciente.setEmail(email.getText());
-        paciente.setCpf(cpf.getText());
-        paciente.setEndereco(endereco.getText());
+        String nomePaciente=nome.getText();
+        String emailPaciente=email.getText();
+        String cpfPaciente=cpf.getText();
+        String enderecoPaciente=endereco.getText();
         int numIdade=Integer.parseInt(idade.getText());
-        paciente.setIdade(numIdade);
-        paciente.setRg(rg.getText());
-        paciente.setTelefoneCelular(telCelular.getText());
-        paciente.setCidade(cidade.getText());
-        paciente.setTelefoneResidencial(telResidencial.getText());
-        paciente.setTelefoneTrabalho(telTrabalho.getText());
-        paciente.setSexo(sexo.getText());
-        paciente.setDataNasc(dataNasc.getText());
-        paciente.setCor(cor.getText());
-        paciente.setEstadoCivil(estadoCivil.getText());
-        paciente.setCep(cep.getText());
-        paciente.setProfissao(profissao.getText());
-        paciente.setNomeResponsavel(responsavelLegal.getText());
-        paciente.setContatoResponsavel(contatoResponsavel.getText());
-        new PacienteDao().cadastrarPaciente(paciente);
+        int idadePaciente=numIdade;
+        String rgPaciente=rg.getText();
+        String telCelularPaciente=telCelular.getText();
+        String cidadePaciente=cidade.getText();
+        String telResidencialPaciente=telResidencial.getText();
+        String telTrabalhoPaciente=telTrabalho.getText();
+        String sexoPaciente=sexo.getText();
+        String dataNascPaciente=dataNasc.getText();
+        String corPaciente=cor.getText();
+        String estadoCivilPaciente=estadoCivil.getText();
+        String cepPaciente=cep.getText();
+        String profissaoPaciente=profissao.getText();
+        String responsavelPaciente=responsavelLegal.getText();
+        String contatoResponsavelPaciente=contatoResponsavel.getText();
+        
+        CadPaciente botao=new CadPaciente();
+        botao.botaoCadPaciente(nomePaciente,emailPaciente,cpfPaciente,enderecoPaciente,
+            idadePaciente,rgPaciente,telCelularPaciente,cidadePaciente, telResidencialPaciente,
+            telTrabalhoPaciente,sexoPaciente,  dataNascPaciente, corPaciente, estadoCivilPaciente, 
+            cepPaciente,profissaoPaciente,responsavelPaciente, contatoResponsavelPaciente);
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed

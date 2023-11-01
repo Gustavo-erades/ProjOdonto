@@ -5,7 +5,23 @@ create table paciente(
     id int not null auto_increment,
     primary key (id)
 );
-select *from prontuariobd.paciente;/*
+create table prontuariobd.paciente_informacoes(
+	queixa varchar(500),
+    doenca_atual varchar(300),
+    medica_pre varchar (100),
+    medicacao varchar(100),
+    alcool varchar(100),
+    fumo varchar(100),
+    pressao_arterial varchar(100),
+    exame_fisico varchar(100),
+    intra_oral varchar(300),
+    extra_oral varchar(300),
+    id_paciente int not null,
+    primary key (id_paciente),
+	foreign key (id_paciente) references prontuariobd.paciente(id)
+);
+
+select *from prontuariobd.paciente;/*		
 insert into prontuariobd.paciente(nome) values("gustavo");
 alter  table prontuariobd.paciente add column cpf int(11) not null;
 alter table prontuariobd.paciente add column rg int(7) not null;
