@@ -10,12 +10,12 @@ import com.mycompany.prontuario.funcoesTela.CadPaciente;
  *
  * @author Gustavo
  */
-public class principal extends javax.swing.JFrame {
+public class Identificacao extends javax.swing.JFrame {
 
     /**
      * Creates new form principal
      */
-    public principal() {
+    public Identificacao() {
         initComponents();
     }
 
@@ -52,7 +52,6 @@ public class principal extends javax.swing.JFrame {
         dataNasc = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         endereco = new javax.swing.JTextField();
-        btnCadastrar = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         email = new javax.swing.JTextField();
@@ -69,13 +68,13 @@ public class principal extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
         telTrabalho = new javax.swing.JTextField();
         responsavelLegal = new javax.swing.JTextField();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        novoProntuario = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
-        jMenu4 = new javax.swing.JMenu();
+        jPanel1 = new javax.swing.JPanel();
+        btnCadastrar = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         jMenuItem1.setText("jMenuItem1");
 
@@ -84,16 +83,16 @@ public class principal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prontuário Odontológico Estácio");
 
-        jDesktopPane1.setBackground(new java.awt.Color(204, 204, 204));
+        jDesktopPane1.setBackground(new java.awt.Color(51, 51, 51));
         jDesktopPane1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel1.setText("1. IDENTIFICAÇÃO");
-        jDesktopPane1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
+        jDesktopPane1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel2.setText("NOME:");
-        jDesktopPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
+        jDesktopPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, -1, -1));
 
         nome.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         nome.setToolTipText("");
@@ -104,15 +103,15 @@ public class principal extends javax.swing.JFrame {
                 nomeActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 60, 651, -1));
+        jDesktopPane1.add(nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 60, 651, -1));
 
         jLabel3.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel3.setText("CPF:");
-        jDesktopPane1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, -1, -1));
+        jDesktopPane1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 100, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel4.setText("RG:");
-        jDesktopPane1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 100, 31, -1));
+        jDesktopPane1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 100, 31, -1));
 
         cor.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         cor.setToolTipText("");
@@ -123,7 +122,7 @@ public class principal extends javax.swing.JFrame {
                 corActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(cor, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 260, 270, -1));
+        jDesktopPane1.add(cor, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 270, -1));
 
         profissao.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         profissao.setToolTipText("");
@@ -134,7 +133,7 @@ public class principal extends javax.swing.JFrame {
                 profissaoActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(profissao, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 270, -1));
+        jDesktopPane1.add(profissao, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 330, 270, -1));
 
         estadoCivil.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         estadoCivil.setToolTipText("");
@@ -145,15 +144,15 @@ public class principal extends javax.swing.JFrame {
                 estadoCivilActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(estadoCivil, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, 312, -1));
+        jDesktopPane1.add(estadoCivil, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 312, -1));
 
         jLabel5.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel5.setText("SEXO:");
-        jDesktopPane1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
+        jDesktopPane1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel6.setText("COR:");
-        jDesktopPane1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, -1, -1));
+        jDesktopPane1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 230, -1, -1));
 
         cpf.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         cpf.setToolTipText("");
@@ -164,7 +163,7 @@ public class principal extends javax.swing.JFrame {
                 cpfActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(cpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 312, -1));
+        jDesktopPane1.add(cpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 312, -1));
 
         rg.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         rg.setToolTipText("");
@@ -175,15 +174,15 @@ public class principal extends javax.swing.JFrame {
                 rgActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(rg, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 120, 270, -1));
+        jDesktopPane1.add(rg, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 120, 270, -1));
 
         jLabel7.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel7.setText("ESTADO CIVIL:");
-        jDesktopPane1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        jDesktopPane1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel8.setText("IDADE:");
-        jDesktopPane1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 160, -1, -1));
+        jDesktopPane1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 160, -1, -1));
 
         sexo.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         sexo.setToolTipText("");
@@ -194,15 +193,15 @@ public class principal extends javax.swing.JFrame {
                 sexoActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(sexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 312, -1));
+        jDesktopPane1.add(sexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, 312, -1));
 
         jLabel9.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel9.setText("DATA DE NASCIMENTO:");
-        jDesktopPane1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, -1, -1));
+        jDesktopPane1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 300, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel10.setText("PROFISSÃO:");
-        jDesktopPane1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 300, -1, -1));
+        jDesktopPane1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 300, -1, -1));
 
         idade.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         idade.setToolTipText("");
@@ -213,7 +212,7 @@ public class principal extends javax.swing.JFrame {
                 idadeActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(idade, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, 270, -1));
+        jDesktopPane1.add(idade, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 190, 270, -1));
 
         dataNasc.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         dataNasc.setToolTipText("");
@@ -224,11 +223,11 @@ public class principal extends javax.swing.JFrame {
                 dataNascActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(dataNasc, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 312, -1));
+        jDesktopPane1.add(dataNasc, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 330, 312, -1));
 
         jLabel11.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel11.setText("ENDEREÇO:");
-        jDesktopPane1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, -1, -1));
+        jDesktopPane1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 370, -1, -1));
 
         endereco.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         endereco.setToolTipText("");
@@ -239,7 +238,127 @@ public class principal extends javax.swing.JFrame {
                 enderecoActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(endereco, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 390, 651, -1));
+        jDesktopPane1.add(endereco, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 651, -1));
+
+        jLabel12.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel12.setText("CIDADE:");
+        jDesktopPane1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 430, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel13.setText("CEP:");
+        jDesktopPane1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 430, 40, -1));
+
+        email.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        email.setToolTipText("");
+        email.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        email.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        email.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                emailActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 590, 270, -1));
+
+        contatoResponsavel.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        contatoResponsavel.setToolTipText("");
+        contatoResponsavel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        contatoResponsavel.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        contatoResponsavel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                contatoResponsavelActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(contatoResponsavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 660, 270, -1));
+
+        telCelular.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        telCelular.setToolTipText("");
+        telCelular.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        telCelular.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        telCelular.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                telCelularActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(telCelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 590, 312, -1));
+
+        jLabel14.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel14.setText("TELEFONE RESIDENCIAL:");
+        jDesktopPane1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 500, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel15.setText("E-MAIL:");
+        jDesktopPane1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 560, -1, -1));
+
+        cidade.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        cidade.setToolTipText("");
+        cidade.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        cidade.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        cidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cidadeActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(cidade, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 312, -1));
+
+        cep.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        cep.setToolTipText("");
+        cep.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        cep.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        cep.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cepActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(cep, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 460, 270, -1));
+
+        jLabel16.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel16.setText("TELEFONE CELULAR:");
+        jDesktopPane1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 560, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel17.setText("TELEFONE TRABALHO:");
+        jDesktopPane1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 500, -1, -1));
+
+        telResidencial.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        telResidencial.setToolTipText("");
+        telResidencial.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        telResidencial.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        telResidencial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                telResidencialActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(telResidencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 520, 312, -1));
+
+        jLabel18.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel18.setText("RESPONSÁVEL LEGAL:");
+        jDesktopPane1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 630, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
+        jLabel19.setText("CONTATO RESPONSÁVEL:");
+        jDesktopPane1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 630, -1, -1));
+
+        telTrabalho.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        telTrabalho.setToolTipText("");
+        telTrabalho.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        telTrabalho.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        telTrabalho.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                telTrabalhoActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(telTrabalho, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 520, 270, -1));
+
+        responsavelLegal.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        responsavelLegal.setToolTipText("");
+        responsavelLegal.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        responsavelLegal.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        responsavelLegal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                responsavelLegalActionPerformed(evt);
+            }
+        });
+        jDesktopPane1.add(responsavelLegal, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 660, 312, -1));
 
         btnCadastrar.setBackground(new java.awt.Color(0, 102, 102));
         btnCadastrar.setFont(new java.awt.Font("Bahnschrift", 1, 14)); // NOI18N
@@ -257,179 +376,88 @@ public class principal extends javax.swing.JFrame {
                 btnCadastrarKeyPressed(evt);
             }
         });
-        jDesktopPane1.add(btnCadastrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 690, 111, 39));
 
-        jLabel12.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel12.setText("CIDADE:");
-        jDesktopPane1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, -1, -1));
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(553, Short.MAX_VALUE)
+                .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(746, Short.MAX_VALUE)
+                .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(15, 15, 15))
+        );
 
-        jLabel13.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel13.setText("CEP:");
-        jDesktopPane1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 430, 40, -1));
+        jDesktopPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 670, 800));
 
-        email.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        email.setToolTipText("");
-        email.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        email.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        email.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setText("prontuário");
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                emailActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 590, 270, -1));
 
-        contatoResponsavel.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        contatoResponsavel.setToolTipText("");
-        contatoResponsavel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        contatoResponsavel.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        contatoResponsavel.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setText("pacientes");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                contatoResponsavelActionPerformed(evt);
+                jButton2ActionPerformed(evt);
             }
         });
-        jDesktopPane1.add(contatoResponsavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 660, 270, -1));
 
-        telCelular.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        telCelular.setToolTipText("");
-        telCelular.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        telCelular.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        telCelular.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                telCelularActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(telCelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 590, 312, -1));
+        jButton3.setText("consultas");
 
-        jLabel14.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel14.setText("TELEFONE RESIDENCIAL:");
-        jDesktopPane1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 490, -1, -1));
+        jButton4.setText("+ coisas");
 
-        jLabel15.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel15.setText("E-MAIL:");
-        jDesktopPane1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 560, -1, -1));
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(61, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(526, Short.MAX_VALUE))
+        );
 
-        cidade.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        cidade.setToolTipText("");
-        cidade.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        cidade.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        cidade.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cidadeActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(cidade, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 450, 312, -1));
-
-        cep.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        cep.setToolTipText("");
-        cep.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        cep.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        cep.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cepActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(cep, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 450, 270, -1));
-
-        jLabel16.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel16.setText("TELEFONE CELULAR:");
-        jDesktopPane1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 560, -1, -1));
-
-        jLabel17.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel17.setText("TELEFONE TRABALHO:");
-        jDesktopPane1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 490, -1, -1));
-
-        telResidencial.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        telResidencial.setToolTipText("");
-        telResidencial.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        telResidencial.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        telResidencial.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                telResidencialActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(telResidencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 520, 312, -1));
-
-        jLabel18.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel18.setText("RESPONSÁVEL LEGAL:");
-        jDesktopPane1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 630, -1, -1));
-
-        jLabel19.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
-        jLabel19.setText("CONTATO RESPONSÁVEL:");
-        jDesktopPane1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 630, -1, -1));
-
-        telTrabalho.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        telTrabalho.setToolTipText("");
-        telTrabalho.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        telTrabalho.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        telTrabalho.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                telTrabalhoActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(telTrabalho, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 520, 270, -1));
-
-        responsavelLegal.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        responsavelLegal.setToolTipText("");
-        responsavelLegal.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        responsavelLegal.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        responsavelLegal.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                responsavelLegalActionPerformed(evt);
-            }
-        });
-        jDesktopPane1.add(responsavelLegal, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 660, 312, -1));
-
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\lgEstacio.png")); // NOI18N
-        jDesktopPane1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 10, 120, 50));
-
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\fundo.jpg")); // NOI18N
-        jDesktopPane1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, 0, -1, -1));
-
-        jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenuBar1.setNextFocusableComponent(novoProntuario);
-
-        novoProntuario.setText("novo prontuário");
-        novoProntuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                novoProntuarioActionPerformed(evt);
-            }
-        });
-        jMenuBar1.add(novoProntuario);
-
-        jMenu2.setText("prontuários");
-        jMenu2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenu2ActionPerformed(evt);
-            }
-        });
-        jMenuBar1.add(jMenu2);
-
-        jMenu3.setText("nova consulta");
-        jMenuBar1.add(jMenu3);
-
-        jMenu4.setText("consultas");
-        jMenuBar1.add(jMenu4);
-
-        setJMenuBar(jMenuBar1);
+        jDesktopPane1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, 800));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jDesktopPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 937, Short.MAX_VALUE)
+            .addComponent(jDesktopPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jDesktopPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 736, Short.MAX_VALUE)
+            .addComponent(jDesktopPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 801, Short.MAX_VALUE)
         );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void novoProntuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_novoProntuarioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_novoProntuarioActionPerformed
 
     private void nomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nomeActionPerformed
         // TODO add your handling code here:
@@ -532,13 +560,17 @@ public class principal extends javax.swing.JFrame {
             cepPaciente,profissaoPaciente,responsavelPaciente, contatoResponsavelPaciente);
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
-    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenu2ActionPerformed
-
     private void btnCadastrarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnCadastrarKeyPressed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCadastrarKeyPressed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -557,20 +589,21 @@ public class principal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Identificacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Identificacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Identificacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Identificacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new principal().setVisible(true);
+                new Identificacao().setVisible(true);
             }
         });
     }
@@ -587,6 +620,10 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JTextField endereco;
     private javax.swing.JTextField estadoCivil;
     private javax.swing.JTextField idade;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
@@ -601,8 +638,6 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -610,13 +645,10 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField nome;
-    private javax.swing.JMenu novoProntuario;
     private javax.swing.JTextField profissao;
     private javax.swing.JTextField responsavelLegal;
     private javax.swing.JTextField rg;
