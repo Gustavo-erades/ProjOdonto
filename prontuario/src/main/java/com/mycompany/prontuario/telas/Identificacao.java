@@ -4,10 +4,9 @@
  */
 package com.mycompany.prontuario.telas;
 
+import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import static java.lang.Integer.parseInt;
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author Gustavo
@@ -22,10 +21,11 @@ public class Identificacao extends javax.swing.JFrame {
             campoTelResidencial,campoTelCelular,campoTelTrabalho,
             campoResponsavelLegal,campoContatoResponsavelLegal,campoSexo;
     int campoIdade;
+    String campoQueixa,campoMedicacaoAtual,campoMedicaPregressa,campoIntraOral,campoExtraOral,
+            campoDoencaAtual,campoAlcool,campoFumo,campoPressaoArterial,campoExameFisico;
     public Identificacao() {
         initComponents();
-        setLocationRelativeTo(null);
-        
+        setLocationRelativeTo(null);  
     }
 
     /**
@@ -87,34 +87,34 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel10 = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
         jScrollPane33 = new javax.swing.JScrollPane();
-        jTextArea31 = new javax.swing.JTextArea();
+        queixaPrincipal = new javax.swing.JTextArea();
         jLabel50 = new javax.swing.JLabel();
         jScrollPane34 = new javax.swing.JScrollPane();
-        jTextArea32 = new javax.swing.JTextArea();
+        doencaAtual = new javax.swing.JTextArea();
         jLabel51 = new javax.swing.JLabel();
         jScrollPane35 = new javax.swing.JScrollPane();
-        jTextArea33 = new javax.swing.JTextArea();
+        medicaPregressa = new javax.swing.JTextArea();
         jLabel52 = new javax.swing.JLabel();
         jScrollPane36 = new javax.swing.JScrollPane();
-        jTextArea34 = new javax.swing.JTextArea();
+        medicacaoUso = new javax.swing.JTextArea();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jScrollPane37 = new javax.swing.JScrollPane();
-        jTextArea35 = new javax.swing.JTextArea();
+        alcool = new javax.swing.JTextArea();
         jScrollPane38 = new javax.swing.JScrollPane();
-        jTextArea36 = new javax.swing.JTextArea();
+        fumo = new javax.swing.JTextArea();
         jLabel55 = new javax.swing.JLabel();
         jScrollPane39 = new javax.swing.JScrollPane();
-        jTextArea37 = new javax.swing.JTextArea();
+        pressaoArterial = new javax.swing.JTextArea();
         jLabel56 = new javax.swing.JLabel();
         jScrollPane40 = new javax.swing.JScrollPane();
-        jTextArea38 = new javax.swing.JTextArea();
+        exameFisico = new javax.swing.JTextArea();
         jLabel57 = new javax.swing.JLabel();
         jScrollPane41 = new javax.swing.JScrollPane();
-        jTextArea39 = new javax.swing.JTextArea();
+        intraOral = new javax.swing.JTextArea();
         jLabel58 = new javax.swing.JLabel();
         jScrollPane42 = new javax.swing.JScrollPane();
-        jTextArea40 = new javax.swing.JTextArea();
+        extraOral = new javax.swing.JTextArea();
         btnCadastrar = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -413,63 +413,63 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel49.setText("Queixa principal:");
 
-        jTextArea31.setColumns(20);
-        jTextArea31.setRows(5);
-        jScrollPane33.setViewportView(jTextArea31);
+        queixaPrincipal.setColumns(20);
+        queixaPrincipal.setRows(5);
+        jScrollPane33.setViewportView(queixaPrincipal);
 
         jLabel50.setText("História da doença atual:");
 
-        jTextArea32.setColumns(20);
-        jTextArea32.setRows(5);
-        jScrollPane34.setViewportView(jTextArea32);
+        doencaAtual.setColumns(20);
+        doencaAtual.setRows(5);
+        jScrollPane34.setViewportView(doencaAtual);
 
         jLabel51.setText("História médica pregressa:");
 
-        jTextArea33.setColumns(20);
-        jTextArea33.setRows(5);
-        jScrollPane35.setViewportView(jTextArea33);
+        medicaPregressa.setColumns(20);
+        medicaPregressa.setRows(5);
+        jScrollPane35.setViewportView(medicaPregressa);
 
         jLabel52.setText("Medicação em uso:");
 
-        jTextArea34.setColumns(20);
-        jTextArea34.setRows(5);
-        jScrollPane36.setViewportView(jTextArea34);
+        medicacaoUso.setColumns(20);
+        medicacaoUso.setRows(5);
+        jScrollPane36.setViewportView(medicacaoUso);
 
         jLabel53.setText("Álcool:");
 
         jLabel54.setText("Fumo:");
 
-        jTextArea35.setColumns(20);
-        jTextArea35.setRows(5);
-        jScrollPane37.setViewportView(jTextArea35);
+        alcool.setColumns(20);
+        alcool.setRows(5);
+        jScrollPane37.setViewportView(alcool);
 
-        jTextArea36.setColumns(20);
-        jTextArea36.setRows(5);
-        jScrollPane38.setViewportView(jTextArea36);
+        fumo.setColumns(20);
+        fumo.setRows(5);
+        jScrollPane38.setViewportView(fumo);
 
         jLabel55.setText("Pressão arterial:");
 
-        jTextArea37.setColumns(20);
-        jTextArea37.setRows(5);
-        jScrollPane39.setViewportView(jTextArea37);
+        pressaoArterial.setColumns(20);
+        pressaoArterial.setRows(5);
+        jScrollPane39.setViewportView(pressaoArterial);
 
         jLabel56.setText("Exame  físico:");
 
-        jTextArea38.setColumns(20);
-        jTextArea38.setRows(5);
-        jScrollPane40.setViewportView(jTextArea38);
+        exameFisico.setColumns(20);
+        exameFisico.setRows(5);
+        jScrollPane40.setViewportView(exameFisico);
 
         jLabel57.setText("Intra-oral:");
 
-        jTextArea39.setColumns(20);
-        jTextArea39.setRows(5);
-        jScrollPane41.setViewportView(jTextArea39);
+        intraOral.setColumns(20);
+        intraOral.setRows(5);
+        jScrollPane41.setViewportView(intraOral);
 
         jLabel58.setText("Extra-oral:");
 
-        jTextArea40.setColumns(20);
-        jTextArea40.setRows(5);
-        jScrollPane42.setViewportView(jTextArea40);
+        extraOral.setColumns(20);
+        extraOral.setRows(5);
+        jScrollPane42.setViewportView(extraOral);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -499,9 +499,7 @@ public class Identificacao extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane40, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jLabel56)
-                                .addGap(86, 86, 86))))
+                            .addComponent(jLabel56)))
                     .addComponent(jScrollPane41)
                     .addComponent(jScrollPane42)
                     .addGroup(jPanel10Layout.createSequentialGroup()
@@ -644,7 +642,7 @@ public class Identificacao extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 749, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1)
                 .addContainerGap())
         );
 
@@ -683,12 +681,23 @@ public class Identificacao extends javax.swing.JFrame {
         campoResponsavelLegal=responsavelLegal.getText();
         campoContatoResponsavelLegal=contatoResponsavel.getText();
         campoSexo=sexo.getSelectedItem().toString();
-        CadPaciente botao=new CadPaciente();
-        botao.botaoCadPaciente(campoNome, campoEmail,campoCpf,campoEndereco,
+        new CadPaciente().botaoCadPaciente(campoNome, campoEmail,campoCpf,campoEndereco,
             campoIdade,campoRg,campoTelCelular,campoCidade, campoTelResidencial,
             campoTelTrabalho, campoSexo, campoDataNasc, campoCor, campoEstadoCivil, 
             campoCep,campoProfissao,campoResponsavelLegal, campoContatoResponsavelLegal);
-        JOptionPane.showMessageDialog(rootPane, "Cadastro de paciente realizado!", "Paciente cadastrado",JOptionPane.PLAIN_MESSAGE);
+        
+        campoQueixa=queixaPrincipal.getText();
+        campoDoencaAtual=doencaAtual.getText();
+        campoMedicacaoAtual=medicacaoUso.getText();
+        campoAlcool=alcool.getText();
+        campoFumo=fumo.getText();
+        campoPressaoArterial=pressaoArterial.getText();
+        campoExameFisico=exameFisico.getText();
+        campoIntraOral=intraOral.getText();
+        campoExtraOral=extraOral.getText();
+        new CadInformacoes().botaoCadInformacoes(campoQueixa, campoDoencaAtual, campoMedicaPregressa, campoMedicacaoAtual, campoRg, campoRg, campoPressaoArterial, campoExameFisico, campoIntraOral, campoExtraOral);
+        
+        
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -736,6 +745,7 @@ public class Identificacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextArea alcool;
     private javax.swing.JButton btnCadastrar;
     private javax.swing.JTextField cep;
     private javax.swing.JTextField cidade;
@@ -743,10 +753,15 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField cor;
     private javax.swing.JTextField cpf;
     private javax.swing.JTextField dataNasc;
+    private javax.swing.JTextArea doencaAtual;
     private javax.swing.JTextField email;
     private javax.swing.JTextField endereco;
     private javax.swing.JTextField estadoCivil;
+    private javax.swing.JTextArea exameFisico;
+    private javax.swing.JTextArea extraOral;
+    private javax.swing.JTextArea fumo;
     private javax.swing.JTextField idade;
+    private javax.swing.JTextArea intraOral;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JComboBox<String> jComboBox1;
@@ -757,42 +772,12 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
@@ -815,35 +800,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane10;
-    private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
-    private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
-    private javax.swing.JScrollPane jScrollPane17;
-    private javax.swing.JScrollPane jScrollPane18;
-    private javax.swing.JScrollPane jScrollPane19;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane20;
-    private javax.swing.JScrollPane jScrollPane21;
-    private javax.swing.JScrollPane jScrollPane22;
-    private javax.swing.JScrollPane jScrollPane23;
-    private javax.swing.JScrollPane jScrollPane24;
-    private javax.swing.JScrollPane jScrollPane25;
-    private javax.swing.JScrollPane jScrollPane26;
-    private javax.swing.JScrollPane jScrollPane27;
-    private javax.swing.JScrollPane jScrollPane28;
-    private javax.swing.JScrollPane jScrollPane29;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane30;
-    private javax.swing.JScrollPane jScrollPane31;
-    private javax.swing.JScrollPane jScrollPane32;
     private javax.swing.JScrollPane jScrollPane33;
     private javax.swing.JScrollPane jScrollPane34;
     private javax.swing.JScrollPane jScrollPane35;
@@ -851,59 +809,17 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane37;
     private javax.swing.JScrollPane jScrollPane38;
     private javax.swing.JScrollPane jScrollPane39;
-    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane40;
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
-    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea10;
-    private javax.swing.JTextArea jTextArea11;
-    private javax.swing.JTextArea jTextArea12;
-    private javax.swing.JTextArea jTextArea13;
-    private javax.swing.JTextArea jTextArea14;
-    private javax.swing.JTextArea jTextArea15;
-    private javax.swing.JTextArea jTextArea16;
-    private javax.swing.JTextArea jTextArea17;
-    private javax.swing.JTextArea jTextArea18;
-    private javax.swing.JTextArea jTextArea19;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea20;
-    private javax.swing.JTextArea jTextArea21;
-    private javax.swing.JTextArea jTextArea22;
-    private javax.swing.JTextArea jTextArea23;
-    private javax.swing.JTextArea jTextArea24;
-    private javax.swing.JTextArea jTextArea25;
-    private javax.swing.JTextArea jTextArea26;
-    private javax.swing.JTextArea jTextArea27;
-    private javax.swing.JTextArea jTextArea28;
-    private javax.swing.JTextArea jTextArea29;
-    private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea30;
-    private javax.swing.JTextArea jTextArea31;
-    private javax.swing.JTextArea jTextArea32;
-    private javax.swing.JTextArea jTextArea33;
-    private javax.swing.JTextArea jTextArea34;
-    private javax.swing.JTextArea jTextArea35;
-    private javax.swing.JTextArea jTextArea36;
-    private javax.swing.JTextArea jTextArea37;
-    private javax.swing.JTextArea jTextArea38;
-    private javax.swing.JTextArea jTextArea39;
-    private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea40;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
-    private javax.swing.JTextArea jTextArea8;
-    private javax.swing.JTextArea jTextArea9;
+    private javax.swing.JTextArea medicaPregressa;
+    private javax.swing.JTextArea medicacaoUso;
     private javax.swing.JTextField nome;
+    private javax.swing.JTextArea pressaoArterial;
     private javax.swing.JTextField profissao;
+    private javax.swing.JTextArea queixaPrincipal;
     private javax.swing.JTextField responsavelLegal;
     private javax.swing.JTextField rg;
     private javax.swing.JComboBox<String> sexo;

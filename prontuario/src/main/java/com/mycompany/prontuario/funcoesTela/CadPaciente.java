@@ -30,3 +30,4 @@ public class CadPaciente {
         new PacienteDao().cadastrarPaciente(paciente);
     }
 }
+

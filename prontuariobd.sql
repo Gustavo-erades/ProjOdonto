@@ -16,7 +16,7 @@ create table prontuariobd.paciente_informacoes(
     exame_fisico varchar(100),
     intra_oral varchar(300),
     extra_oral varchar(300),
-    id_paciente int not null,
+    id_paciente int not null auto_increment,
     primary key (id_paciente),
 	foreign key (id_paciente) references prontuariobd.paciente(id)
 );
