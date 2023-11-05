@@ -686,18 +686,45 @@ public class Identificacao extends javax.swing.JFrame {
             campoTelTrabalho, campoSexo, campoDataNasc, campoCor, campoEstadoCivil, 
             campoCep,campoProfissao,campoResponsavelLegal, campoContatoResponsavelLegal);
         
+        nome.setText("");
+        cpf.setText("");
+        rg.setText("");
+        cor.setText("");
+        estadoCivil.setText("");
+        dataNasc.setText("");
+        idade.setText("");
+        profissao.setText("");
+        endereco.setText("");
+        cidade.setText("");
+        cep.setText("");
+        email.setText("");
+        telResidencial.setText("");
+        telCelular.setText("");
+        telTrabalho.setText("");
+        responsavelLegal.setText("");
+        contatoResponsavel.setText("");
+        
         campoQueixa=queixaPrincipal.getText();
         campoDoencaAtual=doencaAtual.getText();
         campoMedicacaoAtual=medicacaoUso.getText();
+        campoMedicaPregressa=medicaPregressa.getText();
         campoAlcool=alcool.getText();
         campoFumo=fumo.getText();
         campoPressaoArterial=pressaoArterial.getText();
         campoExameFisico=exameFisico.getText();
         campoIntraOral=intraOral.getText();
         campoExtraOral=extraOral.getText();
-        new CadInformacoes().botaoCadInformacoes(campoQueixa, campoDoencaAtual, campoMedicaPregressa, campoMedicacaoAtual, campoRg, campoRg, campoPressaoArterial, campoExameFisico, campoIntraOral, campoExtraOral);
+        new CadInformacoes().botaoCadInformacoes(campoQueixa, campoDoencaAtual, campoMedicaPregressa, campoMedicacaoAtual, campoAlcool, campoFumo, campoPressaoArterial, campoExameFisico, campoIntraOral, campoExtraOral);
         
-        
+        queixaPrincipal.setText("");
+        doencaAtual.setText("");
+        medicacaoUso.setText("");
+        alcool.setText("");
+        fumo.setText("");
+        pressaoArterial.setText("");
+        exameFisico.setText("");
+        intraOral.setText("");
+        extraOral.setText("");
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
