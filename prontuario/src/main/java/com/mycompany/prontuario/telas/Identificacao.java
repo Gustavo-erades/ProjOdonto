@@ -7,6 +7,7 @@ package com.mycompany.prontuario.telas;
 import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import static java.lang.Integer.parseInt;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Gustavo
@@ -44,6 +45,8 @@ public class Identificacao extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton7 = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
+        jButton8 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -82,7 +85,7 @@ public class Identificacao extends javax.swing.JFrame {
         responsavelLegal = new javax.swing.JTextField();
         idade = new javax.swing.JTextField();
         jLabel28 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
+        btnCancelar = new javax.swing.JButton();
         jScrollPane12 = new javax.swing.JScrollPane();
         jPanel10 = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
@@ -158,14 +161,34 @@ public class Identificacao extends javax.swing.JFrame {
             }
         });
 
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
+        jButton8.setText("pesquisar");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jButton7)
-                .addContainerGap(887, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton7))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(317, 317, 317)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton8)))
+                .addContainerGap(288, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addContainerGap()
@@ -177,7 +200,11 @@ public class Identificacao extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(133, 133, 133)
                 .addComponent(jButton7)
-                .addContainerGap(562, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton8))
+                .addContainerGap(533, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                     .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -402,10 +429,10 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGap(35, 35, 35))
         );
 
-        jButton6.setText("Cancelar");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        btnCancelar.setText("Cancelar");
+        btnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                btnCancelarActionPerformed(evt);
             }
         });
 
@@ -584,7 +611,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnCadastrar)
                 .addGap(18, 18, 18)
-                .addComponent(jButton6)
+                .addComponent(btnCancelar)
                 .addGap(33, 33, 33))
         );
         jPanel4Layout.setVerticalGroup(
@@ -596,7 +623,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton6)
+                    .addComponent(btnCancelar)
                     .addComponent(btnCadastrar))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -727,13 +754,49 @@ public class Identificacao extends javax.swing.JFrame {
         extraOral.setText("");
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
+        nome.setText("");
+        cpf.setText("");
+        rg.setText("");
+        cor.setText("");
+        estadoCivil.setText("");
+        dataNasc.setText("");
+        idade.setText("");
+        profissao.setText("");
+        endereco.setText("");
+        cidade.setText("");
+        cep.setText("");
+        email.setText("");
+        telResidencial.setText("");
+        telCelular.setText("");
+        telTrabalho.setText("");
+        responsavelLegal.setText("");
+        contatoResponsavel.setText("");
+        
+        queixaPrincipal.setText("");
+        doencaAtual.setText("");
+        medicacaoUso.setText("");
+        alcool.setText("");
+        fumo.setText("");
+        pressaoArterial.setText("");
+        exameFisico.setText("");
+        intraOral.setText("");
+        extraOral.setText("");
+        
+        JOptionPane.showMessageDialog(rootPane,"Cadastro dos dados cancelado", "Cancelado!",JOptionPane.WARNING_MESSAGE);
+    }//GEN-LAST:event_btnCancelarActionPerformed
 
     private void emailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_emailActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -774,6 +837,7 @@ public class Identificacao extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea alcool;
     private javax.swing.JButton btnCadastrar;
+    private javax.swing.JButton btnCancelar;
     private javax.swing.JTextField cep;
     private javax.swing.JTextField cidade;
     private javax.swing.JTextField contatoResponsavel;
@@ -789,8 +853,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextArea fumo;
     private javax.swing.JTextField idade;
     private javax.swing.JTextArea intraOral;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -841,6 +905,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane42;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextArea medicaPregressa;
     private javax.swing.JTextArea medicacaoUso;
     private javax.swing.JTextField nome;
