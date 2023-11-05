@@ -8,6 +8,7 @@ import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import static java.lang.Integer.parseInt;
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author Gustavo
@@ -24,6 +25,11 @@ public class Identificacao extends javax.swing.JFrame {
     int campoIdade;
     String campoQueixa,campoMedicacaoAtual,campoMedicaPregressa,campoIntraOral,campoExtraOral,
             campoDoencaAtual,campoAlcool,campoFumo,campoPressaoArterial,campoExameFisico;
+    
+    public void loadTabelaSelect1(){
+        DefaultTableModel modelo= new DefaultTableModel(new Object[]{"Id","Nome","Idade","Contato","Email"},0);
+        
+    }
     public Identificacao() {
         initComponents();
         setLocationRelativeTo(null);  
@@ -43,7 +49,7 @@ public class Identificacao extends javax.swing.JFrame {
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        tabelaSelect1 = new javax.swing.JTable();
         jButton7 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jButton8 = new javax.swing.JButton();
@@ -129,7 +135,7 @@ public class Identificacao extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prontuário Odontológico Estácio");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tabelaSelect1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -152,7 +158,7 @@ public class Identificacao extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(tabelaSelect1);
 
         jButton7.setText("visualizar");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -904,7 +910,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextArea medicaPregressa;
     private javax.swing.JTextArea medicacaoUso;
@@ -915,6 +920,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField responsavelLegal;
     private javax.swing.JTextField rg;
     private javax.swing.JComboBox<String> sexo;
+    private javax.swing.JTable tabelaSelect1;
     private javax.swing.JTextField telCelular;
     private javax.swing.JTextField telResidencial;
     private javax.swing.JTextField telTrabalho;
