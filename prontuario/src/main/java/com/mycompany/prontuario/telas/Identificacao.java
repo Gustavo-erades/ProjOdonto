@@ -4,9 +4,11 @@
  */
 package com.mycompany.prontuario.telas;
 
+import com.mycompany.prontuario.conexao.Conexao;
 import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import static java.lang.Integer.parseInt;
+import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
@@ -25,11 +27,6 @@ public class Identificacao extends javax.swing.JFrame {
     int campoIdade;
     String campoQueixa,campoMedicacaoAtual,campoMedicaPregressa,campoIntraOral,campoExtraOral,
             campoDoencaAtual,campoAlcool,campoFumo,campoPressaoArterial,campoExameFisico;
-    
-    public void loadTabelaSelect1(){
-        DefaultTableModel modelo= new DefaultTableModel(new Object[]{"Id","Nome","Idade","Contato","Email"},0);
-        
-    }
     public Identificacao() {
         initComponents();
         setLocationRelativeTo(null);  
