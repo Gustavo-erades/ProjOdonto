@@ -20,12 +20,12 @@ import javax.swing.table.DefaultTableModel;
  * @author Gustavo
  */
 public class Identificacao extends javax.swing.JFrame {
+    PreparedStatement preparedStatement1;
     public void selecionarDadosPaciente() throws SQLException{
-        String sql1="SELECT * FROM PACIENTE";
-        PreparedStatement preparedStatement1;
-        preparedStatement1= Conexao.getConexao().prepareStatement(sql1);
+        String sql1="SELECT * FROM PACIENTE ORDER BY NOME ASC";
         ResultSet[] rs=new ResultSet[5];
         String[] pacientesLista=new String[5];
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql1);
         rs[0]=preparedStatement1.executeQuery();
         Object[] colunas=new Object[]{"id","nome","idade","telefone","email"};
         DefaultTableModel modelo=new DefaultTableModel(colunas,0);
@@ -40,6 +40,31 @@ public class Identificacao extends javax.swing.JFrame {
             modelo.addRow(pacientes);   
         }
          tabelaSelect1.setModel(modelo);
+    }
+    public void pesquisarDadosPaciente() throws SQLException{
+        String sql2="SELECT * FROM PACIENTE WHERE "
+                + "(NOME LIKE '%"+caixaPesquisa.getText()+"%') OR"
+                + "(ID LIKE '%"+caixaPesquisa.getText()+"%') OR"
+                + "(IDADE LIKE'%"+caixaPesquisa.getText()+"%') OR"
+                + "(TELEFONE LIKE '%"+caixaPesquisa.getText()+"%') OR"
+                + "(EMAIL LIKE '%"+caixaPesquisa.getText()+"%');";
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql2);
+        ResultSet[] rs=new ResultSet[5];
+        rs[0]=preparedStatement1.executeQuery();
+        Object[] colunas=new Object[]{"id","nome","idade","telefone","email"};
+        DefaultTableModel modelo=new DefaultTableModel(colunas,0);
+        while(rs[0].next()){
+            Object[] pacientes=new Object[]{
+               rs[0].getString("ID"),
+               rs[0].getString("NOME"),
+               rs[0].getString("IDADE"),
+               rs[0].getString("TELEFONE"),
+               rs[0].getString("EMAIL")
+            };
+            modelo.addRow(pacientes);   
+        }
+         tabelaSelect1.setModel(modelo);
+        
     }
     /**
      * Creates new form principal
@@ -73,7 +98,7 @@ public class Identificacao extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tabelaSelect1 = new javax.swing.JTable();
         jButton7 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
+        caixaPesquisa = new javax.swing.JTextField();
         jButton8 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
@@ -189,9 +214,9 @@ public class Identificacao extends javax.swing.JFrame {
             }
         });
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        caixaPesquisa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                caixaPesquisaActionPerformed(evt);
             }
         });
 
@@ -212,7 +237,7 @@ public class Identificacao extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(306, 306, 306)
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(caixaPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton8))
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -227,7 +252,7 @@ public class Identificacao extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(caixaPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -814,12 +839,16 @@ public class Identificacao extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_emailActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void caixaPesquisaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_caixaPesquisaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_caixaPesquisaActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
+        try {
+            pesquisarDadosPaciente();
+        } catch (SQLException ex) {
+            Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_jButton8ActionPerformed
 
     /**
@@ -866,6 +895,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextArea alcool;
     private javax.swing.JButton btnCadastrar;
     private javax.swing.JButton btnCancelar;
+    private javax.swing.JTextField caixaPesquisa;
     private javax.swing.JTextField cep;
     private javax.swing.JTextField cidade;
     private javax.swing.JTextField contatoResponsavel;
@@ -932,7 +962,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextArea medicaPregressa;
     private javax.swing.JTextArea medicacaoUso;
     private javax.swing.JTextField nome;
