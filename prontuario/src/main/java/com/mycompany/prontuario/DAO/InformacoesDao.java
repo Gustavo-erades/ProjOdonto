@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 public class InformacoesDao {
-    public void cadastrarInformacoes(Informacoes informacoes){
+    public void cadastrarInformacoes(Informacoes informacoes) throws SQLException{
         String sql="INSERT INTO PACIENTE_INFORMACOES"+
                     "(QUEIXA,DOENCA_ATUAL,MEDICA_PRE,MEDICACAO,ALCOOL,FUMO,PRESSAO_ARTERIAL,"
                 + "EXAME_FISICO,INTRA_ORAL,EXTRA_ORAL)"

@@ -51,9 +51,10 @@ public class Identificacao extends javax.swing.JFrame {
     int campoIdade;
     String campoQueixa,campoMedicacaoAtual,campoMedicaPregressa,campoIntraOral,campoExtraOral,
             campoDoencaAtual,campoAlcool,campoFumo,campoPressaoArterial,campoExameFisico;
-    public Identificacao() {
+    public Identificacao() throws SQLException {
         initComponents();
         setLocationRelativeTo(null);  
+        selecionarDadosPaciente();
     }
 
     /**
@@ -701,11 +702,7 @@ public class Identificacao extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        try { 
-            selecionarDadosPaciente();
-        } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(rootPane, "Problemas ao executar a query de seleção no banco de dados (voltar no arquivo Identificacao.java)"+ex.getMessage(), "Erro na query no banco de dados",JOptionPane.ERROR_MESSAGE);
-        }
+
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void cpfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cpfActionPerformed
@@ -856,7 +853,11 @@ public class Identificacao extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Identificacao().setVisible(true);
+                try {
+                    new Identificacao().setVisible(true);
+                } catch (SQLException ex) {
+                    Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
+                    }
             }
         });
     }
