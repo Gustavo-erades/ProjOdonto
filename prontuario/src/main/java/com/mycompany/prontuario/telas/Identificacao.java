@@ -9,6 +9,10 @@ import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import static java.lang.Integer.parseInt;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
@@ -16,7 +20,27 @@ import javax.swing.table.DefaultTableModel;
  * @author Gustavo
  */
 public class Identificacao extends javax.swing.JFrame {
-
+    public void selecionarDadosPaciente() throws SQLException{
+        String sql1="SELECT * FROM PACIENTE";
+        PreparedStatement preparedStatement1;
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql1);
+        ResultSet[] rs=new ResultSet[5];
+        String[] pacientesLista=new String[5];
+        rs[0]=preparedStatement1.executeQuery();
+        Object[] colunas=new Object[]{"id","nome","idade","telefone","email"};
+        DefaultTableModel modelo=new DefaultTableModel(colunas,0);
+        while(rs[0].next()){
+            Object[] pacientes=new Object[]{
+               rs[0].getString("ID"),
+               rs[0].getString("NOME"),
+               rs[0].getString("IDADE"),
+               rs[0].getString("TELEFONE"),
+               rs[0].getString("EMAIL")
+            };
+            modelo.addRow(pacientes);   
+        }
+         tabelaSelect1.setModel(modelo);
+    }
     /**
      * Creates new form principal
      */
@@ -184,35 +208,31 @@ public class Identificacao extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton7))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(317, 317, 317)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton8)))
-                .addContainerGap(288, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel1Layout.createSequentialGroup()
-                    .addContainerGap()
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 960, Short.MAX_VALUE)
-                    .addContainerGap()))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(306, 306, 306)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton8))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jButton7)))
+                        .addGap(0, 293, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(133, 133, 133)
-                .addComponent(jButton7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(33, 33, 33)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton8))
-                .addContainerGap(533, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(595, Short.MAX_VALUE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24)
+                .addComponent(jButton7)
+                .addContainerGap(486, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Prontuários", jPanel1);
@@ -681,7 +701,11 @@ public class Identificacao extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
+        try { 
+            selecionarDadosPaciente();
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(rootPane, "Problemas ao executar a query de seleção no banco de dados (voltar no arquivo Identificacao.java)"+ex.getMessage(), "Erro na query no banco de dados",JOptionPane.ERROR_MESSAGE);
+        }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void cpfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cpfActionPerformed
