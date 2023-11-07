@@ -182,234 +182,98 @@ public class Identificacao extends javax.swing.JFrame {
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jPanel8 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jLabel18 = new javax.swing.JLabel();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jLabel20 = new javax.swing.JLabel();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jRadioButton9 = new javax.swing.JRadioButton();
-        jRadioButton10 = new javax.swing.JRadioButton();
-        jRadioButton11 = new javax.swing.JRadioButton();
-        jRadioButton12 = new javax.swing.JRadioButton();
-        jLabel24 = new javax.swing.JLabel();
-        jRadioButton15 = new javax.swing.JRadioButton();
-        jRadioButton16 = new javax.swing.JRadioButton();
-        jRadioButton18 = new javax.swing.JRadioButton();
-        jLabel27 = new javax.swing.JLabel();
-        jRadioButton19 = new javax.swing.JRadioButton();
-        jRadioButton23 = new javax.swing.JRadioButton();
-        jLabel29 = new javax.swing.JLabel();
-        jRadioButton24 = new javax.swing.JRadioButton();
-        jLabel31 = new javax.swing.JLabel();
-        jRadioButton25 = new javax.swing.JRadioButton();
-        jRadioButton26 = new javax.swing.JRadioButton();
-        jLabel32 = new javax.swing.JLabel();
-        jRadioButton27 = new javax.swing.JRadioButton();
-        jRadioButton28 = new javax.swing.JRadioButton();
-        jLabel33 = new javax.swing.JLabel();
-        jRadioButton29 = new javax.swing.JRadioButton();
-        jRadioButton30 = new javax.swing.JRadioButton();
-        jLabel34 = new javax.swing.JLabel();
-        jRadioButton31 = new javax.swing.JRadioButton();
-        jRadioButton32 = new javax.swing.JRadioButton();
-        jLabel35 = new javax.swing.JLabel();
-        jRadioButton33 = new javax.swing.JRadioButton();
-        jRadioButton34 = new javax.swing.JRadioButton();
-        jLabel36 = new javax.swing.JLabel();
-        jRadioButton35 = new javax.swing.JRadioButton();
-        jRadioButton36 = new javax.swing.JRadioButton();
-        jLabel37 = new javax.swing.JLabel();
-        jRadioButton37 = new javax.swing.JRadioButton();
-        jRadioButton13 = new javax.swing.JRadioButton();
-        jLabel38 = new javax.swing.JLabel();
-        jRadioButton38 = new javax.swing.JRadioButton();
-        jRadioButton14 = new javax.swing.JRadioButton();
-        jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jLabel42 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        jRadioButton39 = new javax.swing.JRadioButton();
-        jRadioButton17 = new javax.swing.JRadioButton();
-        jRadioButton40 = new javax.swing.JRadioButton();
-        jRadioButton20 = new javax.swing.JRadioButton();
-        jRadioButton41 = new javax.swing.JRadioButton();
-        jRadioButton21 = new javax.swing.JRadioButton();
-        jRadioButton42 = new javax.swing.JRadioButton();
-        jRadioButton22 = new javax.swing.JRadioButton();
-        jRadioButton47 = new javax.swing.JRadioButton();
-        jRadioButton48 = new javax.swing.JRadioButton();
-        jRadioButton49 = new javax.swing.JRadioButton();
-        jLabel46 = new javax.swing.JLabel();
-        jRadioButton50 = new javax.swing.JRadioButton();
-        jRadioButton51 = new javax.swing.JRadioButton();
-        jLabel47 = new javax.swing.JLabel();
-        jRadioButton52 = new javax.swing.JRadioButton();
-        jRadioButton53 = new javax.swing.JRadioButton();
-        jLabel48 = new javax.swing.JLabel();
-        jLabel59 = new javax.swing.JLabel();
-        jLabel61 = new javax.swing.JLabel();
-        jRadioButton54 = new javax.swing.JRadioButton();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        jRadioButton55 = new javax.swing.JRadioButton();
-        jLabel65 = new javax.swing.JLabel();
-        jRadioButton56 = new javax.swing.JRadioButton();
-        jRadioButton57 = new javax.swing.JRadioButton();
-        jRadioButton60 = new javax.swing.JRadioButton();
-        jRadioButton61 = new javax.swing.JRadioButton();
-        jRadioButton62 = new javax.swing.JRadioButton();
-        jRadioButton63 = new javax.swing.JRadioButton();
-        jRadioButton64 = new javax.swing.JRadioButton();
-        jLabel67 = new javax.swing.JLabel();
-        jRadioButton65 = new javax.swing.JRadioButton();
-        jRadioButton66 = new javax.swing.JRadioButton();
-        jRadioButton67 = new javax.swing.JRadioButton();
-        jLabel68 = new javax.swing.JLabel();
-        jRadioButton74 = new javax.swing.JRadioButton();
-        jLabel69 = new javax.swing.JLabel();
-        jRadioButton75 = new javax.swing.JRadioButton();
-        jRadioButton76 = new javax.swing.JRadioButton();
-        jLabel70 = new javax.swing.JLabel();
-        jRadioButton78 = new javax.swing.JRadioButton();
-        jRadioButton77 = new javax.swing.JRadioButton();
-        jRadioButton79 = new javax.swing.JRadioButton();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
-        jRadioButton73 = new javax.swing.JRadioButton();
         jLabel72 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
-        jRadioButton43 = new javax.swing.JRadioButton();
-        jRadioButton44 = new javax.swing.JRadioButton();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
         jScrollPane7 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
-        jScrollPane10 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
-        jScrollPane11 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
         jSeparator1 = new javax.swing.JSeparator();
-        jLabel43 = new javax.swing.JLabel();
-        jRadioButton45 = new javax.swing.JRadioButton();
-        jRadioButton46 = new javax.swing.JRadioButton();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jCheckBox3 = new javax.swing.JCheckBox();
+        jCheckBox4 = new javax.swing.JCheckBox();
+        jCheckBox5 = new javax.swing.JCheckBox();
+        jCheckBox6 = new javax.swing.JCheckBox();
+        jCheckBox7 = new javax.swing.JCheckBox();
+        jCheckBox8 = new javax.swing.JCheckBox();
+        jCheckBox9 = new javax.swing.JCheckBox();
+        jCheckBox10 = new javax.swing.JCheckBox();
+        jCheckBox11 = new javax.swing.JCheckBox();
+        jCheckBox12 = new javax.swing.JCheckBox();
+        jCheckBox13 = new javax.swing.JCheckBox();
+        jCheckBox14 = new javax.swing.JCheckBox();
+        jCheckBox15 = new javax.swing.JCheckBox();
+        jCheckBox16 = new javax.swing.JCheckBox();
+        jCheckBox17 = new javax.swing.JCheckBox();
+        jCheckBox18 = new javax.swing.JCheckBox();
+        jCheckBox19 = new javax.swing.JCheckBox();
+        jCheckBox20 = new javax.swing.JCheckBox();
+        jCheckBox21 = new javax.swing.JCheckBox();
+        jCheckBox22 = new javax.swing.JCheckBox();
+        jCheckBox23 = new javax.swing.JCheckBox();
+        jCheckBox24 = new javax.swing.JCheckBox();
+        jCheckBox25 = new javax.swing.JCheckBox();
+        jCheckBox26 = new javax.swing.JCheckBox();
+        jCheckBox27 = new javax.swing.JCheckBox();
+        jCheckBox28 = new javax.swing.JCheckBox();
+        jCheckBox29 = new javax.swing.JCheckBox();
+        jCheckBox30 = new javax.swing.JCheckBox();
+        jCheckBox31 = new javax.swing.JCheckBox();
+        jCheckBox32 = new javax.swing.JCheckBox();
+        jCheckBox33 = new javax.swing.JCheckBox();
+        jCheckBox34 = new javax.swing.JCheckBox();
+        jCheckBox35 = new javax.swing.JCheckBox();
+        jCheckBox36 = new javax.swing.JCheckBox();
         jPanel9 = new javax.swing.JPanel();
-        jRadioButton68 = new javax.swing.JRadioButton();
-        jRadioButton69 = new javax.swing.JRadioButton();
-        jRadioButton70 = new javax.swing.JRadioButton();
-        jRadioButton58 = new javax.swing.JRadioButton();
-        jRadioButton59 = new javax.swing.JRadioButton();
-        jRadioButton71 = new javax.swing.JRadioButton();
-        jLabel74 = new javax.swing.JLabel();
-        jRadioButton72 = new javax.swing.JRadioButton();
-        jRadioButton80 = new javax.swing.JRadioButton();
-        jLabel64 = new javax.swing.JLabel();
-        jRadioButton81 = new javax.swing.JRadioButton();
-        jRadioButton82 = new javax.swing.JRadioButton();
-        jLabel66 = new javax.swing.JLabel();
-        jRadioButton83 = new javax.swing.JRadioButton();
-        jLabel75 = new javax.swing.JLabel();
-        jLabel76 = new javax.swing.JLabel();
-        jRadioButton84 = new javax.swing.JRadioButton();
-        jRadioButton85 = new javax.swing.JRadioButton();
-        jRadioButton86 = new javax.swing.JRadioButton();
-        jRadioButton87 = new javax.swing.JRadioButton();
-        jLabel77 = new javax.swing.JLabel();
-        jRadioButton88 = new javax.swing.JRadioButton();
-        jRadioButton89 = new javax.swing.JRadioButton();
-        jLabel78 = new javax.swing.JLabel();
-        jRadioButton90 = new javax.swing.JRadioButton();
-        jLabel79 = new javax.swing.JLabel();
-        jRadioButton91 = new javax.swing.JRadioButton();
-        jRadioButton92 = new javax.swing.JRadioButton();
-        jLabel80 = new javax.swing.JLabel();
-        jLabel81 = new javax.swing.JLabel();
-        jRadioButton93 = new javax.swing.JRadioButton();
-        jRadioButton94 = new javax.swing.JRadioButton();
-        jLabel82 = new javax.swing.JLabel();
-        jRadioButton95 = new javax.swing.JRadioButton();
-        jRadioButton96 = new javax.swing.JRadioButton();
-        jLabel83 = new javax.swing.JLabel();
-        jRadioButton97 = new javax.swing.JRadioButton();
-        jRadioButton98 = new javax.swing.JRadioButton();
-        jLabel84 = new javax.swing.JLabel();
-        jRadioButton99 = new javax.swing.JRadioButton();
-        jRadioButton100 = new javax.swing.JRadioButton();
-        jLabel85 = new javax.swing.JLabel();
-        jRadioButton101 = new javax.swing.JRadioButton();
-        jRadioButton102 = new javax.swing.JRadioButton();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
-        jLabel88 = new javax.swing.JLabel();
-        jLabel89 = new javax.swing.JLabel();
-        jLabel90 = new javax.swing.JLabel();
-        jLabel91 = new javax.swing.JLabel();
-        jRadioButton103 = new javax.swing.JRadioButton();
-        jRadioButton104 = new javax.swing.JRadioButton();
-        jRadioButton105 = new javax.swing.JRadioButton();
-        jRadioButton106 = new javax.swing.JRadioButton();
-        jRadioButton107 = new javax.swing.JRadioButton();
-        jRadioButton108 = new javax.swing.JRadioButton();
-        jRadioButton109 = new javax.swing.JRadioButton();
-        jRadioButton110 = new javax.swing.JRadioButton();
-        jRadioButton111 = new javax.swing.JRadioButton();
-        jRadioButton112 = new javax.swing.JRadioButton();
-        jLabel92 = new javax.swing.JLabel();
-        jRadioButton113 = new javax.swing.JRadioButton();
-        jRadioButton114 = new javax.swing.JRadioButton();
-        jLabel93 = new javax.swing.JLabel();
-        jRadioButton115 = new javax.swing.JRadioButton();
-        jLabel94 = new javax.swing.JLabel();
-        jRadioButton116 = new javax.swing.JRadioButton();
-        jRadioButton117 = new javax.swing.JRadioButton();
-        jLabel95 = new javax.swing.JLabel();
-        jRadioButton118 = new javax.swing.JRadioButton();
-        jLabel96 = new javax.swing.JLabel();
-        jRadioButton119 = new javax.swing.JRadioButton();
-        jRadioButton120 = new javax.swing.JRadioButton();
-        jRadioButton121 = new javax.swing.JRadioButton();
-        jLabel97 = new javax.swing.JLabel();
-        jLabel98 = new javax.swing.JLabel();
-        jLabel99 = new javax.swing.JLabel();
-        jRadioButton122 = new javax.swing.JRadioButton();
-        jLabel100 = new javax.swing.JLabel();
-        jLabel101 = new javax.swing.JLabel();
-        jRadioButton123 = new javax.swing.JRadioButton();
-        jLabel102 = new javax.swing.JLabel();
-        jRadioButton124 = new javax.swing.JRadioButton();
-        jRadioButton125 = new javax.swing.JRadioButton();
-        jRadioButton126 = new javax.swing.JRadioButton();
-        jRadioButton127 = new javax.swing.JRadioButton();
-        jRadioButton128 = new javax.swing.JRadioButton();
-        jRadioButton129 = new javax.swing.JRadioButton();
-        jRadioButton130 = new javax.swing.JRadioButton();
-        jRadioButton131 = new javax.swing.JRadioButton();
-        jLabel103 = new javax.swing.JLabel();
-        jLabel104 = new javax.swing.JLabel();
-        jLabel105 = new javax.swing.JLabel();
-        jLabel106 = new javax.swing.JLabel();
-        jRadioButton132 = new javax.swing.JRadioButton();
-        jRadioButton133 = new javax.swing.JRadioButton();
-        jRadioButton134 = new javax.swing.JRadioButton();
-        jRadioButton135 = new javax.swing.JRadioButton();
-        jLabel107 = new javax.swing.JLabel();
-        jRadioButton136 = new javax.swing.JRadioButton();
+        jCheckBox37 = new javax.swing.JCheckBox();
+        jCheckBox38 = new javax.swing.JCheckBox();
+        jCheckBox39 = new javax.swing.JCheckBox();
+        jCheckBox40 = new javax.swing.JCheckBox();
+        jCheckBox41 = new javax.swing.JCheckBox();
+        jCheckBox42 = new javax.swing.JCheckBox();
+        jCheckBox43 = new javax.swing.JCheckBox();
+        jCheckBox44 = new javax.swing.JCheckBox();
+        jCheckBox45 = new javax.swing.JCheckBox();
+        jCheckBox46 = new javax.swing.JCheckBox();
+        jCheckBox47 = new javax.swing.JCheckBox();
+        jCheckBox48 = new javax.swing.JCheckBox();
+        jCheckBox49 = new javax.swing.JCheckBox();
+        jCheckBox50 = new javax.swing.JCheckBox();
+        jCheckBox51 = new javax.swing.JCheckBox();
+        jCheckBox52 = new javax.swing.JCheckBox();
+        jCheckBox53 = new javax.swing.JCheckBox();
+        jCheckBox54 = new javax.swing.JCheckBox();
+        jCheckBox55 = new javax.swing.JCheckBox();
+        jCheckBox56 = new javax.swing.JCheckBox();
+        jCheckBox57 = new javax.swing.JCheckBox();
+        jCheckBox58 = new javax.swing.JCheckBox();
+        jCheckBox59 = new javax.swing.JCheckBox();
+        jCheckBox60 = new javax.swing.JCheckBox();
+        jCheckBox61 = new javax.swing.JCheckBox();
+        jCheckBox62 = new javax.swing.JCheckBox();
+        jCheckBox63 = new javax.swing.JCheckBox();
+        jCheckBox64 = new javax.swing.JCheckBox();
+        jCheckBox65 = new javax.swing.JCheckBox();
+        jCheckBox66 = new javax.swing.JCheckBox();
+        jCheckBox67 = new javax.swing.JCheckBox();
+        jCheckBox68 = new javax.swing.JCheckBox();
+        jCheckBox69 = new javax.swing.JCheckBox();
+        jCheckBox70 = new javax.swing.JCheckBox();
+        jCheckBox71 = new javax.swing.JCheckBox();
+        jCheckBox72 = new javax.swing.JCheckBox();
         jPanel6 = new javax.swing.JPanel();
 
         jMenuItem1.setText("jMenuItem1");
@@ -1031,493 +895,333 @@ public class Identificacao extends javax.swing.JFrame {
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário saúde geral"));
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel16.setText("Já sentiu ou sente dores fortes no peito? ");
-
-        doresPeito.add(jRadioButton1);
-        jRadioButton1.setText("Sim");
-
-        doresPeito.add(jRadioButton2);
-        jRadioButton2.setText("Não");
-        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton2ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton3.setText("Sim");
-
-        jRadioButton4.setText("Não");
-        jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton4ActionPerformed(evt);
-            }
-        });
-
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel18.setText("É hipertenso(a)?");
-
-        jRadioButton5.setText("Sim");
-
-        jRadioButton6.setText("Não");
-        jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton6ActionPerformed(evt);
-            }
-        });
-
-        jLabel20.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel20.setText("Tem varizes?");
-
-        jRadioButton7.setText("Sim");
-
-        jRadioButton8.setText("Não");
-        jRadioButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton8ActionPerformed(evt);
-            }
-        });
-
-        jLabel21.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel21.setText("Possui prótese cardíaca ou marcapasso?");
-
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel22.setText("Possui algum problema no coração?");
-
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel23.setText(" Quando se levanta depressa sente tontura?");
-
-        jRadioButton9.setText("Não");
-        jRadioButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton9ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton10.setText("Sim");
-
-        jRadioButton11.setText("Não");
-        jRadioButton11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton11ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton12.setText("Sim");
-
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel24.setText("Quando se machuca sangra muito tempo?");
-
-        jRadioButton15.setText("Não");
-        jRadioButton15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton15ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton16.setText("Sim");
-
-        jRadioButton18.setText("Não");
-        jRadioButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton18ActionPerformed(evt);
-            }
-        });
-
-        jLabel27.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel27.setText("A sua cicatrização demora a acontecer?");
-
-        jRadioButton19.setText("Sim");
-
-        jRadioButton23.setText("Não");
-        jRadioButton23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton23ActionPerformed(evt);
-            }
-        });
-
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel29.setText("Tem/Teve anemia?");
-
-        jRadioButton24.setText("Sim");
-
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel31.setText("Tem/Teve leucemia?");
-
-        jRadioButton25.setText("Sim");
-
-        jRadioButton26.setText("Não");
-        jRadioButton26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton26ActionPerformed(evt);
-            }
-        });
-
-        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel32.setText("Tem/Teve hemofilia?");
-
-        jRadioButton27.setText("Sim");
-
-        jRadioButton28.setText("Não");
-        jRadioButton28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton28ActionPerformed(evt);
-            }
-        });
-
-        jLabel33.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel33.setText("Já fez transfusão sanguínea?");
-
-        jRadioButton29.setText("Sim");
-
-        jRadioButton30.setText("Não");
-        jRadioButton30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton30ActionPerformed(evt);
-            }
-        });
-
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel34.setText("Tem/teve sinusite ou rinite?");
-
-        doresPeito.add(jRadioButton31);
-        jRadioButton31.setText("Sim");
-
-        doresPeito.add(jRadioButton32);
-        jRadioButton32.setText("Não");
-        jRadioButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton32ActionPerformed(evt);
-            }
-        });
-
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel35.setText("Respira pela boca?");
-
-        jRadioButton33.setText("Sim");
-
-        jRadioButton34.setText("Não");
-        jRadioButton34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton34ActionPerformed(evt);
-            }
-        });
-
-        jLabel36.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel36.setText("Tem varizes?");
-
-        jRadioButton35.setText("Sim");
-
-        jRadioButton36.setText("Não");
-        jRadioButton36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton36ActionPerformed(evt);
-            }
-        });
-
-        jLabel37.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel37.setText("Já teve tuberculose?");
-
-        jRadioButton37.setText("Sim");
-
-        jRadioButton13.setText("Não");
-        jRadioButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton13ActionPerformed(evt);
-            }
-        });
-
-        jLabel38.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel38.setText("Já teve pneumonia?");
-
-        jRadioButton38.setText("Sim");
-
-        jRadioButton14.setText("Não");
-        jRadioButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton14ActionPerformed(evt);
-            }
-        });
-
-        jLabel39.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel39.setText("Tem diabete?");
-
-        jLabel40.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel40.setText("Já teve ou tem hepatite?");
-
-        jLabel41.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel41.setText("Tem algum problema hormonal?");
-
-        jLabel42.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel42.setText("Tem cirrose?");
-
-        jLabel44.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel44.setText("Faz/Já fez hemodiálise?");
-
-        jLabel45.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel45.setText("Tem/Teve pedra nos rins?");
-
-        jRadioButton39.setText("Sim");
-
-        jRadioButton17.setText("Não");
-        jRadioButton17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton17ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton40.setText("Sim");
-
-        jRadioButton20.setText("Não");
-        jRadioButton20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton20ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton41.setText("Sim");
-
-        jRadioButton21.setText("Não");
-        jRadioButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton21ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton42.setText("Sim");
-
-        jRadioButton22.setText("Não");
-        jRadioButton22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton22ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton47.setText("Sim");
-
-        jRadioButton48.setText("Não");
-        jRadioButton48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton48ActionPerformed(evt);
-            }
-        });
-
-        doresPeito.add(jRadioButton49);
-        jRadioButton49.setText("Sim");
-
-        jLabel46.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel46.setText("Tem reumatismo?");
-
-        jRadioButton50.setText("Sim");
-
-        jRadioButton51.setText("Não");
-        jRadioButton51.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton51ActionPerformed(evt);
-            }
-        });
-
-        jLabel47.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel47.setText("Faz/já fez tratamento psicológico/psiquiátrico?");
-
-        jRadioButton52.setText("Sim");
-
-        jRadioButton53.setText("Não");
-        jRadioButton53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton53ActionPerformed(evt);
-            }
-        });
-
-        jLabel48.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel48.setText("Tem osteoporose?");
-
-        jLabel59.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel59.setText("Tem AIDS?");
-
-        jLabel61.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel61.setText("Está grávida?");
-
-        jRadioButton54.setText("Não");
-        jRadioButton54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton54ActionPerformed(evt);
-            }
-        });
-
-        jLabel62.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel62.setText("Tem eplepsia?");
-
-        jLabel63.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel63.setText("Toma anticoncepcional?");
-
-        doresPeito.add(jRadioButton55);
-        jRadioButton55.setText("Não");
-        jRadioButton55.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton55ActionPerformed(evt);
-            }
-        });
-
-        jLabel65.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel65.setText("Tem enxaqueca?");
-
-        jRadioButton56.setText("Sim");
-
-        jRadioButton57.setText("Não");
-        jRadioButton57.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton57ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton60.setText("Sim");
-
-        jRadioButton61.setText("Não");
-        jRadioButton61.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton61ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton62.setText("Sim");
-
-        jRadioButton63.setText("Sim");
-
-        jRadioButton64.setText("Não");
-        jRadioButton64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton64ActionPerformed(evt);
-            }
-        });
-
-        jLabel67.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel67.setText("Tem labirintite?");
-
-        jRadioButton65.setText("Sim");
-
-        jRadioButton66.setText("Não");
-        jRadioButton66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton66ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton67.setText("Sim");
-
-        jLabel68.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel68.setText("Tem/Teve Doença Sexualmente Transmissível?");
-
-        doresPeito.add(jRadioButton74);
-        jRadioButton74.setText("Não");
-        jRadioButton74.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton74ActionPerformed(evt);
-            }
-        });
-
-        jLabel69.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel69.setText("Já fez quimioterapia ou radioterapia?");
-
-        doresPeito.add(jRadioButton75);
-        jRadioButton75.setText("Sim");
-
-        doresPeito.add(jRadioButton76);
-        jRadioButton76.setText("Não");
-        jRadioButton76.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton76ActionPerformed(evt);
-            }
-        });
-
-        jLabel70.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel70.setText("Está agora sob tratamento médico?");
-
-        doresPeito.add(jRadioButton78);
-        jRadioButton78.setText("Sim");
-
-        doresPeito.add(jRadioButton77);
-        jRadioButton77.setText("Não");
-        jRadioButton77.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton77ActionPerformed(evt);
-            }
-        });
-
-        doresPeito.add(jRadioButton79);
-        jRadioButton79.setText("Sim");
-        jRadioButton79.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton79ActionPerformed(evt);
-            }
-        });
-
+        jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel25.setText("Já teve alguma doença contagiosa? Se SIM qual?");
 
+        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel26.setText("Se PAROU de fumar, por quanto tempo fumou, quantidade/dia e há quanto tempo parou?");
 
+        jLabel30.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel30.setText("Ingere bebida alcoólica? Se sim qual freqüência?");
 
+        jLabel71.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel71.setText("Usa ou já usou drogas ilícitas? Se SIM qual e por quanto tempo?");
 
-        jRadioButton73.setText("Não");
-        jRadioButton73.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton73ActionPerformed(evt);
-            }
-        });
-
+        jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel72.setText("Está tomando algum medicamento? Se SIM quais?");
 
+        jLabel73.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel73.setText("Tem alergia a algum medicamento? Se SIM quais?");
-
-        jRadioButton43.setText("Não");
-        jRadioButton43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton43ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton44.setText("Sim");
-        jRadioButton44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton44ActionPerformed(evt);
-            }
-        });
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane4.setViewportView(jTextArea1);
-
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jScrollPane6.setViewportView(jTextArea2);
 
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
         jScrollPane7.setViewportView(jTextArea3);
 
-        jTextArea4.setColumns(20);
-        jTextArea4.setRows(5);
-        jScrollPane8.setViewportView(jTextArea4);
+        jTextArea5.setColumns(20);
+        jTextArea5.setRows(5);
+        jScrollPane9.setViewportView(jTextArea5);
 
-        jTextArea6.setColumns(20);
-        jTextArea6.setRows(5);
-        jScrollPane10.setViewportView(jTextArea6);
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(5);
+        jScrollPane13.setViewportView(jTextArea8);
 
-        jTextArea7.setColumns(20);
-        jTextArea7.setRows(5);
-        jScrollPane11.setViewportView(jTextArea7);
+        jTextArea9.setColumns(20);
+        jTextArea9.setRows(5);
+        jScrollPane14.setViewportView(jTextArea9);
 
-        jLabel43.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel43.setText("Fuma?");
+        jTextArea10.setColumns(20);
+        jTextArea10.setRows(5);
+        jScrollPane15.setViewportView(jTextArea10);
 
-        jRadioButton45.setText("Sim");
+        jTextArea11.setColumns(20);
+        jTextArea11.setRows(5);
+        jScrollPane16.setViewportView(jTextArea11);
 
-        jRadioButton46.setText("Não");
-        jRadioButton46.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox1.setText("Tem varizes");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton46ActionPerformed(evt);
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox2.setText(" Quando se levanta depressa sente tontura");
+        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox2ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox3.setText("Já sentiu ou sente dores fortes no peito");
+        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox3ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox4.setText("Respira pela boca");
+        jCheckBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox4ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox5.setText("É hipertenso(a)");
+        jCheckBox5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox5ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox6.setText("Já teve pneumonia");
+        jCheckBox6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox6ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox7.setText("Possui algum problema no coração");
+        jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox7ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox8.setText("Possui prótese cardíaca ou marcapasso");
+        jCheckBox8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox8ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox9.setText("Tem diabete");
+        jCheckBox9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox9ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox10.setText("Já teve tuberculose");
+        jCheckBox10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox10ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox11.setText("Tem osteoporose");
+        jCheckBox11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox11ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox12.setText("Tem reumatismo");
+        jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox12ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox13.setText("Fez/já fez tratamento psicológico/psiquiátrico");
+        jCheckBox13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox13ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox14.setText("Tem/teve sinusite ou rinite");
+        jCheckBox14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox14ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox15.setText("Toma anticoncepcional");
+        jCheckBox15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox15ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox16.setText("Tem eplepsia");
+        jCheckBox16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox16ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox17.setText("Já fez quimioterapia ou radioterapia");
+        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox17ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox18.setText("Está agora sob tratamento médico");
+        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox18ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox19.setText("Tem AIDS");
+        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox19ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox20.setText("Tem/Teve Doença Sexualmente Transmissível");
+        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox20ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox21.setText("Tem/Teve leucemia");
+        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox21ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox22.setText("Já fez transfusão sanguínea");
+        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox22ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox23.setText("A sua cicatrização demora a acontecer");
+        jCheckBox23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox23ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox24.setText("Tem enxaqueca");
+        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox24ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox25.setText("Tem labirintite");
+        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox25ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox26.setText("Quando se machuca sangra muito tempo");
+        jCheckBox26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox26ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox27.setText("Está grávida");
+        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox27ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox28.setText("Respira pela boca");
+        jCheckBox28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox28ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox29.setText("Faz/Fez hemodiálise");
+        jCheckBox29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox29ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox30.setText("Tem algum problema hormonal");
+        jCheckBox30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox30ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox31.setText("Tem/Teve anemia");
+        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox31ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox32.setText("Tem cirrose");
+        jCheckBox32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox32ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox33.setText("Tem/Teve pedra nos rins");
+        jCheckBox33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox33ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox34.setText("Fuma");
+        jCheckBox34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox34ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox35.setText("Já teve ou tem hepatite");
+        jCheckBox35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox35ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox36.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox36.setText("Tem/Teve hempfilia");
+        jCheckBox36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox36ActionPerformed(evt);
             }
         });
 
@@ -1526,972 +1230,483 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addGap(48, 48, 48)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(13, 13, 13)
-                                .addComponent(jRadioButton31)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jRadioButton2))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel20)
-                                    .addComponent(jLabel16))
-                                .addGap(35, 35, 35)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel35)
-                                    .addComponent(jLabel34)))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addComponent(jLabel23)
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel37)
-                                    .addComponent(jLabel39)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel36)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGap(24, 24, 24)
-                                                .addComponent(jRadioButton1)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(jRadioButton32)))
-                                        .addGap(111, 111, 111)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel62)
-                                            .addComponent(jLabel65)))
-                                    .addComponent(jLabel38)))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton3)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton4))
-                                            .addComponent(jLabel21)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton7)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton8))
-                                            .addComponent(jLabel22)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton10)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton9))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton16)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton15))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton19)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton18))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton25)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton26))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jLabel24)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(jLabel41))
-                                            .addComponent(jLabel31))
-                                        .addGap(40, 40, 40)
-                                        .addComponent(jLabel42)
-                                        .addGap(0, 0, Short.MAX_VALUE))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton5)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(jRadioButton34))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton12)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(jRadioButton36))
-                                            .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel27))
-                                        .addGap(13, 13, 13)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGap(88, 88, 88)
-                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                                        .addGap(0, 0, Short.MAX_VALUE)
-                                                        .addComponent(jRadioButton37)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(jRadioButton13)
-                                                        .addGap(85, 85, 85)
-                                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(jLabel44)
-                                                            .addComponent(jLabel63)
-                                                            .addComponent(jLabel45))
-                                                        .addGap(114, 114, 114))
-                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                    .addComponent(jRadioButton44)
-                                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                    .addComponent(jRadioButton43))
-                                                                .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                    .addComponent(jRadioButton38)
-                                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                    .addComponent(jRadioButton14)
-                                                                    .addGap(105, 105, 105)
-                                                                    .addComponent(jRadioButton56)
-                                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                    .addComponent(jRadioButton57)))
-                                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                    .addComponent(jLabel59)
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton39)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jRadioButton17)
-                                                                        .addGap(111, 111, 111)
-                                                                        .addComponent(jRadioButton60)))
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton61))
-                                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton41)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jRadioButton21)
-                                                                        .addGap(110, 110, 110)
-                                                                        .addComponent(jRadioButton42))
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton40)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jRadioButton20)
-                                                                        .addGap(112, 112, 112)
-                                                                        .addComponent(jRadioButton67)))
-                                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addGap(13, 13, 13)
-                                                                        .addComponent(jRadioButton73))
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addGap(18, 18, 18)
-                                                                        .addComponent(jRadioButton22))))
-                                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton29)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addComponent(jRadioButton30)
-                                                                .addGap(107, 107, 107)
-                                                                .addComponent(jRadioButton47)
-                                                                .addGap(18, 18, 18)
-                                                                .addComponent(jRadioButton48)))
-                                                        .addGap(0, 0, Short.MAX_VALUE))))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                        .addGap(79, 79, 79)
-                                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton49)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addComponent(jRadioButton55))
-                                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton63)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jRadioButton54))
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton35)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                        .addComponent(jRadioButton11)
-                                                                        .addGap(104, 104, 104)
-                                                                        .addComponent(jRadioButton65)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jRadioButton64)))
-                                                                .addGap(6, 6, 6))))
-                                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(jPanel8Layout.createSequentialGroup()
-                                                            .addGap(79, 79, 79)
-                                                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                    .addComponent(jLabel67)
-                                                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                        .addComponent(jRadioButton33)
-                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                        .addComponent(jRadioButton6)
-                                                                        .addGap(180, 180, 180)))
-                                                                .addGroup(jPanel8Layout.createSequentialGroup()
-                                                                    .addGap(184, 184, 184)
-                                                                    .addComponent(jLabel48))))
-                                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addComponent(jLabel33)
-                                                                .addComponent(jLabel40))
-                                                            .addGap(349, 349, 349))))
-                                                .addGap(74, 74, 74)))))))
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(jRadioButton78)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGap(26, 26, 26)
-                                        .addComponent(jRadioButton79)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jRadioButton77))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGap(63, 63, 63)
-                                        .addComponent(jRadioButton24)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jRadioButton23)))
-                                .addContainerGap())
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton76)
-                                        .addGap(397, 397, 397))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton75)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jRadioButton74)
-                                        .addGap(380, 380, 380))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel47)
-                                            .addComponent(jLabel69)
-                                            .addComponent(jLabel68)
-                                            .addComponent(jLabel70)
-                                            .addComponent(jLabel46)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addComponent(jRadioButton62)
-                                                    .addComponent(jLabel61))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton66))
-                                            .addComponent(jLabel29)
-                                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel32)
-                                                .addComponent(jLabel43, javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(jPanel8Layout.createSequentialGroup()
-                                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                        .addComponent(jRadioButton45)
-                                                        .addComponent(jRadioButton27))
-                                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(jPanel8Layout.createSequentialGroup()
-                                                            .addGap(23, 23, 23)
-                                                            .addComponent(jRadioButton28))
-                                                        .addGroup(jPanel8Layout.createSequentialGroup()
-                                                            .addGap(18, 18, 18)
-                                                            .addComponent(jRadioButton46))))))
-                                        .addGap(216, 216, 216))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton50)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(jRadioButton51))
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addComponent(jRadioButton52)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(jRadioButton53)))
-                                        .addGap(378, 378, 378))))))
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addComponent(jLabel25)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jLabel26))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel71)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGap(27, 27, 27)
-                                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(55, 55, 55)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel72))))
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel73)))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(15, 15, 15)
-                                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(47, 47, 47)
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap())))
+                    .addComponent(jCheckBox5)
+                    .addComponent(jCheckBox1)
+                    .addComponent(jCheckBox2)
+                    .addComponent(jCheckBox3)
+                    .addComponent(jCheckBox6)
+                    .addComponent(jCheckBox4)
+                    .addComponent(jCheckBox7)
+                    .addComponent(jCheckBox8)
+                    .addComponent(jCheckBox10)
+                    .addComponent(jCheckBox9)
+                    .addComponent(jCheckBox33)
+                    .addComponent(jCheckBox34))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCheckBox15)
+                    .addComponent(jCheckBox11)
+                    .addComponent(jCheckBox12)
+                    .addComponent(jCheckBox13)
+                    .addComponent(jCheckBox16)
+                    .addComponent(jCheckBox14)
+                    .addComponent(jCheckBox17)
+                    .addComponent(jCheckBox18)
+                    .addComponent(jCheckBox20)
+                    .addComponent(jCheckBox19)
+                    .addComponent(jCheckBox31)
+                    .addComponent(jCheckBox35))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCheckBox25)
+                    .addComponent(jCheckBox21)
+                    .addComponent(jCheckBox22)
+                    .addComponent(jCheckBox23)
+                    .addComponent(jCheckBox26)
+                    .addComponent(jCheckBox24)
+                    .addComponent(jCheckBox27)
+                    .addComponent(jCheckBox28)
+                    .addComponent(jCheckBox30)
+                    .addComponent(jCheckBox29)
+                    .addComponent(jCheckBox32)
+                    .addComponent(jCheckBox36))
+                .addGap(268, 268, 268))
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(36, 36, 36)
+                .addContainerGap()
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 1042, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane7))
+                    .addComponent(jLabel25)
+                    .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel73)
+                    .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel72))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel26)
+                    .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel35)
-                        .addComponent(jLabel65))
-                    .addComponent(jLabel16)
-                    .addComponent(jLabel68, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(jCheckBox3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox1)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox2))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox6)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton1)
-                                    .addComponent(jRadioButton2)
-                                    .addComponent(jRadioButton31)
-                                    .addComponent(jRadioButton32)
-                                    .addComponent(jRadioButton49)
-                                    .addComponent(jRadioButton55)
-                                    .addComponent(jRadioButton76))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel20)
-                                    .addComponent(jLabel34)
-                                    .addComponent(jLabel62)
-                                    .addComponent(jLabel69)))
-                            .addComponent(jRadioButton78))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton5)
-                            .addComponent(jRadioButton6)
-                            .addComponent(jRadioButton33)
-                            .addComponent(jRadioButton34))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel23)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton12)
-                            .addComponent(jRadioButton36))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton3)
-                            .addComponent(jRadioButton4))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton7)
-                            .addComponent(jRadioButton8))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel22)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton10)
-                            .addComponent(jRadioButton9)))
+                                .addComponent(jCheckBox4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox8)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox10))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox9))))
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGap(57, 57, 57)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton63)
-                            .addComponent(jRadioButton54))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel36)
-                            .addComponent(jLabel67)
-                            .addComponent(jLabel70))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton35)
-                            .addComponent(jRadioButton11)
-                            .addComponent(jRadioButton65)
-                            .addComponent(jRadioButton64)
-                            .addComponent(jRadioButton79, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel38)
-                                    .addComponent(jLabel48))
+                                .addComponent(jCheckBox13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton38)
-                                    .addComponent(jRadioButton14)
-                                    .addComponent(jRadioButton53)
-                                    .addComponent(jRadioButton52)
-                                    .addComponent(jRadioButton56)
-                                    .addComponent(jRadioButton57)))
-                            .addComponent(jLabel47))
+                                .addComponent(jCheckBox11)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox12))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox15, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel37)
-                                .addComponent(jLabel46))
-                            .addComponent(jLabel59))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox16)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                        .addComponent(jLabel63)
-                                        .addGap(15, 15, 15))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                    .addComponent(jRadioButton37)
-                                                    .addComponent(jRadioButton13))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jLabel39))
-                                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                .addComponent(jRadioButton43)
-                                                .addComponent(jRadioButton44)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton39)
-                                    .addComponent(jRadioButton17)
-                                    .addComponent(jRadioButton60)
-                                    .addComponent(jRadioButton62)
-                                    .addComponent(jRadioButton66)
-                                    .addComponent(jRadioButton61)))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton51)
-                                    .addComponent(jRadioButton50))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel61))))
+                                .addComponent(jCheckBox14)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox18)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox20))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox19))))
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton75))))
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(jCheckBox23)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox21)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox22))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox25, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox26)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox24)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox28)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox27, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox30))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox29)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel24)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel41)
-                                .addComponent(jLabel42)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton16)
-                            .addComponent(jRadioButton15)
-                            .addComponent(jRadioButton40)
-                            .addComponent(jRadioButton20)
-                            .addComponent(jRadioButton67)
-                            .addComponent(jRadioButton73)))
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGap(4, 4, 4)
-                        .addComponent(jLabel29)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton24)
-                            .addComponent(jRadioButton23))))
-                .addGap(18, 18, 18)
+                    .addComponent(jCheckBox31)
+                    .addComponent(jCheckBox32)
+                    .addComponent(jCheckBox33))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel27)
-                            .addComponent(jLabel40)
-                            .addComponent(jLabel44))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jRadioButton41)
-                                            .addComponent(jRadioButton21)
-                                            .addComponent(jRadioButton42)
-                                            .addComponent(jRadioButton22))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel33))
-                                    .addComponent(jLabel45, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addComponent(jRadioButton29))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jRadioButton30)
-                                            .addComponent(jRadioButton47)))
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jRadioButton48)
-                                            .addComponent(jRadioButton45)
-                                            .addComponent(jRadioButton46)))))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton19)
-                                    .addComponent(jRadioButton18))
-                                .addGap(20, 20, 20)
-                                .addComponent(jLabel31)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton25)
-                                    .addComponent(jRadioButton26)))))
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jLabel32)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton27)
-                            .addComponent(jRadioButton28))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel43)))
-                .addGap(18, 18, 18)
+                    .addComponent(jCheckBox34)
+                    .addComponent(jCheckBox35)
+                    .addComponent(jCheckBox36))
+                .addGap(26, 26, 26)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGap(28, 28, 28)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel30)))
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel30)
+                            .addComponent(jLabel73))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel26)
+                        .addGap(12, 12, 12)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel71)
-                                    .addComponent(jLabel72))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                .addComponent(jLabel73)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(120, 120, 120))
+                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel25)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel71)
+                            .addComponent(jLabel72))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário Odontológico"));
 
-        jRadioButton68.setText("Sim");
-
-        jRadioButton69.setText("Não");
-        jRadioButton69.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox37.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox37.setText("Tem/teve sinusite ou rinite");
+        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton69ActionPerformed(evt);
+                jCheckBox37ActionPerformed(evt);
             }
         });
 
-        jRadioButton70.setText("Sim");
-
-        jRadioButton58.setText("Não");
-        jRadioButton58.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox38.setText("Toma anticoncepcional");
+        jCheckBox38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton58ActionPerformed(evt);
+                jCheckBox38ActionPerformed(evt);
             }
         });
 
-        jRadioButton59.setText("Sim");
-        jRadioButton59.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox39.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox39.setText("Tem eplepsia");
+        jCheckBox39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton59ActionPerformed(evt);
+                jCheckBox39ActionPerformed(evt);
             }
         });
 
-        jRadioButton71.setText("Sim");
-
-        jLabel74.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel74.setText("Tem/Teve Doença Sexualmente Transmissível?");
-
-        jRadioButton72.setText("Não");
-        jRadioButton72.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox40.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox40.setText("Já fez quimioterapia ou radioterapia");
+        jCheckBox40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton72ActionPerformed(evt);
+                jCheckBox40ActionPerformed(evt);
             }
         });
 
-        doresPeito.add(jRadioButton80);
-        jRadioButton80.setText("Não");
-        jRadioButton80.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox41.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox41.setText("Tem/Teve leucemia");
+        jCheckBox41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton80ActionPerformed(evt);
+                jCheckBox41ActionPerformed(evt);
             }
         });
 
-        jLabel64.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel64.setText("A sua cicatrização demora a acontecer?");
-
-        jRadioButton81.setText("Sim");
-
-        jRadioButton82.setText("Não");
-        jRadioButton82.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox42.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox42.setText("Está agora sob tratamento médico");
+        jCheckBox42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton82ActionPerformed(evt);
+                jCheckBox42ActionPerformed(evt);
             }
         });
 
-        jLabel66.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel66.setText("Tem/Teve anemia?");
-
-        jRadioButton83.setText("Sim");
-
-        jLabel75.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel75.setText("Já sentiu ou sente dores fortes no peito? ");
-
-        jLabel76.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel76.setText("Tem/Teve leucemia?");
-
-        doresPeito.add(jRadioButton84);
-        jRadioButton84.setText("Sim");
-
-        doresPeito.add(jRadioButton85);
-        jRadioButton85.setText("Não");
-        jRadioButton85.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox43.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox43.setText("Já fez transfusão sanguínea");
+        jCheckBox43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton85ActionPerformed(evt);
+                jCheckBox43ActionPerformed(evt);
             }
         });
 
-        jRadioButton86.setText("Sim");
-
-        jRadioButton87.setText("Não");
-        jRadioButton87.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox44.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox44.setText("Tem AIDS");
+        jCheckBox44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton87ActionPerformed(evt);
+                jCheckBox44ActionPerformed(evt);
             }
         });
 
-        jLabel77.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel77.setText("É hipertenso(a)?");
-
-        jRadioButton88.setText("Sim");
-
-        jRadioButton89.setText("Não");
-        jRadioButton89.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox45.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox45.setText("A sua cicatrização demora a acontecer");
+        jCheckBox45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton89ActionPerformed(evt);
+                jCheckBox45ActionPerformed(evt);
             }
         });
 
-        jLabel78.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel78.setText("Tem varizes?");
-
-        jRadioButton90.setText("Sim");
-
-        jLabel79.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel79.setText("Tem/Teve hemofilia?");
-
-        jRadioButton91.setText("Sim");
-
-        jRadioButton92.setText("Não");
-        jRadioButton92.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox46.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox46.setText("Tem/Teve Doença Sexualmente Transmissível");
+        jCheckBox46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton92ActionPerformed(evt);
+                jCheckBox46ActionPerformed(evt);
             }
         });
 
-        jLabel80.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel80.setText("Já fez transfusão sanguínea?");
-
-        jLabel81.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel81.setText("Tem/teve sinusite ou rinite?");
-
-        doresPeito.add(jRadioButton93);
-        jRadioButton93.setText("Sim");
-
-        doresPeito.add(jRadioButton94);
-        jRadioButton94.setText("Não");
-        jRadioButton94.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox47.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox47.setText("Tem enxaqueca");
+        jCheckBox47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton94ActionPerformed(evt);
+                jCheckBox47ActionPerformed(evt);
             }
         });
 
-        jLabel82.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel82.setText("Respira pela boca?");
-
-        jRadioButton95.setText("Sim");
-
-        jRadioButton96.setText("Não");
-        jRadioButton96.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox48.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox48.setText("Tem labirintite");
+        jCheckBox48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton96ActionPerformed(evt);
+                jCheckBox48ActionPerformed(evt);
             }
         });
 
-        jLabel83.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel83.setText("Tem varizes?");
-
-        jRadioButton97.setText("Sim");
-
-        jRadioButton98.setText("Não");
-        jRadioButton98.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox49.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox49.setText("Quando se machuca sangra muito tempo");
+        jCheckBox49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton98ActionPerformed(evt);
+                jCheckBox49ActionPerformed(evt);
             }
         });
 
-        jLabel84.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel84.setText("Já teve tuberculose?");
-
-        jRadioButton99.setText("Sim");
-
-        jRadioButton100.setText("Não");
-        jRadioButton100.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox50.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox50.setText("Está grávida");
+        jCheckBox50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton100ActionPerformed(evt);
+                jCheckBox50ActionPerformed(evt);
             }
         });
 
-        jLabel85.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel85.setText("Já teve pneumonia?");
-
-        jRadioButton101.setText("Sim");
-
-        jRadioButton102.setText("Não");
-        jRadioButton102.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox51.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox51.setText("Respira pela boca");
+        jCheckBox51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton102ActionPerformed(evt);
+                jCheckBox51ActionPerformed(evt);
             }
         });
 
-        jLabel86.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel86.setText("Tem diabete?");
-
-        jLabel87.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel87.setText("Já teve ou tem hepatite?");
-
-        jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel88.setText("Tem algum problema hormonal?");
-
-        jLabel89.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel89.setText("Tem cirrose?");
-
-        jLabel90.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel90.setText("Faz/Já fez hemodiálise?");
-
-        jLabel91.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel91.setText("Tem/Teve pedra nos rins?");
-
-        jRadioButton103.setText("Sim");
-
-        jRadioButton104.setText("Não");
-        jRadioButton104.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox52.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox52.setText("Faz/Fez hemodiálise");
+        jCheckBox52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton104ActionPerformed(evt);
+                jCheckBox52ActionPerformed(evt);
             }
         });
 
-        jRadioButton105.setText("Sim");
-
-        jRadioButton106.setText("Não");
-        jRadioButton106.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox53.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox53.setText("Tem algum problema hormonal");
+        jCheckBox53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton106ActionPerformed(evt);
+                jCheckBox53ActionPerformed(evt);
             }
         });
 
-        jRadioButton107.setText("Sim");
-
-        jRadioButton108.setText("Não");
-        jRadioButton108.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox54.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox54.setText("Tem/Teve anemia");
+        jCheckBox54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton108ActionPerformed(evt);
+                jCheckBox54ActionPerformed(evt);
             }
         });
 
-        jRadioButton109.setText("Sim");
-
-        jRadioButton110.setText("Não");
-        jRadioButton110.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox55.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox55.setText("Tem cirrose");
+        jCheckBox55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton110ActionPerformed(evt);
+                jCheckBox55ActionPerformed(evt);
             }
         });
 
-        jRadioButton111.setText("Não");
-        jRadioButton111.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox56.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox56.setText("Tem/Teve pedra nos rins");
+        jCheckBox56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton111ActionPerformed(evt);
+                jCheckBox56ActionPerformed(evt);
             }
         });
 
-        doresPeito.add(jRadioButton112);
-        jRadioButton112.setText("Sim");
-
-        jLabel92.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel92.setText("Tem reumatismo?");
-
-        jRadioButton113.setText("Sim");
-
-        jRadioButton114.setText("Não");
-        jRadioButton114.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox57.setText("Fuma");
+        jCheckBox57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton114ActionPerformed(evt);
+                jCheckBox57ActionPerformed(evt);
             }
         });
 
-        jLabel93.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel93.setText("Faz/já fez tratamento psicológico/psiquiátrico?");
-
-        jRadioButton115.setText("Sim");
-
-        jLabel94.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel94.setText("Já fez quimioterapia ou radioterapia?");
-
-        jRadioButton116.setText("Não");
-        jRadioButton116.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox58.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox58.setText("Já teve ou tem hepatite");
+        jCheckBox58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton116ActionPerformed(evt);
+                jCheckBox58ActionPerformed(evt);
             }
         });
 
-        doresPeito.add(jRadioButton117);
-        jRadioButton117.setText("Sim");
-
-        jLabel95.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel95.setText("Tem osteoporose?");
-
-        doresPeito.add(jRadioButton118);
-        jRadioButton118.setText("Não");
-        jRadioButton118.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox59.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox59.setText("Tem/Teve hempfilia");
+        jCheckBox59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton118ActionPerformed(evt);
+                jCheckBox59ActionPerformed(evt);
             }
         });
 
-        jLabel96.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel96.setText("Está agora sob tratamento médico?");
-
-        doresPeito.add(jRadioButton119);
-        jRadioButton119.setText("Sim");
-
-        doresPeito.add(jRadioButton120);
-        jRadioButton120.setText("Não");
-        jRadioButton120.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox60.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox60.setText("Tem varizes");
+        jCheckBox60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton120ActionPerformed(evt);
+                jCheckBox60ActionPerformed(evt);
             }
         });
 
-        doresPeito.add(jRadioButton121);
-        jRadioButton121.setText("Sim");
-        jRadioButton121.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox61.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox61.setText(" Quando se levanta depressa sente tontura");
+        jCheckBox61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton121ActionPerformed(evt);
+                jCheckBox61ActionPerformed(evt);
             }
         });
 
-        jLabel97.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel97.setText("Fuma?");
-
-        jLabel98.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel98.setText("Tem AIDS?");
-
-        jLabel99.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel99.setText("Está grávida?");
-
-        jRadioButton122.setText("Não");
-        jRadioButton122.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox62.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox62.setText("Já sentiu ou sente dores fortes no peito");
+        jCheckBox62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton122ActionPerformed(evt);
+                jCheckBox62ActionPerformed(evt);
             }
         });
 
-        jLabel100.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel100.setText("Tem eplepsia?");
-
-        jLabel101.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel101.setText("Toma anticoncepcional?");
-
-        doresPeito.add(jRadioButton123);
-        jRadioButton123.setText("Não");
-        jRadioButton123.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox63.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox63.setText("Respira pela boca");
+        jCheckBox63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton123ActionPerformed(evt);
+                jCheckBox63ActionPerformed(evt);
             }
         });
 
-        jLabel102.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel102.setText("Tem enxaqueca?");
-
-        jRadioButton124.setText("Sim");
-
-        jRadioButton125.setText("Não");
-        jRadioButton125.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox64.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox64.setText("É hipertenso(a)");
+        jCheckBox64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton125ActionPerformed(evt);
+                jCheckBox64ActionPerformed(evt);
             }
         });
 
-        jRadioButton126.setText("Sim");
-
-        jRadioButton127.setText("Não");
-        jRadioButton127.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox65.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox65.setText("Já teve pneumonia");
+        jCheckBox65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton127ActionPerformed(evt);
+                jCheckBox65ActionPerformed(evt);
             }
         });
 
-        jRadioButton128.setText("Sim");
-
-        jRadioButton129.setText("Sim");
-
-        jRadioButton130.setText("Não");
-        jRadioButton130.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox66.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox66.setText("Possui algum problema no coração");
+        jCheckBox66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton130ActionPerformed(evt);
+                jCheckBox66ActionPerformed(evt);
             }
         });
 
-        jRadioButton131.setText("Não");
-        jRadioButton131.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox67.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox67.setText("Possui prótese cardíaca ou marcapasso");
+        jCheckBox67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton131ActionPerformed(evt);
+                jCheckBox67ActionPerformed(evt);
             }
         });
 
-        jLabel103.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel103.setText("Possui prótese cardíaca ou marcapasso?");
-
-        jLabel104.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel104.setText("Tem labirintite?");
-
-        jLabel105.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel105.setText("Possui algum problema no coração?");
-
-        jLabel106.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel106.setText(" Quando se levanta depressa sente tontura?");
-
-        jRadioButton132.setText("Não");
-        jRadioButton132.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox68.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox68.setText("Tem diabete");
+        jCheckBox68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton132ActionPerformed(evt);
+                jCheckBox68ActionPerformed(evt);
             }
         });
 
-        jRadioButton133.setText("Sim");
-
-        jRadioButton134.setText("Não");
-        jRadioButton134.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox69.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox69.setText("Já teve tuberculose");
+        jCheckBox69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton134ActionPerformed(evt);
+                jCheckBox69ActionPerformed(evt);
             }
         });
 
-        jRadioButton135.setText("Sim");
-
-        jLabel107.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel107.setText("Quando se machuca sangra muito tempo?");
-
-        jRadioButton136.setText("Não");
-        jRadioButton136.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox70.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox70.setText("Tem osteoporose");
+        jCheckBox70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton136ActionPerformed(evt);
+                jCheckBox70ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox71.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox71.setText("Tem reumatismo");
+        jCheckBox71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox71ActionPerformed(evt);
+            }
+        });
+
+        jCheckBox72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jCheckBox72.setText("Fez/já fez tratamento psicológico/psiquiátrico");
+        jCheckBox72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox72ActionPerformed(evt);
             }
         });
 
@@ -2500,448 +1715,139 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addGap(23, 23, 23)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(13, 13, 13)
-                        .addComponent(jRadioButton93)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton85))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel78)
-                            .addComponent(jLabel75))
-                        .addGap(35, 35, 35)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel82)
-                            .addComponent(jLabel81)))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel106)
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel84)
-                            .addComponent(jLabel86)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel83)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addGap(24, 24, 24)
-                                        .addComponent(jRadioButton84)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jRadioButton94)))
-                                .addGap(111, 111, 111)
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel100)
-                                    .addComponent(jLabel102)))
-                            .addComponent(jLabel85)))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton86)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jRadioButton87))
-                                    .addComponent(jLabel103)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton90)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jRadioButton130))
-                                    .addComponent(jLabel105)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton133)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jRadioButton132))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton71)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jRadioButton136))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton81)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jRadioButton72))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jLabel107)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jLabel88))
-                                    .addComponent(jLabel76))
-                                .addGap(40, 40, 40)
-                                .addComponent(jLabel89)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton88)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jRadioButton96))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton135)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jRadioButton98))
-                                    .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel64))
-                                .addGap(13, 13, 13)
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addGap(88, 88, 88)
-                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                                .addGap(0, 0, Short.MAX_VALUE)
-                                                .addComponent(jRadioButton99)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jRadioButton100)
-                                                .addGap(85, 85, 85)
-                                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(jLabel90)
-                                                    .addComponent(jLabel101)
-                                                    .addComponent(jLabel91))
-                                                .addGap(114, 114, 114))
-                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                        .addGroup(jPanel9Layout.createSequentialGroup()
-                                                            .addComponent(jRadioButton59)
-                                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                            .addComponent(jRadioButton58))
-                                                        .addGroup(jPanel9Layout.createSequentialGroup()
-                                                            .addComponent(jRadioButton101)
-                                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                            .addComponent(jRadioButton102)
-                                                            .addGap(105, 105, 105)
-                                                            .addComponent(jRadioButton124)
-                                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                            .addComponent(jRadioButton125)))
-                                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                            .addComponent(jLabel98)
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton103)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton104)
-                                                                .addGap(111, 111, 111)
-                                                                .addComponent(jRadioButton126)))
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(jRadioButton127))
-                                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton107)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton108)
-                                                                .addGap(110, 110, 110)
-                                                                .addComponent(jRadioButton109))
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton105)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton106)
-                                                                .addGap(112, 112, 112)
-                                                                .addComponent(jRadioButton70)))
-                                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addGap(13, 13, 13)
-                                                                .addComponent(jRadioButton111))
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addGap(18, 18, 18)
-                                                                .addComponent(jRadioButton110)))))
-                                                .addGap(0, 0, Short.MAX_VALUE))))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                .addGap(79, 79, 79)
-                                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                                        .addComponent(jRadioButton112)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                        .addComponent(jRadioButton123))
-                                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton129)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton122))
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton97)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addComponent(jRadioButton134)
-                                                                .addGap(104, 104, 104)
-                                                                .addComponent(jRadioButton68)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                .addComponent(jRadioButton131)))
-                                                        .addGap(6, 6, 6))))
-                                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(jPanel9Layout.createSequentialGroup()
-                                                    .addGap(79, 79, 79)
-                                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                            .addComponent(jLabel104)
-                                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton95)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addComponent(jRadioButton89)
-                                                                .addGap(180, 180, 180)))
-                                                        .addGroup(jPanel9Layout.createSequentialGroup()
-                                                            .addGap(184, 184, 184)
-                                                            .addComponent(jLabel95))))
-                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jLabel80)
-                                                        .addComponent(jLabel87))
-                                                    .addGap(349, 349, 349))))
-                                        .addGap(74, 74, 74)))))))
+                    .addComponent(jCheckBox64)
+                    .addComponent(jCheckBox60)
+                    .addComponent(jCheckBox61)
+                    .addComponent(jCheckBox62)
+                    .addComponent(jCheckBox65)
+                    .addComponent(jCheckBox63)
+                    .addComponent(jCheckBox66)
+                    .addComponent(jCheckBox67)
+                    .addComponent(jCheckBox69)
+                    .addComponent(jCheckBox68)
+                    .addComponent(jCheckBox56)
+                    .addComponent(jCheckBox57))
+                .addGap(18, 18, 18)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                .addComponent(jRadioButton118)
-                                .addGap(181, 181, 181))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                .addComponent(jRadioButton117)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton80)
-                                .addGap(164, 164, 164))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel93)
-                                .addComponent(jLabel94)
-                                .addComponent(jLabel74)
-                                .addComponent(jLabel96)
-                                .addComponent(jLabel92)
-                                .addGroup(jPanel9Layout.createSequentialGroup()
-                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jRadioButton128)
-                                        .addComponent(jLabel99))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jRadioButton69))
-                                .addComponent(jLabel66)
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel79)
-                                    .addComponent(jLabel97, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton91)
-                                        .addGap(23, 23, 23)
-                                        .addComponent(jRadioButton92))))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton113)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jRadioButton114))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jRadioButton115)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jRadioButton116)))
-                                .addGap(162, 162, 162))))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(jRadioButton119))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGap(26, 26, 26)
-                                .addComponent(jRadioButton121)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton120))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGap(63, 63, 63)
-                                .addComponent(jRadioButton83)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jRadioButton82)))
-                        .addGap(133, 133, 133)))
-                .addContainerGap())
+                    .addComponent(jCheckBox38)
+                    .addComponent(jCheckBox70)
+                    .addComponent(jCheckBox71)
+                    .addComponent(jCheckBox72)
+                    .addComponent(jCheckBox39)
+                    .addComponent(jCheckBox37)
+                    .addComponent(jCheckBox40)
+                    .addComponent(jCheckBox42)
+                    .addComponent(jCheckBox46)
+                    .addComponent(jCheckBox44)
+                    .addComponent(jCheckBox54)
+                    .addComponent(jCheckBox58))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCheckBox48)
+                    .addComponent(jCheckBox41)
+                    .addComponent(jCheckBox43)
+                    .addComponent(jCheckBox45)
+                    .addComponent(jCheckBox49)
+                    .addComponent(jCheckBox47)
+                    .addComponent(jCheckBox50)
+                    .addComponent(jCheckBox51)
+                    .addComponent(jCheckBox53)
+                    .addComponent(jCheckBox52)
+                    .addComponent(jCheckBox55)
+                    .addComponent(jCheckBox59))
+                .addGap(147, 147, 147))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel82)
-                        .addComponent(jLabel102))
-                    .addComponent(jLabel75)
-                    .addComponent(jLabel74, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton84)
-                                    .addComponent(jRadioButton85)
-                                    .addComponent(jRadioButton93)
-                                    .addComponent(jRadioButton94)
-                                    .addComponent(jRadioButton112)
-                                    .addComponent(jRadioButton123)
-                                    .addComponent(jRadioButton118))
+                                .addComponent(jCheckBox62)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel78)
-                                    .addComponent(jLabel81)
-                                    .addComponent(jLabel100)
-                                    .addComponent(jLabel94)))
-                            .addComponent(jRadioButton119))
+                                .addComponent(jCheckBox60)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox61))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox64, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton88)
-                            .addComponent(jRadioButton89)
-                            .addComponent(jRadioButton95)
-                            .addComponent(jRadioButton96))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel106)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton135)
-                            .addComponent(jRadioButton98))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel77)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton86)
-                            .addComponent(jRadioButton87))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel103)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton90)
-                            .addComponent(jRadioButton130))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel105)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton133)
-                            .addComponent(jRadioButton132)))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(57, 57, 57)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton129)
-                            .addComponent(jRadioButton122))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel83)
-                            .addComponent(jLabel104)
-                            .addComponent(jLabel96))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton97)
-                            .addComponent(jRadioButton134)
-                            .addComponent(jRadioButton68)
-                            .addComponent(jRadioButton131)
-                            .addComponent(jRadioButton121, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton120, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox65)
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel85)
-                                    .addComponent(jLabel95))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton101)
-                                    .addComponent(jRadioButton102)
-                                    .addComponent(jRadioButton116)
-                                    .addComponent(jRadioButton115)
-                                    .addComponent(jRadioButton124)
-                                    .addComponent(jRadioButton125)))
-                            .addComponent(jLabel93))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel84)
-                                .addComponent(jLabel92))
-                            .addComponent(jLabel98))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                                        .addComponent(jLabel101)
-                                        .addGap(15, 15, 15))
-                                    .addGroup(jPanel9Layout.createSequentialGroup()
-                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                    .addComponent(jRadioButton99)
-                                                    .addComponent(jRadioButton100))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jLabel86))
-                                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                .addComponent(jRadioButton58)
-                                                .addComponent(jRadioButton59)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton103)
-                                    .addComponent(jRadioButton104)
-                                    .addComponent(jRadioButton126)
-                                    .addComponent(jRadioButton128)
-                                    .addComponent(jRadioButton69)
-                                    .addComponent(jRadioButton127)))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton114)
-                                    .addComponent(jRadioButton113))
+                                .addComponent(jCheckBox63)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel99))))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton80, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton117))))
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel107)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel88)
-                                .addComponent(jLabel89)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton71)
-                            .addComponent(jRadioButton136)
-                            .addComponent(jRadioButton105)
-                            .addComponent(jRadioButton106)
-                            .addComponent(jRadioButton70)
-                            .addComponent(jRadioButton111)))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(4, 4, 4)
-                        .addComponent(jLabel66)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton83)
-                            .addComponent(jRadioButton82))))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel64)
-                            .addComponent(jLabel87)
-                            .addComponent(jLabel90))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel9Layout.createSequentialGroup()
-                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jRadioButton107)
-                                        .addComponent(jRadioButton108)
-                                        .addComponent(jRadioButton109)
-                                        .addComponent(jRadioButton110))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel80))
-                                .addComponent(jLabel91, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addComponent(jCheckBox67)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox66, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox69))
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jRadioButton81)
-                                    .addComponent(jRadioButton72))
-                                .addGap(20, 20, 20)
-                                .addComponent(jLabel76))))
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox68))))
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel79)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jRadioButton91)
-                            .addComponent(jRadioButton92))
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jCheckBox72)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox70)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox71))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox38, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel97)))
-                .addGap(0, 12, Short.MAX_VALUE))
+                        .addComponent(jCheckBox39)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox37)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox42)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox40, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox46))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox44))))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jCheckBox45)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox41)
+                                .addGap(28, 28, 28))
+                            .addComponent(jCheckBox43))
+                        .addGap(5, 5, 5)
+                        .addComponent(jCheckBox48, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox49)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox47)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox51)
+                                .addGap(3, 3, 3)
+                                .addComponent(jCheckBox50, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jCheckBox53))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(jCheckBox52)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCheckBox54)
+                    .addComponent(jCheckBox55)
+                    .addComponent(jCheckBox56))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCheckBox57)
+                    .addComponent(jCheckBox58)
+                    .addComponent(jCheckBox59)))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -2949,32 +1855,32 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 1194, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(1246, 1246, 1246)
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(1164, 1164, 1164)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(200, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(14, 14, 14)
+                .addGap(14, 14, 14)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 806, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(29, 29, 29)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(638, Short.MAX_VALUE))
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(797, Short.MAX_VALUE))
         );
 
         jScrollPane2.setViewportView(jPanel2);
@@ -3151,293 +2057,293 @@ public class Identificacao extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton15ActionPerformed
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
+    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
+    }//GEN-LAST:event_jCheckBox2ActionPerformed
 
-    private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
+    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton11ActionPerformed
+    }//GEN-LAST:event_jCheckBox3ActionPerformed
 
-    private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
+    private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton9ActionPerformed
+    }//GEN-LAST:event_jCheckBox4ActionPerformed
 
-    private void jRadioButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton23ActionPerformed
+    private void jCheckBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton23ActionPerformed
+    }//GEN-LAST:event_jCheckBox5ActionPerformed
 
-    private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
+    private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton8ActionPerformed
+    }//GEN-LAST:event_jCheckBox6ActionPerformed
 
-    private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
+    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton6ActionPerformed
+    }//GEN-LAST:event_jCheckBox7ActionPerformed
 
-    private void jRadioButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton18ActionPerformed
+    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton18ActionPerformed
+    }//GEN-LAST:event_jCheckBox8ActionPerformed
 
-    private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
+    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton4ActionPerformed
+    }//GEN-LAST:event_jCheckBox9ActionPerformed
 
-    private void jRadioButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton26ActionPerformed
+    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton26ActionPerformed
+    }//GEN-LAST:event_jCheckBox10ActionPerformed
 
-    private void jRadioButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton28ActionPerformed
+    private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton28ActionPerformed
+    }//GEN-LAST:event_jCheckBox11ActionPerformed
 
-    private void jRadioButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton30ActionPerformed
+    private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton30ActionPerformed
+    }//GEN-LAST:event_jCheckBox12ActionPerformed
 
-    private void jRadioButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton32ActionPerformed
+    private void jCheckBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox13ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton32ActionPerformed
+    }//GEN-LAST:event_jCheckBox13ActionPerformed
 
-    private void jRadioButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton34ActionPerformed
+    private void jCheckBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox14ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton34ActionPerformed
+    }//GEN-LAST:event_jCheckBox14ActionPerformed
 
-    private void jRadioButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton36ActionPerformed
+    private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton36ActionPerformed
+    }//GEN-LAST:event_jCheckBox15ActionPerformed
 
-    private void jRadioButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton13ActionPerformed
+    private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton13ActionPerformed
+    }//GEN-LAST:event_jCheckBox16ActionPerformed
 
-    private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
+    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton14ActionPerformed
+    }//GEN-LAST:event_jCheckBox17ActionPerformed
 
-    private void jRadioButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton17ActionPerformed
+    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton17ActionPerformed
+    }//GEN-LAST:event_jCheckBox18ActionPerformed
 
-    private void jRadioButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton20ActionPerformed
+    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton20ActionPerformed
+    }//GEN-LAST:event_jCheckBox19ActionPerformed
 
-    private void jRadioButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton21ActionPerformed
+    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton21ActionPerformed
+    }//GEN-LAST:event_jCheckBox20ActionPerformed
 
-    private void jRadioButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton22ActionPerformed
+    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton22ActionPerformed
+    }//GEN-LAST:event_jCheckBox21ActionPerformed
 
-    private void jRadioButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton48ActionPerformed
+    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton48ActionPerformed
+    }//GEN-LAST:event_jCheckBox22ActionPerformed
 
-    private void jRadioButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton51ActionPerformed
+    private void jCheckBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox23ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton51ActionPerformed
+    }//GEN-LAST:event_jCheckBox23ActionPerformed
 
-    private void jRadioButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton53ActionPerformed
+    private void jCheckBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox24ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton53ActionPerformed
+    }//GEN-LAST:event_jCheckBox24ActionPerformed
 
-    private void jRadioButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton54ActionPerformed
+    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton54ActionPerformed
+    }//GEN-LAST:event_jCheckBox25ActionPerformed
 
-    private void jRadioButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton55ActionPerformed
+    private void jCheckBox26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox26ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton55ActionPerformed
+    }//GEN-LAST:event_jCheckBox26ActionPerformed
 
-    private void jRadioButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton57ActionPerformed
+    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton57ActionPerformed
+    }//GEN-LAST:event_jCheckBox27ActionPerformed
 
-    private void jRadioButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton61ActionPerformed
+    private void jCheckBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox28ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton61ActionPerformed
+    }//GEN-LAST:event_jCheckBox28ActionPerformed
 
-    private void jRadioButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton64ActionPerformed
+    private void jCheckBox29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox29ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton64ActionPerformed
+    }//GEN-LAST:event_jCheckBox29ActionPerformed
 
-    private void jRadioButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton66ActionPerformed
+    private void jCheckBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox30ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton66ActionPerformed
+    }//GEN-LAST:event_jCheckBox30ActionPerformed
 
-    private void jRadioButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton74ActionPerformed
+    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton74ActionPerformed
+    }//GEN-LAST:event_jCheckBox31ActionPerformed
 
-    private void jRadioButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton76ActionPerformed
+    private void jCheckBox32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox32ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton76ActionPerformed
+    }//GEN-LAST:event_jCheckBox32ActionPerformed
 
-    private void jRadioButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton73ActionPerformed
+    private void jCheckBox33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox33ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton73ActionPerformed
+    }//GEN-LAST:event_jCheckBox33ActionPerformed
 
-    private void jRadioButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton77ActionPerformed
+    private void jCheckBox34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox34ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton77ActionPerformed
+    }//GEN-LAST:event_jCheckBox34ActionPerformed
 
-    private void jRadioButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton79ActionPerformed
+    private void jCheckBox35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox35ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton79ActionPerformed
+    }//GEN-LAST:event_jCheckBox35ActionPerformed
 
-    private void jRadioButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton43ActionPerformed
+    private void jCheckBox36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox36ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton43ActionPerformed
+    }//GEN-LAST:event_jCheckBox36ActionPerformed
 
-    private void jRadioButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton44ActionPerformed
+    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton44ActionPerformed
+    }//GEN-LAST:event_jCheckBox37ActionPerformed
 
-    private void jRadioButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton46ActionPerformed
+    private void jCheckBox38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox38ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton46ActionPerformed
+    }//GEN-LAST:event_jCheckBox38ActionPerformed
 
-    private void jRadioButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton69ActionPerformed
+    private void jCheckBox39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox39ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton69ActionPerformed
+    }//GEN-LAST:event_jCheckBox39ActionPerformed
 
-    private void jRadioButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton58ActionPerformed
+    private void jCheckBox40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox40ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton58ActionPerformed
+    }//GEN-LAST:event_jCheckBox40ActionPerformed
 
-    private void jRadioButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton59ActionPerformed
+    private void jCheckBox41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox41ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton59ActionPerformed
+    }//GEN-LAST:event_jCheckBox41ActionPerformed
 
-    private void jRadioButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton72ActionPerformed
+    private void jCheckBox42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox42ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton72ActionPerformed
+    }//GEN-LAST:event_jCheckBox42ActionPerformed
 
-    private void jRadioButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton80ActionPerformed
+    private void jCheckBox43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox43ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton80ActionPerformed
+    }//GEN-LAST:event_jCheckBox43ActionPerformed
 
-    private void jRadioButton82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton82ActionPerformed
+    private void jCheckBox44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox44ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton82ActionPerformed
+    }//GEN-LAST:event_jCheckBox44ActionPerformed
 
-    private void jRadioButton85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton85ActionPerformed
+    private void jCheckBox45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox45ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton85ActionPerformed
+    }//GEN-LAST:event_jCheckBox45ActionPerformed
 
-    private void jRadioButton87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton87ActionPerformed
+    private void jCheckBox46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox46ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton87ActionPerformed
+    }//GEN-LAST:event_jCheckBox46ActionPerformed
 
-    private void jRadioButton89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton89ActionPerformed
+    private void jCheckBox47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox47ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton89ActionPerformed
+    }//GEN-LAST:event_jCheckBox47ActionPerformed
 
-    private void jRadioButton92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton92ActionPerformed
+    private void jCheckBox48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox48ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton92ActionPerformed
+    }//GEN-LAST:event_jCheckBox48ActionPerformed
 
-    private void jRadioButton94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton94ActionPerformed
+    private void jCheckBox49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox49ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton94ActionPerformed
+    }//GEN-LAST:event_jCheckBox49ActionPerformed
 
-    private void jRadioButton96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton96ActionPerformed
+    private void jCheckBox50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox50ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton96ActionPerformed
+    }//GEN-LAST:event_jCheckBox50ActionPerformed
 
-    private void jRadioButton98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton98ActionPerformed
+    private void jCheckBox51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox51ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton98ActionPerformed
+    }//GEN-LAST:event_jCheckBox51ActionPerformed
 
-    private void jRadioButton100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton100ActionPerformed
+    private void jCheckBox52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox52ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton100ActionPerformed
+    }//GEN-LAST:event_jCheckBox52ActionPerformed
 
-    private void jRadioButton102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton102ActionPerformed
+    private void jCheckBox53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox53ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton102ActionPerformed
+    }//GEN-LAST:event_jCheckBox53ActionPerformed
 
-    private void jRadioButton104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton104ActionPerformed
+    private void jCheckBox54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox54ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton104ActionPerformed
+    }//GEN-LAST:event_jCheckBox54ActionPerformed
 
-    private void jRadioButton106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton106ActionPerformed
+    private void jCheckBox55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox55ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton106ActionPerformed
+    }//GEN-LAST:event_jCheckBox55ActionPerformed
 
-    private void jRadioButton108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton108ActionPerformed
+    private void jCheckBox56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox56ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton108ActionPerformed
+    }//GEN-LAST:event_jCheckBox56ActionPerformed
 
-    private void jRadioButton110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton110ActionPerformed
+    private void jCheckBox57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox57ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton110ActionPerformed
+    }//GEN-LAST:event_jCheckBox57ActionPerformed
 
-    private void jRadioButton111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton111ActionPerformed
+    private void jCheckBox58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox58ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton111ActionPerformed
+    }//GEN-LAST:event_jCheckBox58ActionPerformed
 
-    private void jRadioButton114ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton114ActionPerformed
+    private void jCheckBox59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox59ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton114ActionPerformed
+    }//GEN-LAST:event_jCheckBox59ActionPerformed
 
-    private void jRadioButton116ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton116ActionPerformed
+    private void jCheckBox60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox60ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton116ActionPerformed
+    }//GEN-LAST:event_jCheckBox60ActionPerformed
 
-    private void jRadioButton118ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton118ActionPerformed
+    private void jCheckBox61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox61ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton118ActionPerformed
+    }//GEN-LAST:event_jCheckBox61ActionPerformed
 
-    private void jRadioButton120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton120ActionPerformed
+    private void jCheckBox62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox62ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton120ActionPerformed
+    }//GEN-LAST:event_jCheckBox62ActionPerformed
 
-    private void jRadioButton121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton121ActionPerformed
+    private void jCheckBox63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox63ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton121ActionPerformed
+    }//GEN-LAST:event_jCheckBox63ActionPerformed
 
-    private void jRadioButton122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton122ActionPerformed
+    private void jCheckBox64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox64ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton122ActionPerformed
+    }//GEN-LAST:event_jCheckBox64ActionPerformed
 
-    private void jRadioButton123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton123ActionPerformed
+    private void jCheckBox65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox65ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton123ActionPerformed
+    }//GEN-LAST:event_jCheckBox65ActionPerformed
 
-    private void jRadioButton125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton125ActionPerformed
+    private void jCheckBox66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox66ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton125ActionPerformed
+    }//GEN-LAST:event_jCheckBox66ActionPerformed
 
-    private void jRadioButton127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton127ActionPerformed
+    private void jCheckBox67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton127ActionPerformed
+    }//GEN-LAST:event_jCheckBox67ActionPerformed
 
-    private void jRadioButton130ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton130ActionPerformed
+    private void jCheckBox68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox68ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton130ActionPerformed
+    }//GEN-LAST:event_jCheckBox68ActionPerformed
 
-    private void jRadioButton131ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton131ActionPerformed
+    private void jCheckBox69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox69ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton131ActionPerformed
+    }//GEN-LAST:event_jCheckBox69ActionPerformed
 
-    private void jRadioButton132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton132ActionPerformed
+    private void jCheckBox70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox70ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton132ActionPerformed
+    }//GEN-LAST:event_jCheckBox70ActionPerformed
 
-    private void jRadioButton134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton134ActionPerformed
+    private void jCheckBox71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox71ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton134ActionPerformed
+    }//GEN-LAST:event_jCheckBox71ActionPerformed
 
-    private void jRadioButton136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton136ActionPerformed
+    private void jCheckBox72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox72ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton136ActionPerformed
+    }//GEN-LAST:event_jCheckBox72ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -3502,58 +2408,95 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextArea intraOral;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox10;
+    private javax.swing.JCheckBox jCheckBox11;
+    private javax.swing.JCheckBox jCheckBox12;
+    private javax.swing.JCheckBox jCheckBox13;
+    private javax.swing.JCheckBox jCheckBox14;
+    private javax.swing.JCheckBox jCheckBox15;
+    private javax.swing.JCheckBox jCheckBox16;
+    private javax.swing.JCheckBox jCheckBox17;
+    private javax.swing.JCheckBox jCheckBox18;
+    private javax.swing.JCheckBox jCheckBox19;
+    private javax.swing.JCheckBox jCheckBox2;
+    private javax.swing.JCheckBox jCheckBox20;
+    private javax.swing.JCheckBox jCheckBox21;
+    private javax.swing.JCheckBox jCheckBox22;
+    private javax.swing.JCheckBox jCheckBox23;
+    private javax.swing.JCheckBox jCheckBox24;
+    private javax.swing.JCheckBox jCheckBox25;
+    private javax.swing.JCheckBox jCheckBox26;
+    private javax.swing.JCheckBox jCheckBox27;
+    private javax.swing.JCheckBox jCheckBox28;
+    private javax.swing.JCheckBox jCheckBox29;
+    private javax.swing.JCheckBox jCheckBox3;
+    private javax.swing.JCheckBox jCheckBox30;
+    private javax.swing.JCheckBox jCheckBox31;
+    private javax.swing.JCheckBox jCheckBox32;
+    private javax.swing.JCheckBox jCheckBox33;
+    private javax.swing.JCheckBox jCheckBox34;
+    private javax.swing.JCheckBox jCheckBox35;
+    private javax.swing.JCheckBox jCheckBox36;
+    private javax.swing.JCheckBox jCheckBox37;
+    private javax.swing.JCheckBox jCheckBox38;
+    private javax.swing.JCheckBox jCheckBox39;
+    private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JCheckBox jCheckBox40;
+    private javax.swing.JCheckBox jCheckBox41;
+    private javax.swing.JCheckBox jCheckBox42;
+    private javax.swing.JCheckBox jCheckBox43;
+    private javax.swing.JCheckBox jCheckBox44;
+    private javax.swing.JCheckBox jCheckBox45;
+    private javax.swing.JCheckBox jCheckBox46;
+    private javax.swing.JCheckBox jCheckBox47;
+    private javax.swing.JCheckBox jCheckBox48;
+    private javax.swing.JCheckBox jCheckBox49;
+    private javax.swing.JCheckBox jCheckBox5;
+    private javax.swing.JCheckBox jCheckBox50;
+    private javax.swing.JCheckBox jCheckBox51;
+    private javax.swing.JCheckBox jCheckBox52;
+    private javax.swing.JCheckBox jCheckBox53;
+    private javax.swing.JCheckBox jCheckBox54;
+    private javax.swing.JCheckBox jCheckBox55;
+    private javax.swing.JCheckBox jCheckBox56;
+    private javax.swing.JCheckBox jCheckBox57;
+    private javax.swing.JCheckBox jCheckBox58;
+    private javax.swing.JCheckBox jCheckBox59;
+    private javax.swing.JCheckBox jCheckBox6;
+    private javax.swing.JCheckBox jCheckBox60;
+    private javax.swing.JCheckBox jCheckBox61;
+    private javax.swing.JCheckBox jCheckBox62;
+    private javax.swing.JCheckBox jCheckBox63;
+    private javax.swing.JCheckBox jCheckBox64;
+    private javax.swing.JCheckBox jCheckBox65;
+    private javax.swing.JCheckBox jCheckBox66;
+    private javax.swing.JCheckBox jCheckBox67;
+    private javax.swing.JCheckBox jCheckBox68;
+    private javax.swing.JCheckBox jCheckBox69;
+    private javax.swing.JCheckBox jCheckBox7;
+    private javax.swing.JCheckBox jCheckBox70;
+    private javax.swing.JCheckBox jCheckBox71;
+    private javax.swing.JCheckBox jCheckBox72;
+    private javax.swing.JCheckBox jCheckBox8;
+    private javax.swing.JCheckBox jCheckBox9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel100;
-    private javax.swing.JLabel jLabel101;
-    private javax.swing.JLabel jLabel102;
-    private javax.swing.JLabel jLabel103;
-    private javax.swing.JLabel jLabel104;
-    private javax.swing.JLabel jLabel105;
-    private javax.swing.JLabel jLabel106;
-    private javax.swing.JLabel jLabel107;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
@@ -3565,50 +2508,13 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
-    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
-    private javax.swing.JLabel jLabel76;
-    private javax.swing.JLabel jLabel77;
-    private javax.swing.JLabel jLabel78;
-    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel81;
-    private javax.swing.JLabel jLabel82;
-    private javax.swing.JLabel jLabel83;
-    private javax.swing.JLabel jLabel84;
-    private javax.swing.JLabel jLabel85;
-    private javax.swing.JLabel jLabel86;
-    private javax.swing.JLabel jLabel87;
-    private javax.swing.JLabel jLabel88;
-    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLabel jLabel90;
-    private javax.swing.JLabel jLabel91;
-    private javax.swing.JLabel jLabel92;
-    private javax.swing.JLabel jLabel93;
-    private javax.swing.JLabel jLabel94;
-    private javax.swing.JLabel jLabel95;
-    private javax.swing.JLabel jLabel96;
-    private javax.swing.JLabel jLabel97;
-    private javax.swing.JLabel jLabel98;
-    private javax.swing.JLabel jLabel99;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -3620,146 +2526,12 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton10;
-    private javax.swing.JRadioButton jRadioButton100;
-    private javax.swing.JRadioButton jRadioButton101;
-    private javax.swing.JRadioButton jRadioButton102;
-    private javax.swing.JRadioButton jRadioButton103;
-    private javax.swing.JRadioButton jRadioButton104;
-    private javax.swing.JRadioButton jRadioButton105;
-    private javax.swing.JRadioButton jRadioButton106;
-    private javax.swing.JRadioButton jRadioButton107;
-    private javax.swing.JRadioButton jRadioButton108;
-    private javax.swing.JRadioButton jRadioButton109;
-    private javax.swing.JRadioButton jRadioButton11;
-    private javax.swing.JRadioButton jRadioButton110;
-    private javax.swing.JRadioButton jRadioButton111;
-    private javax.swing.JRadioButton jRadioButton112;
-    private javax.swing.JRadioButton jRadioButton113;
-    private javax.swing.JRadioButton jRadioButton114;
-    private javax.swing.JRadioButton jRadioButton115;
-    private javax.swing.JRadioButton jRadioButton116;
-    private javax.swing.JRadioButton jRadioButton117;
-    private javax.swing.JRadioButton jRadioButton118;
-    private javax.swing.JRadioButton jRadioButton119;
-    private javax.swing.JRadioButton jRadioButton12;
-    private javax.swing.JRadioButton jRadioButton120;
-    private javax.swing.JRadioButton jRadioButton121;
-    private javax.swing.JRadioButton jRadioButton122;
-    private javax.swing.JRadioButton jRadioButton123;
-    private javax.swing.JRadioButton jRadioButton124;
-    private javax.swing.JRadioButton jRadioButton125;
-    private javax.swing.JRadioButton jRadioButton126;
-    private javax.swing.JRadioButton jRadioButton127;
-    private javax.swing.JRadioButton jRadioButton128;
-    private javax.swing.JRadioButton jRadioButton129;
-    private javax.swing.JRadioButton jRadioButton13;
-    private javax.swing.JRadioButton jRadioButton130;
-    private javax.swing.JRadioButton jRadioButton131;
-    private javax.swing.JRadioButton jRadioButton132;
-    private javax.swing.JRadioButton jRadioButton133;
-    private javax.swing.JRadioButton jRadioButton134;
-    private javax.swing.JRadioButton jRadioButton135;
-    private javax.swing.JRadioButton jRadioButton136;
-    private javax.swing.JRadioButton jRadioButton14;
-    private javax.swing.JRadioButton jRadioButton15;
-    private javax.swing.JRadioButton jRadioButton16;
-    private javax.swing.JRadioButton jRadioButton17;
-    private javax.swing.JRadioButton jRadioButton18;
-    private javax.swing.JRadioButton jRadioButton19;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton20;
-    private javax.swing.JRadioButton jRadioButton21;
-    private javax.swing.JRadioButton jRadioButton22;
-    private javax.swing.JRadioButton jRadioButton23;
-    private javax.swing.JRadioButton jRadioButton24;
-    private javax.swing.JRadioButton jRadioButton25;
-    private javax.swing.JRadioButton jRadioButton26;
-    private javax.swing.JRadioButton jRadioButton27;
-    private javax.swing.JRadioButton jRadioButton28;
-    private javax.swing.JRadioButton jRadioButton29;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton30;
-    private javax.swing.JRadioButton jRadioButton31;
-    private javax.swing.JRadioButton jRadioButton32;
-    private javax.swing.JRadioButton jRadioButton33;
-    private javax.swing.JRadioButton jRadioButton34;
-    private javax.swing.JRadioButton jRadioButton35;
-    private javax.swing.JRadioButton jRadioButton36;
-    private javax.swing.JRadioButton jRadioButton37;
-    private javax.swing.JRadioButton jRadioButton38;
-    private javax.swing.JRadioButton jRadioButton39;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton40;
-    private javax.swing.JRadioButton jRadioButton41;
-    private javax.swing.JRadioButton jRadioButton42;
-    private javax.swing.JRadioButton jRadioButton43;
-    private javax.swing.JRadioButton jRadioButton44;
-    private javax.swing.JRadioButton jRadioButton45;
-    private javax.swing.JRadioButton jRadioButton46;
-    private javax.swing.JRadioButton jRadioButton47;
-    private javax.swing.JRadioButton jRadioButton48;
-    private javax.swing.JRadioButton jRadioButton49;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton50;
-    private javax.swing.JRadioButton jRadioButton51;
-    private javax.swing.JRadioButton jRadioButton52;
-    private javax.swing.JRadioButton jRadioButton53;
-    private javax.swing.JRadioButton jRadioButton54;
-    private javax.swing.JRadioButton jRadioButton55;
-    private javax.swing.JRadioButton jRadioButton56;
-    private javax.swing.JRadioButton jRadioButton57;
-    private javax.swing.JRadioButton jRadioButton58;
-    private javax.swing.JRadioButton jRadioButton59;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton60;
-    private javax.swing.JRadioButton jRadioButton61;
-    private javax.swing.JRadioButton jRadioButton62;
-    private javax.swing.JRadioButton jRadioButton63;
-    private javax.swing.JRadioButton jRadioButton64;
-    private javax.swing.JRadioButton jRadioButton65;
-    private javax.swing.JRadioButton jRadioButton66;
-    private javax.swing.JRadioButton jRadioButton67;
-    private javax.swing.JRadioButton jRadioButton68;
-    private javax.swing.JRadioButton jRadioButton69;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton70;
-    private javax.swing.JRadioButton jRadioButton71;
-    private javax.swing.JRadioButton jRadioButton72;
-    private javax.swing.JRadioButton jRadioButton73;
-    private javax.swing.JRadioButton jRadioButton74;
-    private javax.swing.JRadioButton jRadioButton75;
-    private javax.swing.JRadioButton jRadioButton76;
-    private javax.swing.JRadioButton jRadioButton77;
-    private javax.swing.JRadioButton jRadioButton78;
-    private javax.swing.JRadioButton jRadioButton79;
-    private javax.swing.JRadioButton jRadioButton8;
-    private javax.swing.JRadioButton jRadioButton80;
-    private javax.swing.JRadioButton jRadioButton81;
-    private javax.swing.JRadioButton jRadioButton82;
-    private javax.swing.JRadioButton jRadioButton83;
-    private javax.swing.JRadioButton jRadioButton84;
-    private javax.swing.JRadioButton jRadioButton85;
-    private javax.swing.JRadioButton jRadioButton86;
-    private javax.swing.JRadioButton jRadioButton87;
-    private javax.swing.JRadioButton jRadioButton88;
-    private javax.swing.JRadioButton jRadioButton89;
-    private javax.swing.JRadioButton jRadioButton9;
-    private javax.swing.JRadioButton jRadioButton90;
-    private javax.swing.JRadioButton jRadioButton91;
-    private javax.swing.JRadioButton jRadioButton92;
-    private javax.swing.JRadioButton jRadioButton93;
-    private javax.swing.JRadioButton jRadioButton94;
-    private javax.swing.JRadioButton jRadioButton95;
-    private javax.swing.JRadioButton jRadioButton96;
-    private javax.swing.JRadioButton jRadioButton97;
-    private javax.swing.JRadioButton jRadioButton98;
-    private javax.swing.JRadioButton jRadioButton99;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane10;
-    private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane33;
@@ -3769,24 +2541,22 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane37;
     private javax.swing.JScrollPane jScrollPane38;
     private javax.swing.JScrollPane jScrollPane39;
-    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane40;
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable3;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
     private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JTextArea medicaPregressa;
     private javax.swing.JTextArea medicacaoUso;
     private javax.swing.JTextField nome;
