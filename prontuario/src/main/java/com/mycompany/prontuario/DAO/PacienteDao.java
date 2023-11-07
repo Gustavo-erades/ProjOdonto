@@ -9,7 +9,7 @@ import com.mycompany.prontuario.telas.Identificacao;
 import javax.swing.JOptionPane;
 
 public class PacienteDao {
-    public void cadastrarPaciente(Paciente paciente){
+    public void cadastrarPaciente(Paciente paciente) throws SQLException{
         String sql="INSERT INTO PACIENTE"
                 + "(NOME,CPF,RG,IDADE,TELEFONE,EMAIL,ENDERECO,SEXO,DATA_NASCIMENTO,ESTADO_CIVIL,COR,PROFISSAO,CEP,TELEFONE_CASA,CIDADE,TELEFONE_TRAB,RESPONSAVEL,TELEFONE_RESPONSAVEL)"
                 + "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
