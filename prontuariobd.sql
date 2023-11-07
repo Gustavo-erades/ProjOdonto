@@ -38,5 +38,25 @@ create table prontuariobd.paciente_informacoes(
     primary key (id_paciente),
 	foreign key (id_paciente) references prontuariobd.paciente(id)
 );
+create table prontuariobd.paciente_saude_geral(
+	questoes binary(36),
+    doenca_contagiosa varchar(200),
+    alergia varchar(200),
+    bebida varchar(200),
+    drogas varchar(200),
+    medicamento varchar(200),
+    fumo varchar(200),
+    id int not null auto_increment,
+    primary key(id),
+    foreign key (id) references prontuariobd.paciente(id)
+);
+create table prontuariobd.sequencia_tratamento(
+	data_tratamento varchar(10),
+    dente varchar(20),
+    procedimento varchar(100),
+    id int not null,
+    primary key(id),
+    foreign key(id) references prontuariobd.paciente(id)
+);
 
-select *from prontuariobd.paciente_informacoes;
+select *from prontuariobd.paciente_saude_geral;
