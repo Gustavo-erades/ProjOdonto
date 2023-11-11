@@ -1027,19 +1027,16 @@
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="939" max="-2" attributes="0"/>
-                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="972" max="-2" attributes="0"/>
+                              <Component id="cadastrarProntuario1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1049,15 +1046,15 @@
                               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                               <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel8" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                              <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cadastrarProntuario1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="762" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="765" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1100,7 +1097,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTable" name="jTable3">
+                            <Component class="javax.swing.JTable" name="tabelaTratamento">
                               <Properties>
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Segoe UI" size="14" style="0"/>
@@ -1171,40 +1168,40 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <Component id="jCheckBox34" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fuma" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jCheckBox33" min="-2" max="-2" attributes="0"/>
+                                          <Component id="pedraRins" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jCheckBox9" min="-2" max="-2" attributes="0"/>
+                                          <Component id="diabete" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jCheckBox10" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jCheckBox7" min="-2" max="-2" attributes="0"/>
+                                          <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jCheckBox8" min="-2" max="-2" attributes="0"/>
+                                          <Component id="marcapasso" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="temVarizes" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="doresFortes" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace pref="35" max="32767" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -1218,9 +1215,9 @@
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pneumonia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="respiraBoca" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Group type="103" groupAlignment="1" attributes="0">
@@ -1232,18 +1229,18 @@
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox35" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox31" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox17" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox18" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox20" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hepatite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="anemia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="osteoporose" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="psicologico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eplepsia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tratamentoMedico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dst" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aids" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="27" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -1251,7 +1248,6 @@
                                       <Component id="jLabel65" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel64" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel63" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel62" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel48" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel59" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel60" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -1262,18 +1258,17 @@
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox25" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox21" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox22" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox23" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox26" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox24" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox27" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox28" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox30" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox29" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox32" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox36" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hemodialise" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cirrose" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hempfilia" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="268" max="-2" attributes="0"/>
                               </Group>
@@ -1319,58 +1314,58 @@
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Group type="102" attributes="0">
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="jCheckBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jCheckBox5" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="hipertenso" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
                                               <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jCheckBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox7" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                                      <Component id="problemaCoracao" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                                                       <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="tuberculose" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="diabete" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
@@ -1381,15 +1376,15 @@
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" alignment="1" attributes="0">
                                                       <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="jCheckBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="jCheckBox11" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="osteoporose" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
@@ -1401,39 +1396,39 @@
                                           <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <Component id="jCheckBox15" min="-2" pref="16" max="-2" attributes="0"/>
+                                                  <Component id="anticoncepcional" min="-2" pref="16" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="eplepsia" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <EmptySpace max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jCheckBox14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="sinusite" alignment="3" min="-2" max="-2" attributes="0"/>
                                                               <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jCheckBox18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
                                                               <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jCheckBox17" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                                              <Component id="quimioterapia" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
                                                               <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace min="-2" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jCheckBox20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="dst" alignment="3" min="-2" max="-2" attributes="0"/>
                                                               <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                       </Group>
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jCheckBox19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="aids" alignment="3" min="-2" max="-2" attributes="0"/>
                                                               <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                       </Group>
@@ -1446,93 +1441,92 @@
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Group type="102" alignment="1" attributes="0">
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel68" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                  <Component id="jCheckBox22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jCheckBox25" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                              <Component id="labirintite" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
                                               <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jCheckBox26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel60" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel61" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox28" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel62" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox27" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                                                      <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox30" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jCheckBox29" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel61" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="gravidez" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                              <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="problemaHormonal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hemodialise" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel66" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="cirrose" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jCheckBox31" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="pedraRins" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="fuma" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jCheckBox32" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel66" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel67" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hempfilia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jCheckBox33" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="anemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="hepatite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jCheckBox34" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jCheckBox35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="jCheckBox36" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel67" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                                   <Component id="jSeparator1" min="-2" pref="13" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -1628,7 +1622,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea3">
+                            <Component class="javax.swing.JTextArea" name="doencaContagiosa">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1643,7 +1637,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea5">
+                            <Component class="javax.swing.JTextArea" name="tomandoMedicamento">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1658,7 +1652,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea8">
+                            <Component class="javax.swing.JTextArea" name="drogasIlicitas">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1673,7 +1667,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea9">
+                            <Component class="javax.swing.JTextArea" name="bebidaAlcoolica">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1688,7 +1682,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea10">
+                            <Component class="javax.swing.JTextArea" name="alergiaMedicamento">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1703,7 +1697,7 @@
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                           <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="jTextArea11">
+                            <Component class="javax.swing.JTextArea" name="parouFumar">
                               <Properties>
                                 <Property name="columns" type="int" value="20"/>
                                 <Property name="rows" type="int" value="5"/>
@@ -1711,7 +1705,7 @@
                             </Component>
                           </SubComponents>
                         </Container>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+                        <Component class="javax.swing.JCheckBox" name="temVarizes">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1719,10 +1713,10 @@
                             <Property name="text" type="java.lang.String" value="Tem varizes"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="temVarizesActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+                        <Component class="javax.swing.JCheckBox" name="tontura">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1730,10 +1724,10 @@
                             <Property name="text" type="java.lang.String" value=" Quando se levanta depressa sente tontura"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox2ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tonturaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+                        <Component class="javax.swing.JCheckBox" name="doresFortes">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1741,10 +1735,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; sentiu ou sente dores fortes no peito"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox3ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="doresFortesActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox4">
+                        <Component class="javax.swing.JCheckBox" name="respiraBoca">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1752,10 +1746,10 @@
                             <Property name="text" type="java.lang.String" value="Respira pela boca"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox4ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="respiraBocaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox5">
+                        <Component class="javax.swing.JCheckBox" name="hipertenso">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1763,10 +1757,10 @@
                             <Property name="text" type="java.lang.String" value="&#xc9; hipertenso(a)"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox5ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hipertensoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox6">
+                        <Component class="javax.swing.JCheckBox" name="pneumonia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1774,10 +1768,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; teve pneumonia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox6ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pneumoniaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox7">
+                        <Component class="javax.swing.JCheckBox" name="problemaCoracao">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1785,10 +1779,10 @@
                             <Property name="text" type="java.lang.String" value="Possui algum problema no cora&#xe7;&#xe3;o"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox7ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="problemaCoracaoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox8">
+                        <Component class="javax.swing.JCheckBox" name="marcapasso">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1796,10 +1790,10 @@
                             <Property name="text" type="java.lang.String" value="Possui pr&#xf3;tese card&#xed;aca ou marcapasso"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox8ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="marcapassoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox9">
+                        <Component class="javax.swing.JCheckBox" name="diabete">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1807,10 +1801,10 @@
                             <Property name="text" type="java.lang.String" value="Tem diabete"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox9ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="diabeteActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox10">
+                        <Component class="javax.swing.JCheckBox" name="tuberculose">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1818,10 +1812,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; teve tuberculose"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox10ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tuberculoseActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox11">
+                        <Component class="javax.swing.JCheckBox" name="osteoporose">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1829,10 +1823,10 @@
                             <Property name="text" type="java.lang.String" value="Tem osteoporose"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox11ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="osteoporoseActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox12">
+                        <Component class="javax.swing.JCheckBox" name="reumatismo">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1840,10 +1834,10 @@
                             <Property name="text" type="java.lang.String" value="Tem reumatismo"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox12ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reumatismoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox13">
+                        <Component class="javax.swing.JCheckBox" name="psicologico">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1851,10 +1845,10 @@
                             <Property name="text" type="java.lang.String" value="Fez/j&#xe1; fez tratamento psicol&#xf3;gico/psiqui&#xe1;trico"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox13ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="psicologicoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox14">
+                        <Component class="javax.swing.JCheckBox" name="sinusite">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1862,10 +1856,10 @@
                             <Property name="text" type="java.lang.String" value="Tem/teve sinusite ou rinite"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox14ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sinusiteActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox15">
+                        <Component class="javax.swing.JCheckBox" name="anticoncepcional">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1873,10 +1867,10 @@
                             <Property name="text" type="java.lang.String" value="Toma anticoncepcional"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox15ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anticoncepcionalActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox16">
+                        <Component class="javax.swing.JCheckBox" name="eplepsia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1884,10 +1878,10 @@
                             <Property name="text" type="java.lang.String" value="Tem eplepsia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox16ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eplepsiaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox17">
+                        <Component class="javax.swing.JCheckBox" name="quimioterapia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1895,10 +1889,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; fez quimioterapia ou radioterapia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox17ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="quimioterapiaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox18">
+                        <Component class="javax.swing.JCheckBox" name="tratamentoMedico">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1906,10 +1900,10 @@
                             <Property name="text" type="java.lang.String" value="Est&#xe1; agora sob tratamento m&#xe9;dico"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox18ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tratamentoMedicoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox19">
+                        <Component class="javax.swing.JCheckBox" name="aids">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1917,10 +1911,10 @@
                             <Property name="text" type="java.lang.String" value="Tem AIDS"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox19ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aidsActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox20">
+                        <Component class="javax.swing.JCheckBox" name="dst">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1928,10 +1922,10 @@
                             <Property name="text" type="java.lang.String" value="Tem/Teve Doen&#xe7;a Sexualmente Transmiss&#xed;vel"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox20ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dstActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox21">
+                        <Component class="javax.swing.JCheckBox" name="leucemia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1939,10 +1933,10 @@
                             <Property name="text" type="java.lang.String" value="Tem/Teve leucemia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox21ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="leucemiaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox22">
+                        <Component class="javax.swing.JCheckBox" name="transfusao">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1950,10 +1944,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; fez transfus&#xe3;o sangu&#xed;nea"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox22ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="transfusaoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox23">
+                        <Component class="javax.swing.JCheckBox" name="cicatrizacao">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1961,10 +1955,10 @@
                             <Property name="text" type="java.lang.String" value="A sua cicatriza&#xe7;&#xe3;o demora a acontecer"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox23ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cicatrizacaoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox24">
+                        <Component class="javax.swing.JCheckBox" name="enxaqueca">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1972,10 +1966,10 @@
                             <Property name="text" type="java.lang.String" value="Tem enxaqueca"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox24ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enxaquecaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox25">
+                        <Component class="javax.swing.JCheckBox" name="labirintite">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1983,10 +1977,10 @@
                             <Property name="text" type="java.lang.String" value="Tem labirintite"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox25ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="labirintiteActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox26">
+                        <Component class="javax.swing.JCheckBox" name="sangramento">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -1994,10 +1988,10 @@
                             <Property name="text" type="java.lang.String" value="Quando se machuca sangra muito tempo"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox26ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sangramentoActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox27">
+                        <Component class="javax.swing.JCheckBox" name="gravidez">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2005,21 +1999,10 @@
                             <Property name="text" type="java.lang.String" value="Est&#xe1; gr&#xe1;vida"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox27ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gravidezActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox28">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Segoe UI" size="14" style="1"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Respira pela boca"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox28ActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox29">
+                        <Component class="javax.swing.JCheckBox" name="hemodialise">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2027,10 +2010,10 @@
                             <Property name="text" type="java.lang.String" value="Faz/Fez hemodi&#xe1;lise"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox29ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hemodialiseActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox30">
+                        <Component class="javax.swing.JCheckBox" name="problemaHormonal">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2038,10 +2021,10 @@
                             <Property name="text" type="java.lang.String" value="Tem algum problema hormonal"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox30ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="problemaHormonalActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox31">
+                        <Component class="javax.swing.JCheckBox" name="anemia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2049,10 +2032,10 @@
                             <Property name="text" type="java.lang.String" value="Tem/Teve anemia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox31ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anemiaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox32">
+                        <Component class="javax.swing.JCheckBox" name="cirrose">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2060,10 +2043,10 @@
                             <Property name="text" type="java.lang.String" value="Tem cirrose"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox32ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cirroseActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox33">
+                        <Component class="javax.swing.JCheckBox" name="pedraRins">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2071,10 +2054,10 @@
                             <Property name="text" type="java.lang.String" value="Tem/Teve pedra nos rins"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox33ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pedraRinsActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox34">
+                        <Component class="javax.swing.JCheckBox" name="fuma">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2082,10 +2065,10 @@
                             <Property name="text" type="java.lang.String" value="Fuma"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox34ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fumaActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox35">
+                        <Component class="javax.swing.JCheckBox" name="hepatite">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2093,10 +2076,10 @@
                             <Property name="text" type="java.lang.String" value="J&#xe1; teve ou tem hepatite"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox35ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hepatiteActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox36">
+                        <Component class="javax.swing.JCheckBox" name="hempfilia">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Segoe UI" size="14" style="1"/>
@@ -2104,7 +2087,7 @@
                             <Property name="text" type="java.lang.String" value="Tem/Teve hempfilia"/>
                           </Properties>
                           <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox36ActionPerformed"/>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hempfiliaActionPerformed"/>
                           </Events>
                         </Component>
                         <Component class="javax.swing.JSeparator" name="jSeparator1">
@@ -2254,34 +2237,29 @@
                             <Property name="text" type="java.lang.String" value="30."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel62">
+                        <Component class="javax.swing.JLabel" name="jLabel63">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="31."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel63">
+                        <Component class="javax.swing.JLabel" name="jLabel64">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="32."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel64">
+                        <Component class="javax.swing.JLabel" name="jLabel65">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="33."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel65">
+                        <Component class="javax.swing.JLabel" name="jLabel66">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="34."/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel66">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="35."/>
-                          </Properties>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel67">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="36."/>
+                            <Property name="text" type="java.lang.String" value="35."/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel68">
@@ -2303,7 +2281,7 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jCheckBox64" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -2356,6 +2334,7 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
@@ -2866,12 +2845,12 @@
                         </Component>
                       </SubComponents>
                     </Container>
-                    <Component class="javax.swing.JButton" name="jButton1">
+                    <Component class="javax.swing.JButton" name="cadastrarProntuario1">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Confirmar"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cadastrarProntuario1ActionPerformed"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton2">
