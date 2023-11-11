@@ -2208,10 +2208,14 @@ public class Identificacao extends javax.swing.JFrame {
         campoResponsavelLegal=responsavelLegal.getText();
         campoContatoResponsavelLegal=contatoResponsavel.getText();
         campoSexo=sexo.getSelectedItem().toString();
-        new CadPaciente().botaoCadPaciente(campoNome, campoEmail,campoCpf,campoEndereco,
-            campoIdade,campoRg,campoTelCelular,campoCidade, campoTelResidencial,
-            campoTelTrabalho, campoSexo, campoDataNasc, campoCor, campoEstadoCivil, 
-            campoCep,campoProfissao,campoResponsavelLegal, campoContatoResponsavelLegal);
+        try {
+            new CadPaciente().botaoCadPaciente(campoNome, campoEmail,campoCpf,campoEndereco,
+                    campoIdade,campoRg,campoTelCelular,campoCidade, campoTelResidencial,
+                    campoTelTrabalho, campoSexo, campoDataNasc, campoCor, campoEstadoCivil,
+                    campoCep,campoProfissao,campoResponsavelLegal, campoContatoResponsavelLegal);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro de paciente. Volte no arquivo 'Identificacao.java'"+ex, "Problemas no cadastro de pacientes", JOptionPane.ERROR_MESSAGE);
+       }
         
         nome.setText("");
         cpf.setText("");
@@ -2241,7 +2245,11 @@ public class Identificacao extends javax.swing.JFrame {
         campoExameFisico=exameFisico.getText();
         campoIntraOral=intraOral.getText();
         campoExtraOral=extraOral.getText();
-        new CadInformacoes().botaoCadInformacoes(campoQueixa, campoDoencaAtual, campoMedicaPregressa, campoMedicacaoAtual, campoAlcool, campoFumo, campoPressaoArterial, campoExameFisico, campoIntraOral, campoExtraOral);
+        try {
+            new CadInformacoes().botaoCadInformacoes(campoQueixa, campoDoencaAtual, campoMedicaPregressa, campoMedicacaoAtual, campoAlcool, campoFumo, campoPressaoArterial, campoExameFisico, campoIntraOral, campoExtraOral);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro de informações do paciente. Volte no arquivo 'Identificacao.java'"+ex, "Problemas no cadastro de informações", JOptionPane.ERROR_MESSAGE);
+        }
         
         queixaPrincipal.setText("");
         doencaAtual.setText("");

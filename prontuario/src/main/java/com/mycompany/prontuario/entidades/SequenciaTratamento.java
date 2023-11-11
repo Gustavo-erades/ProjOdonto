@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.prontuario.entidades;
 
-/**
- *
- * @author Gustavo
- */
 public class SequenciaTratamento {
-    
+    private String data;
+    public String getData(){
+        return data;
+    }
+    public void setData(String data){
+        this.data=data;
+    }
+    private String dente;
+    public String getDente(){
+        return dente;
+    }
+    public void setDente(String dente){
+        this.dente=dente;
+    }
+    private String procedimento;
+    public String getProcedimento(){
+        return procedimento;
+    }
+    public void setProcedimento(String procedimento){
+        this.procedimento=procedimento;
+    }
 }

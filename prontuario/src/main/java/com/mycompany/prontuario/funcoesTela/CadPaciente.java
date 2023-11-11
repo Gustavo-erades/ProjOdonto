@@ -2,12 +2,13 @@ package com.mycompany.prontuario.funcoesTela;
 
 import com.mycompany.prontuario.entidades.Paciente;
 import com.mycompany.prontuario.DAO.PacienteDao;
+import java.sql.SQLException;
 
 public class CadPaciente {
     public void botaoCadPaciente(String nome, String email,String cpf,String endereco,
             int idade,String rg,String telCelular,String cidade, String telResidencial,
             String telTrabalho, String sexo, String dataNasc, String cor, String estadoCivil, 
-            String cep,String profissao,String responsavelLegal, String contatoResponsavel){
+            String cep,String profissao,String responsavelLegal, String contatoResponsavel) throws SQLException{
         Paciente paciente= new Paciente();
         paciente.setNome(nome);
         paciente.setEmail(email);
