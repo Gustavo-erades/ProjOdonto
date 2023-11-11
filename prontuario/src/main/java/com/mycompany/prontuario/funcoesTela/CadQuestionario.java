@@ -11,6 +11,7 @@ public class CadQuestionario {
             String fumo ) throws SQLException{
         SaudeGeral saudeGeral= new SaudeGeral();
         saudeGeral.setQuestoes(questoes);
+        saudeGeral.setDoencaContagiosa(doenca_contagiosa);
         saudeGeral.setAlergia(alergia);
         saudeGeral.setBebida(bebida);
         saudeGeral.setDrogas(drogas);

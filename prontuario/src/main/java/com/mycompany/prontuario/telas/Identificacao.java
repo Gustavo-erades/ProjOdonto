@@ -2581,11 +2581,11 @@ public class Identificacao extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBox72ActionPerformed
 
     private void cadastrarProntuario1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarProntuario1ActionPerformed
-        String campoDoencaAtual,campoAlergiaMedicamento,campoBebidaAlcoolica,campoDrogasIlicitas,
-                campoTomandoMedicamento,campoParouFumar,questoes = null;
+        String campoDoencaAtual2,campoAlergiaMedicamento,campoBebidaAlcoolica,campoDrogasIlicitas,
+                campoTomandoMedicamento,campoParouFumar,questoes ;
 
         // pega os valores dos checkboxes
-        String[] questoesLista=new String[34];
+        /*String[] questoesLista=new String[34];
         questoesLista[0]=(doresFortes.isSelected()?"1":"0");
         questoesLista[1]=(temVarizes.isSelected()?"1":"0");
         questoesLista[2]=(tontura.isSelected()?"1":"0");
@@ -2620,20 +2620,23 @@ public class Identificacao extends javax.swing.JFrame {
         questoesLista[31]=(problemaHormonal.isSelected()?"1":"0");
         questoesLista[32]=(hemodialise.isSelected()?"1":"0");
         questoesLista[33]=(cirrose.isSelected()?"1":"0");
-        questoesLista[34]=(hempfilia.isSelected()?"1":"0");
+        questoesLista[34]=(hempfilia.isSelected()?"1":"0");*/
+        if(hempfilia.isSelected()){
+            questoes="1";
+        }else{
+            questoes="0";
+        }
         
         //pegar valor das caixas de texto
-        campoDoencaAtual=doencaContagiosa.getText();
+        campoDoencaAtual2=doencaContagiosa.getText();
         campoAlergiaMedicamento=alergiaMedicamento.getText();
         campoBebidaAlcoolica=bebidaAlcoolica.getText();
         campoDrogasIlicitas=drogasIlicitas.getText();
         campoTomandoMedicamento=tomandoMedicamento.getText();
         campoParouFumar=parouFumar.getText();
-        for(int i=0;i<35;i++){
-            questoes+=questoesLista[i];
-        }
+        
         try {
-            new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual,campoAlergiaMedicamento,
+            new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual2,campoAlergiaMedicamento,
                     campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário de saúde geral. Arquivo 'Identificacao.java' "+ex, "Problemas no cadastro da saúde geral", JOptionPane.ERROR_MESSAGE);

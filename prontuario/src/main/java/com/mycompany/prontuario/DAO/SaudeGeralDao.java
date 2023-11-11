@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class SaudeGeralDao {
     public void cadastrarSaudeGeral(SaudeGeral SaudeGeral) throws SQLException{
-        String sql="INSERT INTO SAUDE_GERAL"
+        String sql="INSERT INTO PACIENTE_SAUDE_GERAL"
                 + "(QUESTOES,DOENCA_CONTAGIOSA,ALERGIA,BEBIDA,DROGAS,MEDICAMENTO,FUMO)"
                 + "VALUES(?,?,?,?,?,?,?)";
         PreparedStatement preparedStatement;
