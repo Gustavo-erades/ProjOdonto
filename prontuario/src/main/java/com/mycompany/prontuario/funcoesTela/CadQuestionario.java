@@ -18,5 +18,5 @@ public class CadQuestionario {
         saudeGeral.setMedicamento(medicamento);
         saudeGeral.setFumo(fumo);
         new SaudeGeralDao().cadastrarSaudeGeral(saudeGeral);
-    }
+        }
 }

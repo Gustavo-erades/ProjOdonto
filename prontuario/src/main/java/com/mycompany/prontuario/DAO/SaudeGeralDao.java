@@ -26,6 +26,7 @@ public class SaudeGeralDao {
             preparedStatement.setString(7,SaudeGeral.getFumo());
             preparedStatement.execute();
             preparedStatement.close();
+            JOptionPane.showMessageDialog(identificacao, "Dados de saúde geral do paciente cadastrados com sucesso!", "Sucesso no cadastro dos dados de saúde geral", JOptionPane.INFORMATION_MESSAGE);
         }catch (SQLException erro) {
             JOptionPane.showMessageDialog(identificacao, "Problemas com o banco de dados. Volte no arquivo 'SaudeGeralDao.java'"+erro, "Problemas na saude geral", JOptionPane.ERROR_MESSAGE);
         }

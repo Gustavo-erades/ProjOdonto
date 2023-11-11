@@ -2583,50 +2583,42 @@ public class Identificacao extends javax.swing.JFrame {
     private void cadastrarProntuario1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarProntuario1ActionPerformed
         String campoDoencaAtual2,campoAlergiaMedicamento,campoBebidaAlcoolica,campoDrogasIlicitas,
                 campoTomandoMedicamento,campoParouFumar,questoes ;
-
         // pega os valores dos checkboxes
-        /*String[] questoesLista=new String[34];
-        questoesLista[0]=(doresFortes.isSelected()?"1":"0");
-        questoesLista[1]=(temVarizes.isSelected()?"1":"0");
-        questoesLista[2]=(tontura.isSelected()?"1":"0");
-        questoesLista[3]=(hipertenso.isSelected()?"1":"0");
-        questoesLista[4]=(pneumonia.isSelected()?"1":"0");
-        questoesLista[5]=(respiraBoca.isSelected()?"1":"0");
-        questoesLista[6]=(marcapasso.isSelected()?"1":"0");
-        questoesLista[7]=(problemaCoracao.isSelected()?"1":"0");
-        questoesLista[8]=(tuberculose.isSelected()?"1":"0");
-        questoesLista[9]=(diabete.isSelected()?"1":"0");
-        questoesLista[10]=(pedraRins.isSelected()?"1":"0");
-        questoesLista[11]=(fuma.isSelected()?"1":"0");
-        questoesLista[12]=(psicologico.isSelected()?"1":"0");
-        questoesLista[13]=(osteoporose.isSelected()?"1":"0");
-        questoesLista[14]=(reumatismo.isSelected()?"1":"0");
-        questoesLista[15]=(anticoncepcional.isSelected()?"1":"0");
-        questoesLista[16]=(eplepsia.isSelected()?"1":"0");
-        questoesLista[17]=(sinusite.isSelected()?"1":"0");
-        questoesLista[18]=(tratamentoMedico.isSelected()?"1":"0");
-        questoesLista[19]=(quimioterapia.isSelected()?"1":"0");
-        questoesLista[20]=(dst.isSelected()?"1":"0");
-        questoesLista[21]=(aids.isSelected()?"1":"0");
-        questoesLista[22]=(anemia.isSelected()?"1":"0");
-        questoesLista[23]=(hepatite.isSelected()?"1":"0");
-        questoesLista[24]=(cicatrizacao.isSelected()?"1":"0");
-        questoesLista[25]=(leucemia.isSelected()?"1":"0");
-        questoesLista[26]=(transfusao.isSelected()?"1":"0");
-        questoesLista[27]=(labirintite.isSelected()?"1":"0");
-        questoesLista[28]=(sangramento.isSelected()?"1":"0");
-        questoesLista[29]=(enxaqueca.isSelected()?"1":"0");
-        questoesLista[30]=(gravidez.isSelected()?"1":"0");
-        questoesLista[31]=(problemaHormonal.isSelected()?"1":"0");
-        questoesLista[32]=(hemodialise.isSelected()?"1":"0");
-        questoesLista[33]=(cirrose.isSelected()?"1":"0");
-        questoesLista[34]=(hempfilia.isSelected()?"1":"0");*/
-        if(hempfilia.isSelected()){
-            questoes="1";
-        }else{
-            questoes="0";
-        }
-        
+        questoes=(doresFortes.isSelected()?"1":"0");
+        questoes=questoes+(temVarizes.isSelected()?"1":"0");
+        questoes=questoes+(tontura.isSelected()?"1":"0");
+        questoes=questoes+(hipertenso.isSelected()?"1":"0");
+        questoes=questoes+(pneumonia.isSelected()?"1":"0");
+        questoes=questoes+(respiraBoca.isSelected()?"1":"0");
+        questoes=questoes+(marcapasso.isSelected()?"1":"0");
+        questoes=questoes+(problemaCoracao.isSelected()?"1":"0");
+        questoes=questoes+(tuberculose.isSelected()?"1":"0");
+        questoes=questoes+(diabete.isSelected()?"1":"0");
+        questoes=questoes+(pedraRins.isSelected()?"1":"0");
+        questoes=questoes+(fuma.isSelected()?"1":"0");
+        questoes=questoes+(psicologico.isSelected()?"1":"0");
+        questoes=questoes+(osteoporose.isSelected()?"1":"0");
+        questoes=questoes+(reumatismo.isSelected()?"1":"0");
+        questoes=questoes+(anticoncepcional.isSelected()?"1":"0");
+        questoes=questoes+(eplepsia.isSelected()?"1":"0");
+        questoes=questoes+(sinusite.isSelected()?"1":"0");
+        questoes=questoes+(tratamentoMedico.isSelected()?"1":"0");
+        questoes=questoes+(quimioterapia.isSelected()?"1":"0");
+        questoes=questoes+(dst.isSelected()?"1":"0");
+        questoes=questoes+(aids.isSelected()?"1":"0");
+        questoes=questoes+(anemia.isSelected()?"1":"0");
+        questoes=questoes+(hepatite.isSelected()?"1":"0");
+        questoes=questoes+(cicatrizacao.isSelected()?"1":"0");
+        questoes=questoes+(leucemia.isSelected()?"1":"0");
+        questoes=questoes+(transfusao.isSelected()?"1":"0");
+        questoes=questoes+(labirintite.isSelected()?"1":"0");
+        questoes=questoes+(sangramento.isSelected()?"1":"0");
+        questoes=questoes+(enxaqueca.isSelected()?"1":"0");
+        questoes=questoes+(gravidez.isSelected()?"1":"0");
+        questoes=questoes+(problemaHormonal.isSelected()?"1":"0");
+        questoes=questoes+(hemodialise.isSelected()?"1":"0");
+        questoes=questoes+(hempfilia.isSelected()?"1":"0");
+        questoes=questoes+(cirrose.isSelected()?"1":"0");
         //pegar valor das caixas de texto
         campoDoencaAtual2=doencaContagiosa.getText();
         campoAlergiaMedicamento=alergiaMedicamento.getText();
@@ -2634,7 +2626,6 @@ public class Identificacao extends javax.swing.JFrame {
         campoDrogasIlicitas=drogasIlicitas.getText();
         campoTomandoMedicamento=tomandoMedicamento.getText();
         campoParouFumar=parouFumar.getText();
-        
         try {
             new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual2,campoAlergiaMedicamento,
                     campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
