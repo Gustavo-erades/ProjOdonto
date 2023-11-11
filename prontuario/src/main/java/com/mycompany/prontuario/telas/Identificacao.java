@@ -307,7 +307,7 @@ public class Identificacao extends javax.swing.JFrame {
         jCheckBox71 = new javax.swing.JCheckBox();
         jCheckBox72 = new javax.swing.JCheckBox();
         cadastrarProntuario1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        cancealarQuestionario = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
 
         jMenuItem1.setText("jMenuItem1");
@@ -2072,7 +2072,12 @@ public class Identificacao extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("Cancelar");
+        cancealarQuestionario.setText("Cancelar");
+        cancealarQuestionario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cancealarQuestionarioActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -2093,7 +2098,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGap(972, 972, 972)
                 .addComponent(cadastrarProntuario1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton2)
+                .addComponent(cancealarQuestionario)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -2106,7 +2111,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cadastrarProntuario1)
-                    .addComponent(jButton2))
+                    .addComponent(cancealarQuestionario))
                 .addGap(61, 61, 61)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(765, Short.MAX_VALUE))
@@ -2634,6 +2639,16 @@ public class Identificacao extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_cadastrarProntuario1ActionPerformed
 
+    private void cancealarQuestionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancealarQuestionarioActionPerformed
+        doencaContagiosa.setText("");
+        alergiaMedicamento.setText("");
+        bebidaAlcoolica.setText("");
+        drogasIlicitas.setText("");
+        tomandoMedicamento.setText("");
+        parouFumar.setText("");
+        JOptionPane.showMessageDialog(rootPane, "Cadastro das informações de saúde cancelado!","Cancelar cadastro de dados de saúde",JOptionPane.CANCEL_OPTION);
+    }//GEN-LAST:event_cancealarQuestionarioActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2685,6 +2700,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JButton btnCancelar;
     private javax.swing.JButton cadastrarProntuario1;
     private javax.swing.JTextField caixaPesquisa;
+    private javax.swing.JButton cancealarQuestionario;
     private javax.swing.JTextField cep;
     private javax.swing.JCheckBox cicatrizacao;
     private javax.swing.JTextField cidade;
@@ -2716,7 +2732,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox hipertenso;
     private javax.swing.JTextField idade;
     private javax.swing.JTextArea intraOral;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JCheckBox jCheckBox37;
