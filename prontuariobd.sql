@@ -59,4 +59,4 @@ create table prontuariobd.sequencia_tratamento(
     foreign key(id) references prontuariobd.paciente(id)
 );
 
-select *from prontuariobd.sequencia_tratamento;
+select *from prontuariobd.paciente_informacoes;
