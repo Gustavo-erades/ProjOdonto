@@ -66,6 +66,9 @@ public class Identificacao extends javax.swing.JFrame {
          tabelaSelect1.setModel(modelo);
         
     }
+    public void tabelaSequenciaTratamento(){
+        
+    }
     /**
      * Creates new form principal
      */
@@ -890,7 +893,6 @@ public class Identificacao extends javax.swing.JFrame {
         });
         jScrollPane5.setViewportView(tabelaTratamento);
         if (tabelaTratamento.getColumnModel().getColumnCount() > 0) {
-            tabelaTratamento.getColumnModel().getColumn(0).setMinWidth(50);
             tabelaTratamento.getColumnModel().getColumn(1).setMinWidth(50);
             tabelaTratamento.getColumnModel().getColumn(2).setMinWidth(90);
         }
