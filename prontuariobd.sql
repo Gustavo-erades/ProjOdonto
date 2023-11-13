@@ -55,4 +55,10 @@ create table prontuariobd.sequencia_tratamento(
     id int not null,
     primary key(id)
 );
-
+create table prontuariobd.paciente_quest_odonto(
+	questoes varchar(18),
+    implante varchar(200),
+    tempo varchar(100),
+    id int not null,
+    primary key (id)
+);
