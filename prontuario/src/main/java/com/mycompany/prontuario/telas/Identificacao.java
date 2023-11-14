@@ -5,10 +5,12 @@
 package com.mycompany.prontuario.telas;
 
 import com.mycompany.prontuario.conexao.Conexao;
+import com.mycompany.prontuario.funcoesTela.BuscarDadosPesquisa;
 import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import com.mycompany.prontuario.funcoesTela.CadQuestOdonto;
 import com.mycompany.prontuario.funcoesTela.CadQuestionario;
+import com.mycompany.prontuario.funcoesTela.ResultadoPesquisa;
 import static java.lang.Integer.parseInt;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -85,6 +87,7 @@ public class Identificacao extends javax.swing.JFrame {
         setLocationRelativeTo(null);  
         selecionarDadosPaciente();
         visualizar.setVisible(false);
+        resultadoPesquisa.setVisible(false);
     }
 
     /**
@@ -106,6 +109,21 @@ public class Identificacao extends javax.swing.JFrame {
         visualizar = new javax.swing.JButton();
         caixaPesquisa = new javax.swing.JTextField();
         jButton8 = new javax.swing.JButton();
+        resultadoPesquisa = new javax.swing.JPanel();
+        resultadoNome = new javax.swing.JTextField();
+        jLabel62 = new javax.swing.JLabel();
+        resultadoId = new javax.swing.JTextField();
+        resultadoEmail = new javax.swing.JTextField();
+        jLabel69 = new javax.swing.JLabel();
+        resultadoResidencial = new javax.swing.JTextField();
+        jLabel70 = new javax.swing.JLabel();
+        resultadoIdade = new javax.swing.JTextField();
+        resultadoEndereco = new javax.swing.JTextField();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        resultadoCelular = new javax.swing.JTextField();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -133,7 +151,6 @@ public class Identificacao extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        contatoResponsavel = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
         responsavelLegal = new javax.swing.JTextField();
         idade = new javax.swing.JTextField();
@@ -144,6 +161,7 @@ public class Identificacao extends javax.swing.JFrame {
         telTrabalho = new javax.swing.JFormattedTextField();
         telCelular = new javax.swing.JFormattedTextField();
         cep = new javax.swing.JFormattedTextField();
+        contatoResponsavel = new javax.swing.JFormattedTextField();
         btnCancelar = new javax.swing.JButton();
         jScrollPane12 = new javax.swing.JScrollPane();
         jPanel10 = new javax.swing.JPanel();
@@ -334,6 +352,11 @@ public class Identificacao extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        tabelaSelect1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tabelaSelect1MouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(tabelaSelect1);
 
         visualizar.setText("visualizar");
@@ -356,12 +379,132 @@ public class Identificacao extends javax.swing.JFrame {
             }
         });
 
+        resultadoPesquisa.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Resultado da pesquisa", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Trebuchet MS", 1, 14))); // NOI18N
+
+        resultadoNome.setEditable(false);
+        resultadoNome.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoNome.setToolTipText("");
+
+        jLabel62.setText("Nome:");
+
+        resultadoId.setEditable(false);
+        resultadoId.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        resultadoId.setToolTipText("");
+
+        resultadoEmail.setEditable(false);
+        resultadoEmail.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoEmail.setToolTipText("");
+
+        jLabel69.setText("Email:");
+
+        resultadoResidencial.setEditable(false);
+        resultadoResidencial.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoResidencial.setToolTipText("");
+
+        jLabel70.setText("Celular:");
+
+        resultadoIdade.setEditable(false);
+        resultadoIdade.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoIdade.setToolTipText("");
+
+        resultadoEndereco.setEditable(false);
+        resultadoEndereco.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoEndereco.setToolTipText("");
+
+        jLabel75.setText("Idade:");
+
+        jLabel76.setText("Endereço:");
+
+        resultadoCelular.setEditable(false);
+        resultadoCelular.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
+        resultadoCelular.setToolTipText("");
+
+        jLabel77.setText("Telefone Residencial:");
+
+        jLabel78.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
+        jLabel78.setText("ID:");
+        jLabel78.setToolTipText("ID:");
+
+        javax.swing.GroupLayout resultadoPesquisaLayout = new javax.swing.GroupLayout(resultadoPesquisa);
+        resultadoPesquisa.setLayout(resultadoPesquisaLayout);
+        resultadoPesquisaLayout.setHorizontalGroup(
+            resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(jLabel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(resultadoId, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(669, 669, 669))
+                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(resultadoEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(27, 27, 27)
+                                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(29, 29, 29)))
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 493, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel70))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, resultadoPesquisaLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(resultadoResidencial)
+                            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                                .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE)))))
+                .addGap(49, 49, 49))
+        );
+        resultadoPesquisaLayout.setVerticalGroup(
+            resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(resultadoId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel62)
+                    .addComponent(jLabel69))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel70)
+                    .addComponent(jLabel75)
+                    .addComponent(jLabel76)
+                    .addComponent(jLabel77))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(resultadoEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(resultadoResidencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(204, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -372,8 +515,8 @@ public class Identificacao extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(visualizar)))
-                        .addGap(0, 669, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(resultadoPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 1342, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -387,7 +530,9 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24)
                 .addComponent(visualizar)
-                .addContainerGap(1306, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(resultadoPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(871, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Prontuários", jPanel1);
@@ -480,6 +625,12 @@ public class Identificacao extends javax.swing.JFrame {
             ex.printStackTrace();
         }
 
+        try {
+            contatoResponsavel.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("(##) 9 ####-####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -516,8 +667,7 @@ public class Identificacao extends javax.swing.JFrame {
                             .addComponent(jLabel28)
                             .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(profissao, javax.swing.GroupLayout.DEFAULT_SIZE, 287, Short.MAX_VALUE)
-                            .addComponent(rg))
-                        .addGap(12, 12, 12))
+                            .addComponent(rg)))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -540,13 +690,10 @@ public class Identificacao extends javax.swing.JFrame {
                                         .addComponent(jLabel17)))
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel19)
-                                .addGap(9, 9, 9))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(contatoResponsavel, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))))
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(contatoResponsavel))))
+                .addGap(12, 12, 12)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -639,11 +786,11 @@ public class Identificacao extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(contatoResponsavel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(responsavelLegal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(telResidencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(telTrabalho, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(telCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(telCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(contatoResponsavel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -2014,7 +2161,7 @@ public class Identificacao extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void visualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_visualizarActionPerformed
-        
+        resultadoPesquisa.setVisible(true);
     }//GEN-LAST:event_visualizarActionPerformed
 
     private void sexoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sexoActionPerformed
@@ -2446,6 +2593,24 @@ public class Identificacao extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(rootPane, "Cadastro das informações de saúde cancelado!","Cancelar cadastro de dados de saúde",JOptionPane.CANCEL_OPTION);
     }//GEN-LAST:event_cancealarQuestionarioActionPerformed
 
+    private void tabelaSelect1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelaSelect1MouseClicked
+        visualizar.setVisible(true);
+        int linhaSelecionada=tabelaSelect1.getSelectedRow();
+        resultadoNome.setText(tabelaSelect1.getValueAt(linhaSelecionada,1).toString());
+        resultadoId.setText(tabelaSelect1.getValueAt(linhaSelecionada,0).toString());
+        resultadoEmail.setText(tabelaSelect1.getValueAt(linhaSelecionada,4).toString());
+        resultadoCelular.setText(tabelaSelect1.getValueAt(linhaSelecionada,3).toString());
+        resultadoIdade.setText(tabelaSelect1.getValueAt(linhaSelecionada,2).toString());
+        BuscarDadosPesquisa buscarDadosPesquisa=new BuscarDadosPesquisa();
+        try {
+            buscarDadosPesquisa.dadosPesquisa(tabelaSelect1.getValueAt(linhaSelecionada,0).toString());
+            ResultadoPesquisa teste=new ResultadoPesquisa();
+            resultadoEndereco.setText(teste.getEndereco());
+        } catch (SQLException ex) {
+            Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_tabelaSelect1MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -2505,7 +2670,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField cidade;
     private javax.swing.JCheckBox cirrose;
     private javax.swing.JCheckBox cirurgia;
-    private javax.swing.JTextField contatoResponsavel;
+    private javax.swing.JFormattedTextField contatoResponsavel;
     private javax.swing.JTextField cor;
     private javax.swing.JFormattedTextField cpf;
     private javax.swing.JTextField dataNasc;
@@ -2598,17 +2763,24 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenuItem jMenuItem1;
@@ -2673,6 +2845,14 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox ranger;
     private javax.swing.JCheckBox respiraBoca;
     private javax.swing.JTextField responsavelLegal;
+    private javax.swing.JTextField resultadoCelular;
+    private javax.swing.JTextField resultadoEmail;
+    private javax.swing.JTextField resultadoEndereco;
+    private javax.swing.JTextField resultadoId;
+    private javax.swing.JTextField resultadoIdade;
+    private javax.swing.JTextField resultadoNome;
+    private javax.swing.JPanel resultadoPesquisa;
+    private javax.swing.JTextField resultadoResidencial;
     private javax.swing.JCheckBox reumatismo;
     private javax.swing.JFormattedTextField rg;
     private javax.swing.JCheckBox sangramento;
