@@ -7,6 +7,7 @@ package com.mycompany.prontuario.telas;
 import com.mycompany.prontuario.conexao.Conexao;
 import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
+import com.mycompany.prontuario.funcoesTela.CadQuestOdonto;
 import com.mycompany.prontuario.funcoesTela.CadQuestionario;
 import static java.lang.Integer.parseInt;
 import java.sql.PreparedStatement;
@@ -273,31 +274,31 @@ public class Identificacao extends javax.swing.JFrame {
         jLabel67 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
-        jCheckBox37 = new javax.swing.JCheckBox();
-        jCheckBox38 = new javax.swing.JCheckBox();
-        jCheckBox39 = new javax.swing.JCheckBox();
-        jCheckBox56 = new javax.swing.JCheckBox();
-        jCheckBox57 = new javax.swing.JCheckBox();
-        jCheckBox60 = new javax.swing.JCheckBox();
-        jCheckBox61 = new javax.swing.JCheckBox();
-        jCheckBox62 = new javax.swing.JCheckBox();
-        jCheckBox63 = new javax.swing.JCheckBox();
-        jCheckBox64 = new javax.swing.JCheckBox();
-        jCheckBox65 = new javax.swing.JCheckBox();
-        jCheckBox66 = new javax.swing.JCheckBox();
-        jCheckBox67 = new javax.swing.JCheckBox();
-        jCheckBox68 = new javax.swing.JCheckBox();
-        jCheckBox69 = new javax.swing.JCheckBox();
-        jCheckBox70 = new javax.swing.JCheckBox();
-        jCheckBox71 = new javax.swing.JCheckBox();
-        jCheckBox72 = new javax.swing.JCheckBox();
+        dorDente = new javax.swing.JCheckBox();
+        cirurgia = new javax.swing.JCheckBox();
+        radiografia = new javax.swing.JCheckBox();
+        mastigaDoisLados = new javax.swing.JCheckBox();
+        alteracaoBoca = new javax.swing.JCheckBox();
+        gengiva = new javax.swing.JCheckBox();
+        halitose = new javax.swing.JCheckBox();
+        afita = new javax.swing.JCheckBox();
+        mastigar = new javax.swing.JCheckBox();
+        mobilidade = new javax.swing.JCheckBox();
+        sensibilidade = new javax.swing.JCheckBox();
+        doresPescoco = new javax.swing.JCheckBox();
+        estalos = new javax.swing.JCheckBox();
+        lingua = new javax.swing.JCheckBox();
+        ranger = new javax.swing.JCheckBox();
+        sorriso = new javax.swing.JCheckBox();
+        periodental = new javax.swing.JCheckBox();
+        alteracao = new javax.swing.JCheckBox();
         jSeparator2 = new javax.swing.JSeparator();
         jLabel46 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jScrollPane17 = new javax.swing.JScrollPane();
-        alergiaMedicamento1 = new javax.swing.JTextArea();
+        implante = new javax.swing.JTextArea();
         jScrollPane18 = new javax.swing.JScrollPane();
-        alergiaMedicamento2 = new javax.swing.JTextArea();
+        tempo = new javax.swing.JTextArea();
         cadastrarProntuario1 = new javax.swing.JButton();
         cancealarQuestionario = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
@@ -1627,147 +1628,147 @@ public class Identificacao extends javax.swing.JFrame {
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário Odontológico"));
 
-        jCheckBox37.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox37.setText("Sente alguma dor?");
-        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
+        dorDente.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        dorDente.setText("Sente alguma dor?");
+        dorDente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox37ActionPerformed(evt);
+                dorDenteActionPerformed(evt);
             }
         });
 
-        jCheckBox38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox38.setText("Já submeteu-se a cirurgia odontológica?");
-        jCheckBox38.addActionListener(new java.awt.event.ActionListener() {
+        cirurgia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        cirurgia.setText("Já submeteu-se a cirurgia odontológica?");
+        cirurgia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox38ActionPerformed(evt);
+                cirurgiaActionPerformed(evt);
             }
         });
 
-        jCheckBox39.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox39.setText("Fez radiografias recentemente?");
-        jCheckBox39.addActionListener(new java.awt.event.ActionListener() {
+        radiografia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        radiografia.setText("Fez radiografias recentemente?");
+        radiografia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox39ActionPerformed(evt);
+                radiografiaActionPerformed(evt);
             }
         });
 
-        jCheckBox56.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox56.setText("Mastiga dos dois lados da boca?");
-        jCheckBox56.addActionListener(new java.awt.event.ActionListener() {
+        mastigaDoisLados.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mastigaDoisLados.setText("Mastiga dos dois lados da boca?");
+        mastigaDoisLados.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox56ActionPerformed(evt);
+                mastigaDoisLadosActionPerformed(evt);
             }
         });
 
-        jCheckBox57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox57.setText("Observou alguma alteração de forma, tamanho ou cor na boca?");
-        jCheckBox57.addActionListener(new java.awt.event.ActionListener() {
+        alteracaoBoca.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        alteracaoBoca.setText("Observou alguma alteração de forma, tamanho ou cor na boca?");
+        alteracaoBoca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox57ActionPerformed(evt);
+                alteracaoBocaActionPerformed(evt);
             }
         });
 
-        jCheckBox60.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox60.setText("Sua gengiva costuma sangrar?");
-        jCheckBox60.addActionListener(new java.awt.event.ActionListener() {
+        gengiva.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        gengiva.setText("Sua gengiva costuma sangrar?");
+        gengiva.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox60ActionPerformed(evt);
+                gengivaActionPerformed(evt);
             }
         });
 
-        jCheckBox61.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox61.setText("Apresenta mau hálito (halitose)?");
-        jCheckBox61.addActionListener(new java.awt.event.ActionListener() {
+        halitose.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        halitose.setText("Apresenta mau hálito (halitose)?");
+        halitose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox61ActionPerformed(evt);
+                halitoseActionPerformed(evt);
             }
         });
 
-        jCheckBox62.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox62.setText("Costuma ter afitas ou herpes?");
-        jCheckBox62.addActionListener(new java.awt.event.ActionListener() {
+        afita.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        afita.setText("Costuma ter afitas ou herpes?");
+        afita.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox62ActionPerformed(evt);
+                afitaActionPerformed(evt);
             }
         });
 
-        jCheckBox63.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox63.setText("Tem dificuldade em abrir a boca e mastigar?");
-        jCheckBox63.addActionListener(new java.awt.event.ActionListener() {
+        mastigar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mastigar.setText("Tem dificuldade em abrir a boca e mastigar?");
+        mastigar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox63ActionPerformed(evt);
+                mastigarActionPerformed(evt);
             }
         });
 
-        jCheckBox64.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox64.setText("Tem mobilidade nos dentes?");
-        jCheckBox64.addActionListener(new java.awt.event.ActionListener() {
+        mobilidade.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mobilidade.setText("Tem mobilidade nos dentes?");
+        mobilidade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox64ActionPerformed(evt);
+                mobilidadeActionPerformed(evt);
             }
         });
 
-        jCheckBox65.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox65.setText("possui sensibilidade nos dentes com quente/frio?");
-        jCheckBox65.addActionListener(new java.awt.event.ActionListener() {
+        sensibilidade.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sensibilidade.setText("possui sensibilidade nos dentes com quente/frio?");
+        sensibilidade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox65ActionPerformed(evt);
+                sensibilidadeActionPerformed(evt);
             }
         });
 
-        jCheckBox66.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox66.setText("Acorda com dores de cabeça e/ou no pescoço?");
-        jCheckBox66.addActionListener(new java.awt.event.ActionListener() {
+        doresPescoco.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        doresPescoco.setText("Acorda com dores de cabeça e/ou no pescoço?");
+        doresPescoco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox66ActionPerformed(evt);
+                doresPescocoActionPerformed(evt);
             }
         });
 
-        jCheckBox67.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox67.setText("Ouve estalos quando abre ou fecha a boca?");
-        jCheckBox67.addActionListener(new java.awt.event.ActionListener() {
+        estalos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        estalos.setText("Ouve estalos quando abre ou fecha a boca?");
+        estalos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox67ActionPerformed(evt);
+                estalosActionPerformed(evt);
             }
         });
 
-        jCheckBox68.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox68.setText("Morde língua, lábios ou bochechas?");
-        jCheckBox68.addActionListener(new java.awt.event.ActionListener() {
+        lingua.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lingua.setText("Morde língua, lábios ou bochechas?");
+        lingua.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox68ActionPerformed(evt);
+                linguaActionPerformed(evt);
             }
         });
 
-        jCheckBox69.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox69.setText("Costuma apertar ou ranger os dentes?");
-        jCheckBox69.addActionListener(new java.awt.event.ActionListener() {
+        ranger.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ranger.setText("Costuma apertar ou ranger os dentes?");
+        ranger.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox69ActionPerformed(evt);
+                rangerActionPerformed(evt);
             }
         });
 
-        jCheckBox70.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox70.setText("O que o/a incomoda no seu sorriso?");
-        jCheckBox70.addActionListener(new java.awt.event.ActionListener() {
+        sorriso.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sorriso.setText("O que o/a incomoda no seu sorriso?");
+        sorriso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox70ActionPerformed(evt);
+                sorrisoActionPerformed(evt);
             }
         });
 
-        jCheckBox71.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox71.setText("Já submeteu-se a tratamento periodental (gengiva)?");
-        jCheckBox71.addActionListener(new java.awt.event.ActionListener() {
+        periodental.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        periodental.setText("Já submeteu-se a tratamento periodental (gengiva)?");
+        periodental.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox71ActionPerformed(evt);
+                periodentalActionPerformed(evt);
             }
         });
 
-        jCheckBox72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jCheckBox72.setText("No rosto, alguma alteração de forma, tamanho ou cor?");
-        jCheckBox72.addActionListener(new java.awt.event.ActionListener() {
+        alteracao.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        alteracao.setText("No rosto, alguma alteração de forma, tamanho ou cor?");
+        alteracao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox72ActionPerformed(evt);
+                alteracaoActionPerformed(evt);
             }
         });
 
@@ -1777,13 +1778,13 @@ public class Identificacao extends javax.swing.JFrame {
         jLabel74.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel74.setText("Quanto tempo tem seu último tratamento odontológico?");
 
-        alergiaMedicamento1.setColumns(20);
-        alergiaMedicamento1.setRows(5);
-        jScrollPane17.setViewportView(alergiaMedicamento1);
+        implante.setColumns(20);
+        implante.setRows(5);
+        jScrollPane17.setViewportView(implante);
 
-        alergiaMedicamento2.setColumns(20);
-        alergiaMedicamento2.setRows(5);
-        jScrollPane18.setViewportView(alergiaMedicamento2);
+        tempo.setColumns(20);
+        tempo.setRows(5);
+        jScrollPane18.setViewportView(tempo);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -1796,26 +1797,26 @@ public class Identificacao extends javax.swing.JFrame {
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox64)
-                                    .addComponent(jCheckBox60)
-                                    .addComponent(jCheckBox61)
-                                    .addComponent(jCheckBox62)
-                                    .addComponent(jCheckBox65)
-                                    .addComponent(jCheckBox63)
-                                    .addComponent(jCheckBox66)
-                                    .addComponent(jCheckBox67)
-                                    .addComponent(jCheckBox69))
+                                    .addComponent(mobilidade)
+                                    .addComponent(gengiva)
+                                    .addComponent(halitose)
+                                    .addComponent(afita)
+                                    .addComponent(sensibilidade)
+                                    .addComponent(mastigar)
+                                    .addComponent(doresPescoco)
+                                    .addComponent(estalos)
+                                    .addComponent(ranger))
                                 .addGap(117, 117, 117)
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox38)
-                                    .addComponent(jCheckBox70)
-                                    .addComponent(jCheckBox71)
-                                    .addComponent(jCheckBox72)
-                                    .addComponent(jCheckBox39)
-                                    .addComponent(jCheckBox68)
-                                    .addComponent(jCheckBox56)
-                                    .addComponent(jCheckBox57)
-                                    .addComponent(jCheckBox37)))
+                                    .addComponent(cirurgia)
+                                    .addComponent(sorriso)
+                                    .addComponent(periodental)
+                                    .addComponent(alteracao)
+                                    .addComponent(radiografia)
+                                    .addComponent(lingua)
+                                    .addComponent(mastigaDoisLados)
+                                    .addComponent(alteracaoBoca)
+                                    .addComponent(dorDente)))
                             .addComponent(jLabel46)
                             .addComponent(jLabel74)
                             .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
@@ -1833,43 +1834,43 @@ public class Identificacao extends javax.swing.JFrame {
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(jCheckBox62)
+                                .addComponent(afita)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox60)
+                                .addComponent(gengiva)
                                 .addGap(28, 28, 28))
-                            .addComponent(jCheckBox61))
+                            .addComponent(halitose))
                         .addGap(5, 5, 5)
-                        .addComponent(jCheckBox64, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(mobilidade, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox65)
+                        .addComponent(sensibilidade)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox63)
+                        .addComponent(mastigar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox67)
+                        .addComponent(estalos)
                         .addGap(3, 3, 3)
-                        .addComponent(jCheckBox66, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(doresPescoco, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox69))
+                        .addComponent(ranger))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(jCheckBox72)
+                                .addComponent(alteracao)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox70)
+                                .addComponent(sorriso)
                                 .addGap(28, 28, 28))
-                            .addComponent(jCheckBox71))
+                            .addComponent(periodental))
                         .addGap(5, 5, 5)
-                        .addComponent(jCheckBox38, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cirurgia, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox39)
+                        .addComponent(radiografia)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox37)
+                        .addComponent(dorDente)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox68)
+                        .addComponent(lingua)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox56)
+                        .addComponent(mastigaDoisLados)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox57)))
+                        .addComponent(alteracaoBoca)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2252,81 +2253,82 @@ public class Identificacao extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_hempfiliaActionPerformed
 
-    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
+    private void dorDenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dorDenteActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox37ActionPerformed
+    }//GEN-LAST:event_dorDenteActionPerformed
 
-    private void jCheckBox38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox38ActionPerformed
+    private void cirurgiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirurgiaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox38ActionPerformed
+    }//GEN-LAST:event_cirurgiaActionPerformed
 
-    private void jCheckBox39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox39ActionPerformed
+    private void radiografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radiografiaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox39ActionPerformed
+    }//GEN-LAST:event_radiografiaActionPerformed
 
-    private void jCheckBox56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox56ActionPerformed
+    private void mastigaDoisLadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigaDoisLadosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox56ActionPerformed
+    }//GEN-LAST:event_mastigaDoisLadosActionPerformed
 
-    private void jCheckBox57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox57ActionPerformed
+    private void alteracaoBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoBocaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox57ActionPerformed
+    }//GEN-LAST:event_alteracaoBocaActionPerformed
 
-    private void jCheckBox60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox60ActionPerformed
+    private void gengivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gengivaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox60ActionPerformed
+    }//GEN-LAST:event_gengivaActionPerformed
 
-    private void jCheckBox61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox61ActionPerformed
+    private void halitoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_halitoseActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox61ActionPerformed
+    }//GEN-LAST:event_halitoseActionPerformed
 
-    private void jCheckBox62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox62ActionPerformed
+    private void afitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_afitaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox62ActionPerformed
+    }//GEN-LAST:event_afitaActionPerformed
 
-    private void jCheckBox63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox63ActionPerformed
+    private void mastigarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox63ActionPerformed
+    }//GEN-LAST:event_mastigarActionPerformed
 
-    private void jCheckBox64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox64ActionPerformed
+    private void mobilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mobilidadeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox64ActionPerformed
+    }//GEN-LAST:event_mobilidadeActionPerformed
 
-    private void jCheckBox65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox65ActionPerformed
+    private void sensibilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sensibilidadeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox65ActionPerformed
+    }//GEN-LAST:event_sensibilidadeActionPerformed
 
-    private void jCheckBox66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox66ActionPerformed
+    private void doresPescocoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresPescocoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox66ActionPerformed
+    }//GEN-LAST:event_doresPescocoActionPerformed
 
-    private void jCheckBox67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox67ActionPerformed
+    private void estalosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estalosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox67ActionPerformed
+    }//GEN-LAST:event_estalosActionPerformed
 
-    private void jCheckBox68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox68ActionPerformed
+    private void linguaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_linguaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox68ActionPerformed
+    }//GEN-LAST:event_linguaActionPerformed
 
-    private void jCheckBox69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox69ActionPerformed
+    private void rangerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rangerActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox69ActionPerformed
+    }//GEN-LAST:event_rangerActionPerformed
 
-    private void jCheckBox70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox70ActionPerformed
+    private void sorrisoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sorrisoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox70ActionPerformed
+    }//GEN-LAST:event_sorrisoActionPerformed
 
-    private void jCheckBox71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox71ActionPerformed
+    private void periodentalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_periodentalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox71ActionPerformed
+    }//GEN-LAST:event_periodentalActionPerformed
 
-    private void jCheckBox72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox72ActionPerformed
+    private void alteracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox72ActionPerformed
+    }//GEN-LAST:event_alteracaoActionPerformed
 
     private void cadastrarProntuario1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarProntuario1ActionPerformed
         String campoDoencaAtual2,campoAlergiaMedicamento,campoBebidaAlcoolica,campoDrogasIlicitas,
                 campoTomandoMedicamento,campoParouFumar,questoes ;
+        String campoImplante, campoTempo, questoesOdonto;
         // pega os valores dos checkboxes
         questoes=(doresFortes.isSelected()?"1":"0");
         questoes=questoes+(temVarizes.isSelected()?"1":"0");
@@ -2375,6 +2377,31 @@ public class Identificacao extends javax.swing.JFrame {
                     campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário de saúde geral. Arquivo 'Identificacao.java' "+ex, "Problemas no cadastro da saúde geral", JOptionPane.ERROR_MESSAGE);
+        }
+        questoesOdonto=(afita.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(gengiva.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(halitose.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(mobilidade.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(sensibilidade.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(mastigar.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(estalos.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(doresPescoco.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(ranger.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(alteracao.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(sorriso.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(periodental.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(cirurgia.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(radiografia.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(dorDente.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(lingua.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(mastigaDoisLados.isSelected()?"1":"0");
+        questoesOdonto=questoesOdonto+(alteracaoBoca.isSelected()?"1":"0");
+        campoImplante=implante.getText();
+        campoTempo=tempo.getText();
+        try{
+            new CadQuestOdonto().botaoCadProntuario2(questoesOdonto, campoImplante, campoTempo);
+        } catch(SQLException ex2){
+            JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário odontológico. Arquivo 'Identificacao.java' "+ex2, "Problemas no cadastro do questionário odontológico", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_cadastrarProntuario1ActionPerformed
 
@@ -2429,11 +2456,12 @@ public class Identificacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox afita;
     private javax.swing.JCheckBox aids;
     private javax.swing.JTextArea alcool;
     private javax.swing.JTextArea alergiaMedicamento;
-    private javax.swing.JTextArea alergiaMedicamento1;
-    private javax.swing.JTextArea alergiaMedicamento2;
+    private javax.swing.JCheckBox alteracao;
+    private javax.swing.JCheckBox alteracaoBoca;
     private javax.swing.JCheckBox anemia;
     private javax.swing.JCheckBox anticoncepcional;
     private javax.swing.JTextArea bebidaAlcoolica;
@@ -2446,6 +2474,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox cicatrizacao;
     private javax.swing.JTextField cidade;
     private javax.swing.JCheckBox cirrose;
+    private javax.swing.JCheckBox cirurgia;
     private javax.swing.JTextField contatoResponsavel;
     private javax.swing.JTextField cor;
     private javax.swing.JTextField cpf;
@@ -2453,8 +2482,10 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox diabete;
     private javax.swing.JTextArea doencaAtual;
     private javax.swing.JTextArea doencaContagiosa;
+    private javax.swing.JCheckBox dorDente;
     private javax.swing.JCheckBox doresFortes;
     private javax.swing.ButtonGroup doresPeito;
+    private javax.swing.JCheckBox doresPescoco;
     private javax.swing.JTextArea drogasIlicitas;
     private javax.swing.JCheckBox dst;
     private javax.swing.JTextField email;
@@ -2462,37 +2493,23 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox enxaqueca;
     private javax.swing.JCheckBox eplepsia;
     private javax.swing.JTextField estadoCivil;
+    private javax.swing.JCheckBox estalos;
     private javax.swing.JTextArea exameFisico;
     private javax.swing.JTextArea extraOral;
     private javax.swing.JCheckBox fuma;
     private javax.swing.JTextArea fumo;
+    private javax.swing.JCheckBox gengiva;
     private javax.swing.JCheckBox gravidez;
+    private javax.swing.JCheckBox halitose;
     private javax.swing.JCheckBox hemodialise;
     private javax.swing.JCheckBox hempfilia;
     private javax.swing.JCheckBox hepatite;
     private javax.swing.JCheckBox hipertenso;
     private javax.swing.JTextField idade;
+    private javax.swing.JTextArea implante;
     private javax.swing.JTextArea intraOral;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JCheckBox jCheckBox37;
-    private javax.swing.JCheckBox jCheckBox38;
-    private javax.swing.JCheckBox jCheckBox39;
-    private javax.swing.JCheckBox jCheckBox56;
-    private javax.swing.JCheckBox jCheckBox57;
-    private javax.swing.JCheckBox jCheckBox60;
-    private javax.swing.JCheckBox jCheckBox61;
-    private javax.swing.JCheckBox jCheckBox62;
-    private javax.swing.JCheckBox jCheckBox63;
-    private javax.swing.JCheckBox jCheckBox64;
-    private javax.swing.JCheckBox jCheckBox65;
-    private javax.swing.JCheckBox jCheckBox66;
-    private javax.swing.JCheckBox jCheckBox67;
-    private javax.swing.JCheckBox jCheckBox68;
-    private javax.swing.JCheckBox jCheckBox69;
-    private javax.swing.JCheckBox jCheckBox70;
-    private javax.swing.JCheckBox jCheckBox71;
-    private javax.swing.JCheckBox jCheckBox72;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -2568,14 +2585,12 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
@@ -2597,8 +2612,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane40;
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
@@ -2607,13 +2620,18 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JCheckBox labirintite;
     private javax.swing.JCheckBox leucemia;
+    private javax.swing.JCheckBox lingua;
     private javax.swing.JCheckBox marcapasso;
+    private javax.swing.JCheckBox mastigaDoisLados;
+    private javax.swing.JCheckBox mastigar;
     private javax.swing.JTextArea medicaPregressa;
     private javax.swing.JTextArea medicacaoUso;
+    private javax.swing.JCheckBox mobilidade;
     private javax.swing.JTextField nome;
     private javax.swing.JCheckBox osteoporose;
     private javax.swing.JTextArea parouFumar;
     private javax.swing.JCheckBox pedraRins;
+    private javax.swing.JCheckBox periodental;
     private javax.swing.JCheckBox pneumonia;
     private javax.swing.JTextArea pressaoArterial;
     private javax.swing.JCheckBox problemaCoracao;
@@ -2622,21 +2640,24 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox psicologico;
     private javax.swing.JTextArea queixaPrincipal;
     private javax.swing.JCheckBox quimioterapia;
+    private javax.swing.JCheckBox radiografia;
+    private javax.swing.JCheckBox ranger;
     private javax.swing.JCheckBox respiraBoca;
     private javax.swing.JTextField responsavelLegal;
     private javax.swing.JCheckBox reumatismo;
     private javax.swing.JTextField rg;
     private javax.swing.JCheckBox sangramento;
+    private javax.swing.JCheckBox sensibilidade;
     private javax.swing.JComboBox<String> sexo;
     private javax.swing.JCheckBox sinusite;
+    private javax.swing.JCheckBox sorriso;
     private javax.swing.JTable tabelaSelect1;
-    private javax.swing.JTable tabelaTratamento;
-    private javax.swing.JTable tabelaTratamento1;
     private javax.swing.JTable tabelaTratamento2;
     private javax.swing.JTextField telCelular;
     private javax.swing.JTextField telResidencial;
     private javax.swing.JTextField telTrabalho;
     private javax.swing.JCheckBox temVarizes;
+    private javax.swing.JTextArea tempo;
     private javax.swing.JTextArea tomandoMedicamento;
     private javax.swing.JCheckBox tontura;
     private javax.swing.JCheckBox transfusao;
