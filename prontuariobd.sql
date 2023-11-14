@@ -52,13 +52,15 @@ create table prontuariobd.sequencia_tratamento(
 	data_tratamento varchar(10),
     dente varchar(20),
     procedimento varchar(100),
-    id int not null,
+    id int not null auto_increment,
     primary key(id)
 );
 create table prontuariobd.paciente_quest_odonto(
 	questoes varchar(18),
     implante varchar(200),
     tempo varchar(100),
-    id int not null,
+    id int not null auto_increment,
     primary key (id)
 );
+select*from prontuariobd.paciente_quest_odonto;
+insert into prontuariobd.paciente_quest_odonto(questoes,implante,tempo) values("1321","ererre","ffefew");

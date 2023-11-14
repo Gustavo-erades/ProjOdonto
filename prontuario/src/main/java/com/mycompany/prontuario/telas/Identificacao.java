@@ -2372,12 +2372,8 @@ public class Identificacao extends javax.swing.JFrame {
         campoDrogasIlicitas=drogasIlicitas.getText();
         campoTomandoMedicamento=tomandoMedicamento.getText();
         campoParouFumar=parouFumar.getText();
-        try {
-            new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual2,campoAlergiaMedicamento,
-                    campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
-        } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário de saúde geral. Arquivo 'Identificacao.java' "+ex, "Problemas no cadastro da saúde geral", JOptionPane.ERROR_MESSAGE);
-        }
+        
+        
         questoesOdonto=(afita.isSelected()?"1":"0");
         questoesOdonto=questoesOdonto+(gengiva.isSelected()?"1":"0");
         questoesOdonto=questoesOdonto+(halitose.isSelected()?"1":"0");
@@ -2398,6 +2394,12 @@ public class Identificacao extends javax.swing.JFrame {
         questoesOdonto=questoesOdonto+(alteracaoBoca.isSelected()?"1":"0");
         campoImplante=implante.getText();
         campoTempo=tempo.getText();
+        try {
+            new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual2,campoAlergiaMedicamento,
+                    campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário de saúde geral. Arquivo 'Identificacao.java' "+ex, "Problemas no cadastro da saúde geral", JOptionPane.ERROR_MESSAGE);
+        }
         try{
             new CadQuestOdonto().botaoCadProntuario2(questoesOdonto, campoImplante, campoTempo);
         } catch(SQLException ex2){

@@ -1,7 +1,9 @@
 
 package com.mycompany.prontuario.funcoesTela;
 
+import com.mycompany.prontuario.DAO.QuestOdontoDao;
 import com.mycompany.prontuario.DAO.SaudeGeralDao;
+import com.mycompany.prontuario.entidades.QuestOdonto;
 import com.mycompany.prontuario.entidades.SaudeGeral;
 import java.sql.SQLException;
 
