@@ -84,6 +84,7 @@ public class Identificacao extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);  
         selecionarDadosPaciente();
+        visualizar.setVisible(false);
     }
 
     /**
@@ -102,7 +103,7 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabelaSelect1 = new javax.swing.JTable();
-        jButton7 = new javax.swing.JButton();
+        visualizar = new javax.swing.JButton();
         caixaPesquisa = new javax.swing.JTextField();
         jButton8 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
@@ -335,10 +336,10 @@ public class Identificacao extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tabelaSelect1);
 
-        jButton7.setText("visualizar");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        visualizar.setText("visualizar");
+        visualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                visualizarActionPerformed(evt);
             }
         });
 
@@ -370,7 +371,7 @@ public class Identificacao extends javax.swing.JFrame {
                                 .addComponent(jButton8))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(jButton7)))
+                                .addComponent(visualizar)))
                         .addGap(0, 669, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
@@ -385,7 +386,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24)
-                .addComponent(jButton7)
+                .addComponent(visualizar)
                 .addContainerGap(1306, Short.MAX_VALUE))
         );
 
@@ -2012,9 +2013,9 @@ public class Identificacao extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void visualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_visualizarActionPerformed
         
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_visualizarActionPerformed
 
     private void sexoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sexoActionPerformed
         // TODO add your handling code here:
@@ -2472,7 +2473,6 @@ public class Identificacao extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
-
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -2538,7 +2538,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField idade;
     private javax.swing.JTextArea implante;
     private javax.swing.JTextArea intraOral;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
@@ -2693,5 +2692,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox transfusao;
     private javax.swing.JCheckBox tratamentoMedico;
     private javax.swing.JCheckBox tuberculose;
+    private javax.swing.JButton visualizar;
     // End of variables declaration//GEN-END:variables
 }
