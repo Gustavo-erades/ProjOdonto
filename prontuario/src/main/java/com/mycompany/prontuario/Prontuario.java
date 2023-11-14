@@ -7,5 +7,6 @@ public class Prontuario {
     public static void main(String[] args) throws SQLException{
         Identificacao telaPrincipal= new Identificacao();
         telaPrincipal.setVisible(true);
+        
     }
 }
