@@ -371,7 +371,7 @@ public class Identificacao extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(jButton7)))
-                        .addGap(0, 4020, Short.MAX_VALUE))
+                        .addGap(0, 613, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
@@ -386,7 +386,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24)
                 .addComponent(jButton7)
-                .addContainerGap(1819, Short.MAX_VALUE))
+                .addContainerGap(1306, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Prontuários", jPanel1);
@@ -700,7 +700,7 @@ public class Identificacao extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jScrollPane38, javax.swing.GroupLayout.DEFAULT_SIZE, 4244, Short.MAX_VALUE)
+                                .addComponent(jScrollPane38, javax.swing.GroupLayout.DEFAULT_SIZE, 4285, Short.MAX_VALUE)
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -793,7 +793,7 @@ public class Identificacao extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addContainerGap())
-                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 4693, Short.MAX_VALUE)))
+                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 1287, Short.MAX_VALUE)))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnCadastrar)
@@ -816,6 +816,9 @@ public class Identificacao extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("Novo Paciente", jPanel4);
+
+        jPanel2.setMaximumSize(new java.awt.Dimension(3200, 3200));
+        jPanel2.setPreferredSize(new java.awt.Dimension(4700, 2000));
 
         jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Sequência de tratamento"));
 
@@ -893,7 +896,7 @@ public class Identificacao extends javax.swing.JFrame {
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 1143, Short.MAX_VALUE)
+                .addComponent(jScrollPane8)
                 .addContainerGap())
         );
         jPanel12Layout.setVerticalGroup(
@@ -1793,8 +1796,9 @@ public class Identificacao extends javax.swing.JFrame {
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator2)
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(mobilidade)
@@ -1819,11 +1823,9 @@ public class Identificacao extends javax.swing.JFrame {
                                     .addComponent(dorDente)))
                             .addComponent(jLabel46)
                             .addComponent(jLabel74)
-                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jScrollPane18, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 925, Short.MAX_VALUE)
-                                .addComponent(jScrollPane17, javax.swing.GroupLayout.Alignment.LEADING)))
-                        .addGap(0, 132, Short.MAX_VALUE))
-                    .addComponent(jSeparator2))
+                            .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 1040, Short.MAX_VALUE)
+                            .addComponent(jScrollPane18))
+                        .addGap(0, 180, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
@@ -1904,21 +1906,22 @@ public class Identificacao extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 1259, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 1259, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGap(924, 924, 924)
                             .addComponent(cadastrarProntuario1)
                             .addGap(18, 18, 18)
                             .addComponent(cancealarQuestionario))
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(3495, Short.MAX_VALUE))
+                        .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap(3426, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1928,7 +1931,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cadastrarProntuario1)
                     .addComponent(cancealarQuestionario))
-                .addContainerGap(683, Short.MAX_VALUE))
+                .addGap(512, 512, 512))
         );
 
         jScrollPane2.setViewportView(jPanel2);
@@ -1937,11 +1940,11 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1293, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 2051, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1538, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Novo Prontuário", jPanel5);
@@ -1950,11 +1953,11 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 4699, Short.MAX_VALUE)
+            .addGap(0, 1293, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2051, Short.MAX_VALUE)
+            .addGap(0, 1538, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Consultas", jPanel6);
@@ -1963,10 +1966,9 @@ public class Identificacao extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1)
-                .addContainerGap())
+                .addComponent(jTabbedPane1))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
