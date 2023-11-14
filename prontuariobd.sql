@@ -64,3 +64,4 @@ create table prontuariobd.paciente_quest_odonto(
 );
 select*from prontuariobd.paciente_quest_odonto;
 insert into prontuariobd.paciente_quest_odonto(questoes,implante,tempo) values("1321","ererre","ffefew");
+SELECT ENDERECO FROM prontuariobd.PACIENTE WHERE ID='1';
