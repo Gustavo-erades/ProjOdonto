@@ -49,15 +49,19 @@ public class Identificacao extends javax.swing.JFrame {
         ResultSet[] rs=new ResultSet[5];
         preparedStatement1= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement1.executeQuery();
-        Object[] colunas=new Object[]{"Endereco","Celular","Telefone Residencial","Profissao","Data de Nascimento"};
+        Object[] colunas=new Object[]{"CPF","RG","Sexo","Cor/Raça","Estado Civil",
+        "Data de Nascimento","Idade","Profissão"};
         DefaultTableModel modelo=new DefaultTableModel(colunas,0);
         while(rs[0].next()){
             Object[] pacientes=new Object[]{
-               rs[0].getString("ENDERECO"),
-               rs[0].getString("TELEFONE"),
-               rs[0].getString("TELEFONE_CASA"),
-               rs[0].getString("PROFISSAO"),
-               rs[0].getString("DATA_NASCIMENTO")
+               rs[0].getString("CPF"),
+               rs[0].getString("RG"),
+               rs[0].getString("SEXO"),
+               rs[0].getString("COR"),
+               rs[0].getString("ESTADO_CIVIL"),
+               rs[0].getString("DATA_NASCIMENTO"),
+               rs[0].getString("IDADE"),
+               rs[0].getString("PROFISSAO")
             };
             modelo.addRow(pacientes);   
         }
@@ -142,17 +146,17 @@ public class Identificacao extends javax.swing.JFrame {
         resultadoId = new javax.swing.JTextField();
         resultadoEmail = new javax.swing.JTextField();
         jLabel69 = new javax.swing.JLabel();
-        resultadoResidencial = new javax.swing.JTextField();
         jLabel70 = new javax.swing.JLabel();
         resultadoIdade = new javax.swing.JTextField();
-        resultadoEndereco = new javax.swing.JTextField();
         jLabel75 = new javax.swing.JLabel();
-        jLabel76 = new javax.swing.JLabel();
         resultadoCelular = new javax.swing.JTextField();
-        jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         resultPesquisa2 = new javax.swing.JTable();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         jScrollPane3 = new javax.swing.JScrollPane();
         resultPesquisa1 = new javax.swing.JTable();
         jPanel4 = new javax.swing.JPanel();
@@ -398,29 +402,17 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel69.setText("Email:");
 
-        resultadoResidencial.setEditable(false);
-        resultadoResidencial.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
-        resultadoResidencial.setToolTipText("");
-
         jLabel70.setText("Celular:");
 
         resultadoIdade.setEditable(false);
         resultadoIdade.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
         resultadoIdade.setToolTipText("");
 
-        resultadoEndereco.setEditable(false);
-        resultadoEndereco.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
-        resultadoEndereco.setToolTipText("");
-
         jLabel75.setText("Idade:");
-
-        jLabel76.setText("Endereço:");
 
         resultadoCelular.setEditable(false);
         resultadoCelular.setFont(new java.awt.Font("Segoe UI Emoji", 3, 14)); // NOI18N
         resultadoCelular.setToolTipText("");
-
-        jLabel77.setText("Telefone Residencial:");
 
         jLabel78.setFont(new java.awt.Font("Segoe UI Black", 1, 36)); // NOI18N
         jLabel78.setText("ID:");
@@ -431,14 +423,14 @@ public class Identificacao extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Endereço", "Celular", "Telefone Residencial", "Profissão", "Data de nascimento"
+                "Endereço", "CEP", "Telefone Residencial", "Profissão", "Data de nascimento", "Telefone de Trabalho", "Sexo", "Estado Civil"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false
+                false, false, false, false, false, true, true, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -456,52 +448,58 @@ public class Identificacao extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(resultPesquisa2);
 
+        jLabel79.setText("Dados Pessoais:");
+
+        jLabel76.setText("Dados de Contato:");
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Email", "Telefone Celular", "Telefone Residencial", "Telefone de Trabalho"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable1);
+
         javax.swing.GroupLayout resultadoPesquisaLayout = new javax.swing.GroupLayout(resultadoPesquisa);
         resultadoPesquisa.setLayout(resultadoPesquisaLayout);
         resultadoPesquisaLayout.setHorizontalGroup(
             resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, resultadoPesquisaLayout.createSequentialGroup()
-                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(jScrollPane1))
+            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                .addGap(45, 45, 45)
+                .addComponent(jLabel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(resultadoId, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(1211, 1211, 1211))
+            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                .addGap(61, 61, 61)
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(resultadoPesquisaLayout.createSequentialGroup()
                         .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
-                                .addGap(45, 45, 45)
-                                .addComponent(jLabel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(resultadoId, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(669, 669, 669))
-                            .addGroup(resultadoPesquisaLayout.createSequentialGroup()
-                                .addGap(61, 61, 61)
-                                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
-                                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(resultadoEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(27, 27, 27)
-                                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addGap(29, 29, 29)))
-                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 493, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel70))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, resultadoPesquisaLayout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(resultadoResidencial)
-                                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
-                                        .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 0, Short.MAX_VALUE)))))))
-                .addGap(49, 49, 49))
+                            .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel75, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE)
+                            .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel70)))
+                    .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
+                        .addComponent(jLabel79, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel76, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         resultadoPesquisaLayout.setVerticalGroup(
             resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -511,29 +509,32 @@ public class Identificacao extends javax.swing.JFrame {
                     .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(resultadoId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel62)
-                    .addComponent(jLabel69))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel70)
-                    .addComponent(jLabel75)
-                    .addComponent(jLabel76)
-                    .addComponent(jLabel77))
+                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel62)
+                            .addComponent(jLabel69))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                        .addComponent(jLabel75)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(resultadoPesquisaLayout.createSequentialGroup()
+                        .addComponent(jLabel70)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(resultadoPesquisaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(resultadoEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(resultadoResidencial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addComponent(jLabel79)
+                .addGap(1, 1, 1)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(145, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel76)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(77, Short.MAX_VALUE))
         );
 
         resultPesquisa1.setModel(new javax.swing.table.DefaultTableModel(
@@ -604,7 +605,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(visualizar)
                 .addGap(18, 18, 18)
                 .addComponent(resultadoPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(871, Short.MAX_VALUE))
+                .addContainerGap(921, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(78, 78, 78)
@@ -2863,8 +2864,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
-    private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenuItem jMenuItem1;
@@ -2895,6 +2896,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane37;
     private javax.swing.JScrollPane jScrollPane38;
     private javax.swing.JScrollPane jScrollPane39;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane40;
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
@@ -2904,6 +2906,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTable1;
     private javax.swing.JCheckBox labirintite;
     private javax.swing.JCheckBox leucemia;
     private javax.swing.JCheckBox lingua;
@@ -2934,12 +2937,10 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTable resultPesquisa2;
     private javax.swing.JTextField resultadoCelular;
     private javax.swing.JTextField resultadoEmail;
-    private javax.swing.JTextField resultadoEndereco;
     private javax.swing.JTextField resultadoId;
     private javax.swing.JTextField resultadoIdade;
     private javax.swing.JTextField resultadoNome;
     private javax.swing.JPanel resultadoPesquisa;
-    private javax.swing.JTextField resultadoResidencial;
     private javax.swing.JCheckBox reumatismo;
     private javax.swing.JFormattedTextField rg;
     private javax.swing.JCheckBox sangramento;
