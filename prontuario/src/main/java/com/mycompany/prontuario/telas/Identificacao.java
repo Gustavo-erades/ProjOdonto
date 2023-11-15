@@ -69,6 +69,11 @@ public class Identificacao extends javax.swing.JFrame {
          tabelaSelect1.setModel(modelo);
         
     }
+    public void buscarDadosPesquisa() throws SQLException{
+        String sql="SELECT ENDERECO FROM PACIENTE WHERE id=1;";
+        System.out.println("oi");
+        
+    }
     public void tabelaSequenciaTratamento(){
         
     }
@@ -2601,13 +2606,10 @@ public class Identificacao extends javax.swing.JFrame {
         resultadoEmail.setText(tabelaSelect1.getValueAt(linhaSelecionada,4).toString());
         resultadoCelular.setText(tabelaSelect1.getValueAt(linhaSelecionada,3).toString());
         resultadoIdade.setText(tabelaSelect1.getValueAt(linhaSelecionada,2).toString());
-        BuscarDadosPesquisa buscarDadosPesquisa=new BuscarDadosPesquisa();
         try {
-            buscarDadosPesquisa.dadosPesquisa(tabelaSelect1.getValueAt(linhaSelecionada,0).toString());
-            ResultadoPesquisa teste=new ResultadoPesquisa();
-            resultadoEndereco.setText(teste.getEndereco());
+            buscarDadosPesquisa();
         } catch (SQLException ex) {
-            Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Erro!"+ex);
         }
     }//GEN-LAST:event_tabelaSelect1MouseClicked
 
