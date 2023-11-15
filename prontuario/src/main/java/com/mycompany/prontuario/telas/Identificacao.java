@@ -47,11 +47,15 @@ public class Identificacao extends javax.swing.JFrame {
     public void resultadoPesquisaPaciente(String id) throws SQLException{
         String sql="SELECT * FROM PACIENTE WHERE ID="+id+" ORDER BY NOME ASC";
         ResultSet[] rs=new ResultSet[5];
+        ResultSet[] rsContato=new ResultSet[4];
         preparedStatement1= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement1.executeQuery();
+        rsContato[0]=preparedStatement1.executeQuery();
         Object[] colunas=new Object[]{"CPF","RG","Sexo","Cor/Raça","Estado Civil",
         "Data de Nascimento","Idade","Profissão"};
+        Object[] colunasContato=new Object[]{"E-mail","Telefone Residencial","Telefone Celulat","Telefone Trabalho"};
         DefaultTableModel modelo=new DefaultTableModel(colunas,0);
+        DefaultTableModel modeloContato=new DefaultTableModel(colunasContato,0);
         while(rs[0].next()){
             Object[] pacientes=new Object[]{
                rs[0].getString("CPF"),
@@ -65,7 +69,17 @@ public class Identificacao extends javax.swing.JFrame {
             };
             modelo.addRow(pacientes);   
         }
+        while(rsContato[0].next()){
+            Object[] pacientes=new Object[]{
+               rsContato[0].getString("email"),
+               rsContato[0].getString("telefone_casa"),
+               rsContato[0].getString("telefone"),
+               rsContato[0].getString("telefone_trab")
+            };
+            modeloContato.addRow(pacientes);   
+        }
          resultPesquisa2.setModel(modelo);
+         resultPesquisa3.setModel(modeloContato);
     }
     public void pesquisarDadosPaciente() throws SQLException{
         String sql2="SELECT * FROM PACIENTE WHERE "
@@ -156,12 +170,12 @@ public class Identificacao extends javax.swing.JFrame {
         jLabel79 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        resultPesquisa3 = new javax.swing.JTable();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        resultPesquisa4 = new javax.swing.JTable();
         jLabel77 = new javax.swing.JLabel();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
+        resultPesquisa5 = new javax.swing.JTable();
         jLabel80 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         resultPesquisa1 = new javax.swing.JTable();
@@ -458,7 +472,7 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel76.setText("Dados de Contato:");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        resultPesquisa3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -469,14 +483,14 @@ public class Identificacao extends javax.swing.JFrame {
                 "Email", "Telefone Celular", "Telefone Residencial", "Telefone de Trabalho"
             }
         ));
-        jScrollPane4.setViewportView(jTable1);
-        if (jTable1.getColumnModel().getColumnCount() > 0) {
-            jTable1.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
-            jTable1.getColumnModel().getColumn(3).setResizable(false);
-            jTable1.getColumnModel().getColumn(3).setHeaderValue("Telefone de Trabalho");
+        jScrollPane4.setViewportView(resultPesquisa3);
+        if (resultPesquisa3.getColumnModel().getColumnCount() > 0) {
+            resultPesquisa3.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
+            resultPesquisa3.getColumnModel().getColumn(3).setResizable(false);
+            resultPesquisa3.getColumnModel().getColumn(3).setHeaderValue("Telefone de Trabalho");
         }
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        resultPesquisa4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -487,14 +501,14 @@ public class Identificacao extends javax.swing.JFrame {
                 "Endereço", "Cidade", "CEP"
             }
         ));
-        jScrollPane5.setViewportView(jTable2);
-        if (jTable2.getColumnModel().getColumnCount() > 0) {
-            jTable2.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
+        jScrollPane5.setViewportView(resultPesquisa4);
+        if (resultPesquisa4.getColumnModel().getColumnCount() > 0) {
+            resultPesquisa4.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
         }
 
         jLabel77.setText("Endereço:");
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+        resultPesquisa5.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null},
@@ -505,7 +519,7 @@ public class Identificacao extends javax.swing.JFrame {
                 "Nome do Responsável Legal", "contato do Responsável Legal"
             }
         ));
-        jScrollPane6.setViewportView(jTable3);
+        jScrollPane6.setViewportView(resultPesquisa5);
 
         jLabel80.setText("Filiação:");
 
@@ -2968,9 +2982,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable3;
     private javax.swing.JCheckBox labirintite;
     private javax.swing.JCheckBox leucemia;
     private javax.swing.JCheckBox lingua;
@@ -2999,6 +3010,9 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField responsavelLegal;
     private javax.swing.JTable resultPesquisa1;
     private javax.swing.JTable resultPesquisa2;
+    private javax.swing.JTable resultPesquisa3;
+    private javax.swing.JTable resultPesquisa4;
+    private javax.swing.JTable resultPesquisa5;
     private javax.swing.JTextField resultadoCelular;
     private javax.swing.JTextField resultadoEmail;
     private javax.swing.JTextField resultadoId;
