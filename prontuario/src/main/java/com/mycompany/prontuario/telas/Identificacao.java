@@ -5,11 +5,11 @@
 package com.mycompany.prontuario.telas;
 
 import com.mycompany.prontuario.conexao.Conexao;
-import com.mycompany.prontuario.funcoesTela.BuscarDadosPesquisa;
 import com.mycompany.prontuario.funcoesTela.CadInformacoes;
 import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import com.mycompany.prontuario.funcoesTela.CadQuestOdonto;
 import com.mycompany.prontuario.funcoesTela.CadQuestionario;
+import com.mycompany.prontuario.funcoesTela.ChamaResultadoPesquisa;
 import com.mycompany.prontuario.funcoesTela.ResultadoPesquisa;
 import static java.lang.Integer.parseInt;
 import java.sql.PreparedStatement;
@@ -67,11 +67,6 @@ public class Identificacao extends javax.swing.JFrame {
             modelo.addRow(pacientes);   
         }
          tabelaSelect1.setModel(modelo);
-        
-    }
-    public void buscarDadosPesquisa() throws SQLException{
-        String sql="SELECT ENDERECO FROM PACIENTE WHERE id=1;";
-        System.out.println("oi");
         
     }
     public void tabelaSequenciaTratamento(){
@@ -2607,7 +2602,8 @@ public class Identificacao extends javax.swing.JFrame {
         resultadoCelular.setText(tabelaSelect1.getValueAt(linhaSelecionada,3).toString());
         resultadoIdade.setText(tabelaSelect1.getValueAt(linhaSelecionada,2).toString());
         try {
-            buscarDadosPesquisa();
+            ChamaResultadoPesquisa teste=new ChamaResultadoPesquisa ();
+            teste.botaoPesquisar(tabelaSelect1.getValueAt(linhaSelecionada,1).toString());
         } catch (SQLException ex) {
             System.out.println("Erro!"+ex);
         }
