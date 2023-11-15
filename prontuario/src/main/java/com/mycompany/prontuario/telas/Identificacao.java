@@ -67,6 +67,24 @@ public class Identificacao extends javax.swing.JFrame {
         }
          resultPesquisa2.setModel(modelo);
     }
+    public void resultadoPesquisaContato(String id) throws SQLException{
+        String sql="SELECT * FROM PACIENTE WHERE ID="+id+" ORDER BY NOME ASC";
+        ResultSet[] rs=new ResultSet[4];
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql);
+        rs[0]=preparedStatement1.executeQuery();
+        Object[] colunas=new Object[]{"E-mail","Telefone Residencial","Telefone Celular","Telefone trabalho"};
+        DefaultTableModel modelo=new DefaultTableModel(colunas,0);
+        while(rs[0].next()){
+            Object[] pacientes=new Object[]{
+               rs[0].getString("email"),
+               rs[0].getString("telefone_casa"),
+               rs[0].getString("telefone"),
+               rs[0].getString("telefone_tran")
+            };
+            modelo.addRow(pacientes);   
+        }
+         resultPesquisa3.setModel(modelo);
+    }
     public void pesquisarDadosPaciente() throws SQLException{
         String sql2="SELECT * FROM PACIENTE WHERE "
                 + "(NOME LIKE '%"+caixaPesquisa.getText()+"%') OR"
@@ -2758,6 +2776,7 @@ public class Identificacao extends javax.swing.JFrame {
             System.out.println("Erro!"+ex);
             }*/
             resultadoPesquisaPaciente(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaContato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
         } catch (SQLException ex) {
             Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
         }
