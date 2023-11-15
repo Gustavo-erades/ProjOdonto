@@ -47,15 +47,11 @@ public class Identificacao extends javax.swing.JFrame {
     public void resultadoPesquisaPaciente(String id) throws SQLException{
         String sql="SELECT * FROM PACIENTE WHERE ID="+id+" ORDER BY NOME ASC";
         ResultSet[] rs=new ResultSet[5];
-        ResultSet[] rsContato=new ResultSet[4];
         preparedStatement1= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement1.executeQuery();
-        rsContato[0]=preparedStatement1.executeQuery();
         Object[] colunas=new Object[]{"CPF","RG","Sexo","Cor/Raça","Estado Civil",
         "Data de Nascimento","Idade","Profissão"};
-        Object[] colunasContato=new Object[]{"E-mail","Telefone Residencial","Telefone Celulat","Telefone Trabalho"};
         DefaultTableModel modelo=new DefaultTableModel(colunas,0);
-        DefaultTableModel modeloContato=new DefaultTableModel(colunasContato,0);
         while(rs[0].next()){
             Object[] pacientes=new Object[]{
                rs[0].getString("CPF"),
@@ -69,17 +65,7 @@ public class Identificacao extends javax.swing.JFrame {
             };
             modelo.addRow(pacientes);   
         }
-        while(rsContato[0].next()){
-            Object[] pacientes=new Object[]{
-               rsContato[0].getString("email"),
-               rsContato[0].getString("telefone_casa"),
-               rsContato[0].getString("telefone"),
-               rsContato[0].getString("telefone_trab")
-            };
-            modeloContato.addRow(pacientes);   
-        }
          resultPesquisa2.setModel(modelo);
-         resultPesquisa3.setModel(modeloContato);
     }
     public void pesquisarDadosPaciente() throws SQLException{
         String sql2="SELECT * FROM PACIENTE WHERE "
@@ -485,7 +471,8 @@ public class Identificacao extends javax.swing.JFrame {
         ));
         jScrollPane4.setViewportView(resultPesquisa3);
         if (resultPesquisa3.getColumnModel().getColumnCount() > 0) {
-            resultPesquisa3.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
+            resultPesquisa3.getColumnModel().getColumn(0).setResizable(false);
+            resultPesquisa3.getColumnModel().getColumn(2).setResizable(false);
             resultPesquisa3.getColumnModel().getColumn(3).setResizable(false);
             resultPesquisa3.getColumnModel().getColumn(3).setHeaderValue("Telefone de Trabalho");
         }
@@ -498,12 +485,21 @@ public class Identificacao extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Endereço", "Cidade", "CEP"
+                "Endereço", "Cidade", "Telefone Residencial"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane5.setViewportView(resultPesquisa4);
         if (resultPesquisa4.getColumnModel().getColumnCount() > 0) {
-            resultPesquisa4.getColumnModel().getColumn(2).setHeaderValue("Telefone Residencial");
+            resultPesquisa4.getColumnModel().getColumn(0).setResizable(false);
+            resultPesquisa4.getColumnModel().getColumn(2).setResizable(false);
         }
 
         jLabel77.setText("Endereço:");
@@ -520,6 +516,9 @@ public class Identificacao extends javax.swing.JFrame {
             }
         ));
         jScrollPane6.setViewportView(resultPesquisa5);
+        if (resultPesquisa5.getColumnModel().getColumnCount() > 0) {
+            resultPesquisa5.getColumnModel().getColumn(0).setResizable(false);
+        }
 
         jLabel80.setText("Filiação:");
 
