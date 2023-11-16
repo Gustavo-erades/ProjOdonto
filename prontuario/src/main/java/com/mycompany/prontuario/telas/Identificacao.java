@@ -143,6 +143,24 @@ public class Identificacao extends javax.swing.JFrame {
         }
          resultPesquisa1.setModel(modelo);
     }
+    public void resultadoPesquisaInformacoes(String id) throws SQLException{
+        String sql="SELECT * FROM PACIENTE_INFORMACOES WHERE ID_PACIENTE="+id+";";
+        ResultSet[] rs=new ResultSet[10];
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql);
+        rs[0]=preparedStatement1.executeQuery();
+        while(rs[0].next()){
+            queixa.setText(rs[0].getString("queixa"));
+            doenca_atual.setText(rs[0].getString("doenca_atual"));
+            medica_pre.setText(rs[0].getString("medica_pre"));
+            medicacao.setText(rs[0].getString("medicacao"));
+            campo_alcool.setText(rs[0].getString("alcool"));
+            campo_fumo.setText(rs[0].getString("fumo"));
+            pressao_arterial.setText(rs[0].getString("pressao_arterial"));
+            exame_fisico.setText(rs[0].getString("exame_fisico"));
+            intra_oral.setText(rs[0].getString("intra_oral"));
+            extra_oral.setText(rs[0].getString("extra_oral"));
+        }
+    }
     public void tabelaSequenciaTratamento(){
         
     }
@@ -222,29 +240,35 @@ public class Identificacao extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jLabel82 = new javax.swing.JLabel();
         jScrollPane11 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        queixa = new javax.swing.JTextArea();
         jScrollPane19 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        doenca_atual = new javax.swing.JTextArea();
         jScrollPane20 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        medica_pre = new javax.swing.JTextArea();
         jScrollPane21 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
+        medicacao = new javax.swing.JTextArea();
         jLabel83 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
         jLabel85 = new javax.swing.JLabel();
         jLabel86 = new javax.swing.JLabel();
         jLabel87 = new javax.swing.JLabel();
         jScrollPane22 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
+        campo_alcool = new javax.swing.JTextArea();
         jLabel88 = new javax.swing.JLabel();
         jScrollPane23 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
+        pressao_arterial = new javax.swing.JTextArea();
         jScrollPane24 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
+        intra_oral = new javax.swing.JTextArea();
         jLabel89 = new javax.swing.JLabel();
         jScrollPane25 = new javax.swing.JScrollPane();
-        jTextArea8 = new javax.swing.JTextArea();
+        extra_oral = new javax.swing.JTextArea();
         jLabel90 = new javax.swing.JLabel();
+        jScrollPane26 = new javax.swing.JScrollPane();
+        exame_fisico = new javax.swing.JTextArea();
+        jLabel91 = new javax.swing.JLabel();
+        jScrollPane27 = new javax.swing.JScrollPane();
+        campo_fumo = new javax.swing.JTextArea();
+        jLabel92 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -649,25 +673,25 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel82.setText("Informações:");
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane11.setViewportView(jTextArea1);
+        queixa.setEditable(false);
+        queixa.setColumns(20);
+        queixa.setRows(5);
+        jScrollPane11.setViewportView(queixa);
 
-        jTextArea2.setEditable(false);
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jScrollPane19.setViewportView(jTextArea2);
+        doenca_atual.setEditable(false);
+        doenca_atual.setColumns(20);
+        doenca_atual.setRows(5);
+        jScrollPane19.setViewportView(doenca_atual);
 
-        jTextArea3.setEditable(false);
-        jTextArea3.setColumns(20);
-        jTextArea3.setRows(5);
-        jScrollPane20.setViewportView(jTextArea3);
+        medica_pre.setEditable(false);
+        medica_pre.setColumns(20);
+        medica_pre.setRows(5);
+        jScrollPane20.setViewportView(medica_pre);
 
-        jTextArea4.setEditable(false);
-        jTextArea4.setColumns(20);
-        jTextArea4.setRows(5);
-        jScrollPane21.setViewportView(jTextArea4);
+        medicacao.setEditable(false);
+        medicacao.setColumns(20);
+        medicacao.setRows(5);
+        jScrollPane21.setViewportView(medicacao);
 
         jLabel83.setText("Queixa principal:");
 
@@ -679,31 +703,45 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel87.setText("Álcool:");
 
-        jTextArea5.setEditable(false);
-        jTextArea5.setColumns(20);
-        jTextArea5.setRows(5);
-        jScrollPane22.setViewportView(jTextArea5);
+        campo_alcool.setEditable(false);
+        campo_alcool.setColumns(20);
+        campo_alcool.setRows(5);
+        jScrollPane22.setViewportView(campo_alcool);
 
         jLabel88.setText("Pressão arterial:");
 
-        jTextArea6.setEditable(false);
-        jTextArea6.setColumns(20);
-        jTextArea6.setRows(5);
-        jScrollPane23.setViewportView(jTextArea6);
+        pressao_arterial.setEditable(false);
+        pressao_arterial.setColumns(20);
+        pressao_arterial.setRows(5);
+        jScrollPane23.setViewportView(pressao_arterial);
 
-        jTextArea7.setEditable(false);
-        jTextArea7.setColumns(20);
-        jTextArea7.setRows(5);
-        jScrollPane24.setViewportView(jTextArea7);
+        intra_oral.setEditable(false);
+        intra_oral.setColumns(20);
+        intra_oral.setRows(5);
+        jScrollPane24.setViewportView(intra_oral);
 
         jLabel89.setText("Intra-Oral:");
 
-        jTextArea8.setEditable(false);
-        jTextArea8.setColumns(20);
-        jTextArea8.setRows(5);
-        jScrollPane25.setViewportView(jTextArea8);
+        extra_oral.setEditable(false);
+        extra_oral.setColumns(20);
+        extra_oral.setRows(5);
+        jScrollPane25.setViewportView(extra_oral);
 
         jLabel90.setText("Extra-Oral:");
+
+        exame_fisico.setEditable(false);
+        exame_fisico.setColumns(20);
+        exame_fisico.setRows(5);
+        jScrollPane26.setViewportView(exame_fisico);
+
+        jLabel91.setText("Exame físico:");
+
+        campo_fumo.setEditable(false);
+        campo_fumo.setColumns(20);
+        campo_fumo.setRows(5);
+        jScrollPane27.setViewportView(campo_fumo);
+
+        jLabel92.setText("Fumo:");
 
         javax.swing.GroupLayout resultadoPesquisa2Layout = new javax.swing.GroupLayout(resultadoPesquisa2);
         resultadoPesquisa2.setLayout(resultadoPesquisa2Layout);
@@ -711,57 +749,62 @@ public class Identificacao extends javax.swing.JFrame {
             resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
                 .addGap(61, 61, 61)
-                .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
-                        .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoId)
-                        .addGap(55, 55, 55)
-                        .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel75)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(46, 46, 46)
-                        .addComponent(jLabel70)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel90, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel91, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel90, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel89, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel88, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel92, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
-                            .addComponent(jButton2)
+                            .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jButton3))
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
-                        .addComponent(jLabel80)
-                        .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
-                        .addComponent(jLabel77)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
-                        .addComponent(jLabel79)
-                        .addComponent(jLabel76)
-                        .addComponent(jScrollPane1)
-                        .addComponent(jLabel82)
-                        .addComponent(jScrollPane11)
-                        .addComponent(jScrollPane19)
-                        .addComponent(jScrollPane20, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jScrollPane21)
-                        .addComponent(jScrollPane22)
-                        .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel83, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel85, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel86, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jScrollPane23)
-                        .addComponent(jScrollPane24)
-                        .addComponent(jScrollPane25)))
+                            .addComponent(resultadoId)
+                            .addGap(55, 55, 55)
+                            .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(resultadoNome, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jLabel69, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(resultadoEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(jLabel75)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(resultadoIdade, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(46, 46, 46)
+                            .addComponent(jLabel70)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(resultadoCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
+                                .addComponent(jButton2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton3))
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
+                            .addComponent(jLabel80)
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
+                            .addComponent(jLabel77)
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
+                            .addComponent(jLabel79)
+                            .addComponent(jLabel76)
+                            .addComponent(jScrollPane1)
+                            .addComponent(jLabel82)
+                            .addComponent(jScrollPane11)
+                            .addComponent(jScrollPane19)
+                            .addComponent(jScrollPane20, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane21)
+                            .addComponent(jScrollPane22)
+                            .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel83, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel85, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel86, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane27)
+                    .addComponent(jScrollPane23)
+                    .addComponent(jScrollPane26)
+                    .addComponent(jScrollPane24)
+                    .addComponent(jScrollPane25))
                 .addContainerGap(125, Short.MAX_VALUE))
         );
         resultadoPesquisa2Layout.setVerticalGroup(
@@ -826,10 +869,18 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(jLabel87)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel92)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel88)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel91)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel89)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -837,7 +888,8 @@ public class Identificacao extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel90)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(15, Short.MAX_VALUE))
         );
 
         resultadoPesquisa.setViewportView(resultadoPesquisa2);
@@ -1241,36 +1293,33 @@ public class Identificacao extends javax.swing.JFrame {
                     .addComponent(jScrollPane34)
                     .addComponent(jScrollPane35)
                     .addComponent(jScrollPane36)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jScrollPane38, javax.swing.GroupLayout.DEFAULT_SIZE, 4285, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))))
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jScrollPane39)
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane40, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel56)))
                     .addComponent(jScrollPane41)
                     .addComponent(jScrollPane42)
                     .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel50)
                             .addComponent(jLabel52)
-                            .addComponent(jLabel55)
                             .addComponent(jLabel57)
                             .addComponent(jLabel58)
                             .addComponent(jLabel49)
-                            .addComponent(jLabel51))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                            .addComponent(jLabel51)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jScrollPane38, javax.swing.GroupLayout.PREFERRED_SIZE, 680, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, 678, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane39, javax.swing.GroupLayout.PREFERRED_SIZE, 680, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel55))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel56)
+                                    .addComponent(jScrollPane40))))
+                        .addGap(0, 3324, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
@@ -1291,16 +1340,18 @@ public class Identificacao extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel52)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel53)
-                    .addComponent(jLabel54))
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addComponent(jScrollPane36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel53)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                        .addComponent(jLabel54)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel55)
                     .addComponent(jLabel56))
@@ -1316,7 +1367,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(jLabel58)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(13, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         jScrollPane12.setViewportView(jPanel10);
@@ -2974,6 +3025,7 @@ public class Identificacao extends javax.swing.JFrame {
             resultadoPesquisaContato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
             resultadoPesquisaEndereco(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
             resultadoPesquisaFiliacao(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaInformacoes(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
         } catch (SQLException ex) {
             Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -3044,6 +3096,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JButton btnCancelar;
     private javax.swing.JButton cadastrarProntuario1;
     private javax.swing.JTextField caixaPesquisa;
+    private javax.swing.JTextArea campo_alcool;
+    private javax.swing.JTextArea campo_fumo;
     private javax.swing.JButton cancealarQuestionario;
     private javax.swing.JFormattedTextField cep;
     private javax.swing.JCheckBox cicatrizacao;
@@ -3057,6 +3111,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox diabete;
     private javax.swing.JTextArea doencaAtual;
     private javax.swing.JTextArea doencaContagiosa;
+    private javax.swing.JTextArea doenca_atual;
     private javax.swing.JCheckBox dorDente;
     private javax.swing.JCheckBox doresFortes;
     private javax.swing.ButtonGroup doresPeito;
@@ -3071,7 +3126,9 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField estadoCivil;
     private javax.swing.JCheckBox estalos;
     private javax.swing.JTextArea exameFisico;
+    private javax.swing.JTextArea exame_fisico;
     private javax.swing.JTextArea extraOral;
+    private javax.swing.JTextArea extra_oral;
     private javax.swing.JCheckBox fuma;
     private javax.swing.JTextArea fumo;
     private javax.swing.JCheckBox gengiva;
@@ -3084,6 +3141,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextField idade;
     private javax.swing.JTextArea implante;
     private javax.swing.JTextArea intraOral;
+    private javax.swing.JTextArea intra_oral;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton8;
@@ -3178,6 +3236,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -3206,6 +3266,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane23;
     private javax.swing.JScrollPane jScrollPane24;
     private javax.swing.JScrollPane jScrollPane25;
+    private javax.swing.JScrollPane jScrollPane26;
+    private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane33;
     private javax.swing.JScrollPane jScrollPane34;
@@ -3226,14 +3288,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
-    private javax.swing.JTextArea jTextArea8;
     private javax.swing.JCheckBox labirintite;
     private javax.swing.JCheckBox leucemia;
     private javax.swing.JCheckBox lingua;
@@ -3241,6 +3295,8 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox mastigaDoisLados;
     private javax.swing.JCheckBox mastigar;
     private javax.swing.JTextArea medicaPregressa;
+    private javax.swing.JTextArea medica_pre;
+    private javax.swing.JTextArea medicacao;
     private javax.swing.JTextArea medicacaoUso;
     private javax.swing.JCheckBox mobilidade;
     private javax.swing.JTextField nome;
@@ -3250,10 +3306,12 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JCheckBox periodental;
     private javax.swing.JCheckBox pneumonia;
     private javax.swing.JTextArea pressaoArterial;
+    private javax.swing.JTextArea pressao_arterial;
     private javax.swing.JCheckBox problemaCoracao;
     private javax.swing.JCheckBox problemaHormonal;
     private javax.swing.JTextField profissao;
     private javax.swing.JCheckBox psicologico;
+    private javax.swing.JTextArea queixa;
     private javax.swing.JTextArea queixaPrincipal;
     private javax.swing.JCheckBox quimioterapia;
     private javax.swing.JCheckBox radiografia;
