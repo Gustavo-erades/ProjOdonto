@@ -135,4 +135,11 @@ public class Paciente {
     public void setSexo(String sexo){
         this.sexo=sexo;
     }
+    private String emailResponsavel;
+    public String getEmailResponsavel(){
+        return emailResponsavel;
+    }
+    public void setEmailResponsavel(String emailResponsavel){
+        this.emailResponsavel=emailResponsavel;
+    }
 }

@@ -11,8 +11,8 @@ import javax.swing.JOptionPane;
 public class PacienteDao {
     public void cadastrarPaciente(Paciente paciente) throws SQLException{
         String sql="INSERT INTO PACIENTE"
-                + "(NOME,CPF,RG,IDADE,TELEFONE,EMAIL,ENDERECO,SEXO,DATA_NASCIMENTO,ESTADO_CIVIL,COR,PROFISSAO,CEP,TELEFONE_CASA,CIDADE,TELEFONE_TRAB,RESPONSAVEL,TELEFONE_RESPONSAVEL)"
-                + "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
+                + "(NOME,CPF,RG,IDADE,TELEFONE,EMAIL,ENDERECO,SEXO,DATA_NASCIMENTO,ESTADO_CIVIL,COR,PROFISSAO,CEP,TELEFONE_CASA,CIDADE,TELEFONE_TRAB,RESPONSAVEL,TELEFONE_RESPONSAVEL,EMAIL_RESPONSAVEL)"
+                + "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);";
         PreparedStatement preparedStatement;
         Identificacao identificacao=new Identificacao();
         try {
@@ -35,6 +35,7 @@ public class PacienteDao {
             preparedStatement.setString(16,paciente.getTelefoneTrabalho());
             preparedStatement.setString(17,paciente.getNomeResponsavel());
             preparedStatement.setString(18,paciente.getContatoResponsavel());
+            preparedStatement.setString(19,paciente.getEmailResponsavel());
             preparedStatement.execute();
             preparedStatement.close();
             JOptionPane.showMessageDialog(identificacao, "Cadastro de paciente realizado!", "Paciente cadastrado",JOptionPane.PLAIN_MESSAGE);

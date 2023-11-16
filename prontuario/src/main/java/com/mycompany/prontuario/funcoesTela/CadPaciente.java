@@ -8,7 +8,7 @@ public class CadPaciente {
     public void botaoCadPaciente(String nome, String email,String cpf,String endereco,
             int idade,String rg,String telCelular,String cidade, String telResidencial,
             String telTrabalho, String sexo, String dataNasc, String cor, String estadoCivil, 
-            String cep,String profissao,String responsavelLegal, String contatoResponsavel) throws SQLException{
+            String cep,String profissao,String responsavelLegal, String contatoResponsavel, String emailResponsavel ) throws SQLException{
         Paciente paciente= new Paciente();
         paciente.setNome(nome);
         paciente.setEmail(email);
@@ -28,6 +28,7 @@ public class CadPaciente {
         paciente.setProfissao(profissao);
         paciente.setNomeResponsavel(responsavelLegal);
         paciente.setContatoResponsavel(contatoResponsavel);
+        paciente.setEmailResponsavel(emailResponsavel);
         new PacienteDao().cadastrarPaciente(paciente);
     }
 }
