@@ -10,6 +10,8 @@ import com.mycompany.prontuario.funcoesTela.CadPaciente;
 import com.mycompany.prontuario.funcoesTela.CadQuestOdonto;
 import com.mycompany.prontuario.funcoesTela.CadQuestionario;
 import com.mycompany.prontuario.funcoesTela.ChamaResultadoPesquisa;
+import com.mycompany.prontuario.funcoesTela.Contrato;
+import com.mycompany.prontuario.funcoesTela.CriarArquivo;
 import com.mycompany.prontuario.funcoesTela.ResultadoPesquisa;
 import static java.lang.Integer.parseInt;
 import java.sql.PreparedStatement;
@@ -269,6 +271,7 @@ public class Identificacao extends javax.swing.JFrame {
         jScrollPane27 = new javax.swing.JScrollPane();
         campo_fumo = new javax.swing.JTextArea();
         jLabel92 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -670,6 +673,11 @@ public class Identificacao extends javax.swing.JFrame {
         jButton2.setText("Prontuário");
 
         jButton3.setText("Termo de consentimento");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jLabel82.setText("Informações:");
 
@@ -743,6 +751,13 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel92.setText("Fumo:");
 
+        jButton4.setText("Sequência de procedimentos");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout resultadoPesquisa2Layout = new javax.swing.GroupLayout(resultadoPesquisa2);
         resultadoPesquisa2.setLayout(resultadoPesquisa2Layout);
         resultadoPesquisa2Layout.setHorizontalGroup(
@@ -779,6 +794,8 @@ public class Identificacao extends javax.swing.JFrame {
                         .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
                                 .addComponent(jButton2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton4)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton3))
                             .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
@@ -846,7 +863,8 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
-                    .addComponent(jButton2))
+                    .addComponent(jButton2)
+                    .addComponent(jButton4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel82)
                 .addGap(3, 3, 3)
@@ -1349,9 +1367,9 @@ public class Identificacao extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel55)
-                    .addComponent(jLabel56))
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel56, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel55))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jScrollPane40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3040,6 +3058,15 @@ public class Identificacao extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_visualizarMouseClicked
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        new TermosConsentimento().setVisible(true);
+        new Contrato().contratoPaciente("Gustavo","08426850146","4062399");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -3141,6 +3168,7 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextArea intra_oral;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton8;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
