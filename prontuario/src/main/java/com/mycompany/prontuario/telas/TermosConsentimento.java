@@ -17,7 +17,7 @@ public class TermosConsentimento extends javax.swing.JFrame {
      */
     public TermosConsentimento() {
         initComponents();
-        textoTela.setText(new CriarArquivo().read("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\Termo de Consentimento.ott"));
+        textoTela.setText(new CriarArquivo().read("Termo de Consentimento.ott"));
     }
 
     /**
@@ -36,7 +36,7 @@ public class TermosConsentimento extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Aceite dos termos de consentimento");
-        setPreferredSize(new java.awt.Dimension(450, 550));
+        setPreferredSize(new java.awt.Dimension(470, 550));
         setResizable(false);
 
         textoTela.setColumns(20);

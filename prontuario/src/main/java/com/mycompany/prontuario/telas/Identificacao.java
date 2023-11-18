@@ -163,6 +163,17 @@ public class Identificacao extends javax.swing.JFrame {
             extra_oral.setText(rs[0].getString("extra_oral"));
         }
     }
+    public void dadosContrato(String id) throws SQLException{
+        String sql="SELECT nome,cpf,rg FROM PACIENTE WHERE ID="+id+";";
+        ResultSet[] rs=new ResultSet[3];
+        preparedStatement1= Conexao.getConexao().prepareStatement(sql);
+        rs[0]=preparedStatement1.executeQuery();
+        while(rs[0].next()){
+            new Contrato().contratoPaciente(rs[0].getString("NOME"),
+                    rs[0].getString("CPF"),rs[0].getString("RG"));  
+        }
+    }
+    
     public void tabelaSequenciaTratamento(){
         
     }
@@ -3041,6 +3052,7 @@ public class Identificacao extends javax.swing.JFrame {
             resultadoPesquisaEndereco(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
             resultadoPesquisaFiliacao(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
             resultadoPesquisaInformacoes(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            dadosContrato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
         } catch (SQLException ex) {
             Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -3060,7 +3072,6 @@ public class Identificacao extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         new TermosConsentimento().setVisible(true);
-        new Contrato().contratoPaciente("Gustavo","08426850146","4062399");
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed

@@ -34,7 +34,7 @@ public class Contrato {
 "quanto no exterior, respeitada a legislação vigente em relação ao assunto.\n\n"+
 "Brasília,____ /____ /____ .\n"+
 "\t_________________________________________\n\n";
-        new CriarArquivo().write("C:\\Users\\Gustavo\\OneDrive\\Área de Trabalho\\GitHub\\ProjOdonto\\Termo de Consentimento.ott",texto);
+        new CriarArquivo().write("Termo de Consentimento.ott",texto);
     }
     
 }
