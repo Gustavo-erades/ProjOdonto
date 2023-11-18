@@ -4,6 +4,7 @@
  */
 package com.mycompany.prontuario.telas;
 
+import com.mycompany.prontuario.entidades.Paciente;
 import com.mycompany.prontuario.funcoesTela.CriarArquivo;
 
 /**

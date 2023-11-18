@@ -1,7 +1,10 @@
 
 package com.mycompany.prontuario.funcoesTela;
+
+import com.mycompany.prontuario.entidades.Paciente;
+
 public class Contrato {
-    public void contratoPaciente(String nome,String cpf, String rg){
+    public void contratoPaciente(String nome,String cpf, String rg, String id){
         String texto, caminho;
         texto="\tTERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO\n\n"+
 "Eu, "+nome+",portador do CPF:"+cpf+" e RG:"+rg+" , por intermédio deste documento, declaro que todas as\n" +
@@ -34,7 +37,7 @@ public class Contrato {
 "quanto no exterior, respeitada a legislação vigente em relação ao assunto.\n\n"+
 "Brasília,____ /____ /____ .\n"+
 "\t_________________________________________\n\n";
-        new CriarArquivo().write("Termo de Consentimento.ott",texto);
+        new CriarArquivo().write("Termo de Consentimento"+id+".ott",texto);
     }
     
 }
