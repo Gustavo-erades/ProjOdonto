@@ -38,6 +38,7 @@ public class Contrato {
 "Brasília,____ /____ /____ .\n"+
 "\t_________________________________________\n\n";
         new CriarArquivo().write("Termo de Consentimento"+id+".ott",texto);
+        
     }
     
 }

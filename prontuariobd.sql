@@ -62,6 +62,4 @@ create table prontuariobd.paciente_quest_odonto(
     id int not null auto_increment,
     primary key (id)
 );
-select*from prontuariobd.paciente_quest_odonto;
-insert into prontuariobd.paciente_quest_odonto(questoes,implante,tempo) values("1321","ererre","ffefew");
-SELECT ENDERECO FROM prontuariobd.PACIENTE WHERE ID='1';
+alter table prontuariobd.paciente add column contrato blob after email_responsavel;
