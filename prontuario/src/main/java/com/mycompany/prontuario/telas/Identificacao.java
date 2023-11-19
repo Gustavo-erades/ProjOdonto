@@ -282,7 +282,6 @@ public class Identificacao extends javax.swing.JFrame {
         jScrollPane27 = new javax.swing.JScrollPane();
         campo_fumo = new javax.swing.JTextArea();
         jLabel92 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -360,9 +359,6 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
-        jPanel12 = new javax.swing.JPanel();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        tabelaTratamento2 = new javax.swing.JTable();
         jPanel8 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
@@ -481,7 +477,6 @@ public class Identificacao extends javax.swing.JFrame {
         tempo = new javax.swing.JTextArea();
         cadastrarProntuario1 = new javax.swing.JButton();
         cancealarQuestionario = new javax.swing.JButton();
-        jPanel6 = new javax.swing.JPanel();
 
         jMenuItem1.setText("jMenuItem1");
 
@@ -489,6 +484,8 @@ public class Identificacao extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prontuário Odontológico Estácio");
+
+        jTabbedPane1.setForeground(new java.awt.Color(0, 51, 204));
 
         visualizar.setText("visualizar");
         visualizar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -681,7 +678,12 @@ public class Identificacao extends javax.swing.JFrame {
         resultadoCelular.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         resultadoCelular.setText("jLabel81");
 
-        jButton2.setText("Prontuário");
+        jButton2.setText("questionários de saúde");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Termo de consentimento");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -762,13 +764,6 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel92.setText("Fumo:");
 
-        jButton4.setText("Sequência de procedimentos");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout resultadoPesquisa2Layout = new javax.swing.GroupLayout(resultadoPesquisa2);
         resultadoPesquisa2.setLayout(resultadoPesquisa2Layout);
         resultadoPesquisa2Layout.setHorizontalGroup(
@@ -806,8 +801,6 @@ public class Identificacao extends javax.swing.JFrame {
                             .addGroup(resultadoPesquisa2Layout.createSequentialGroup()
                                 .addComponent(jButton2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton3))
                             .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 1128, Short.MAX_VALUE)
                             .addComponent(jLabel80)
@@ -833,7 +826,7 @@ public class Identificacao extends javax.swing.JFrame {
                     .addComponent(jScrollPane26)
                     .addComponent(jScrollPane24)
                     .addComponent(jScrollPane25))
-                .addContainerGap(125, Short.MAX_VALUE))
+                .addContainerGap(235, Short.MAX_VALUE))
         );
         resultadoPesquisa2Layout.setVerticalGroup(
             resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -874,8 +867,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(resultadoPesquisa2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
-                    .addComponent(jButton2)
-                    .addComponent(jButton4))
+                    .addComponent(jButton2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel82)
                 .addGap(3, 3, 3)
@@ -928,7 +920,7 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 507, Short.MAX_VALUE)
+                .addGap(0, 505, Short.MAX_VALUE)
                 .addComponent(caixaPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton8)
@@ -939,7 +931,7 @@ public class Identificacao extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(visualizar)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(resultadoPesquisa))
+                    .addComponent(resultadoPesquisa, javax.swing.GroupLayout.DEFAULT_SIZE, 1334, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
@@ -958,12 +950,12 @@ public class Identificacao extends javax.swing.JFrame {
                 .addComponent(visualizar)
                 .addGap(18, 18, 18)
                 .addComponent(resultadoPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 442, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(132, Short.MAX_VALUE))
+                .addContainerGap(606, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(78, 78, 78)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(629, Short.MAX_VALUE)))
+                    .addContainerGap(1103, Short.MAX_VALUE)))
         );
 
         jTabbedPane1.addTab("Prontuários", jPanel1);
@@ -1120,14 +1112,14 @@ public class Identificacao extends javax.swing.JFrame {
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addComponent(telCelular, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(telTrabalho, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
+                                .addComponent(telTrabalho, javax.swing.GroupLayout.DEFAULT_SIZE, 131, Short.MAX_VALUE))
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel11)
                                     .addGroup(jPanel3Layout.createSequentialGroup()
                                         .addGap(167, 167, 167)
                                         .addComponent(jLabel17)))
-                                .addGap(0, 22, Short.MAX_VALUE)))
+                                .addGap(0, 20, Short.MAX_VALUE)))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1417,7 +1409,7 @@ public class Identificacao extends javax.swing.JFrame {
                         .addContainerGap())
                     .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(1141, Short.MAX_VALUE)
+                .addContainerGap(1139, Short.MAX_VALUE)
                 .addComponent(btnCadastrar)
                 .addGap(18, 18, 18)
                 .addComponent(btnCancelar)
@@ -1434,100 +1426,15 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCancelar)
                     .addComponent(btnCadastrar))
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addContainerGap(567, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Novo Paciente", jPanel4);
 
+        jPanel5.setPreferredSize(new java.awt.Dimension(1348, 700));
+
         jPanel2.setMaximumSize(new java.awt.Dimension(3200, 3200));
         jPanel2.setPreferredSize(new java.awt.Dimension(4700, 2000));
-
-        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Sequência de tratamento"));
-
-        tabelaTratamento2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        tabelaTratamento2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null}
-            },
-            new String [] {
-                "Data", "Dente", "Procedimento"
-            }
-        ) {
-            Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class
-            };
-
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-        });
-        jScrollPane8.setViewportView(tabelaTratamento2);
-        if (tabelaTratamento2.getColumnModel().getColumnCount() > 0) {
-            tabelaTratamento2.getColumnModel().getColumn(1).setMinWidth(50);
-            tabelaTratamento2.getColumnModel().getColumn(2).setMinWidth(90);
-        }
-
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane8)
-                .addContainerGap())
-        );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                .addContainerGap())
-        );
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário saúde geral"));
 
@@ -1973,7 +1880,7 @@ public class Identificacao extends javax.swing.JFrame {
                             .addComponent(temVarizes)
                             .addComponent(tontura)
                             .addComponent(doresFortes))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                                 .addComponent(jLabel35)
@@ -1995,16 +1902,17 @@ public class Identificacao extends javax.swing.JFrame {
                     .addComponent(hepatite)
                     .addComponent(anemia)
                     .addComponent(anticoncepcional)
-                    .addComponent(osteoporose)
                     .addComponent(reumatismo)
                     .addComponent(psicologico)
                     .addComponent(eplepsia)
                     .addComponent(sinusite)
-                    .addComponent(quimioterapia)
                     .addComponent(tratamentoMedico)
                     .addComponent(dst)
-                    .addComponent(aids))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(aids)
+                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(osteoporose, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(quimioterapia, javax.swing.GroupLayout.Alignment.LEADING)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel66, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel65, javax.swing.GroupLayout.Alignment.TRAILING)
@@ -2447,7 +2355,7 @@ public class Identificacao extends javax.swing.JFrame {
                             .addComponent(jLabel74)
                             .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 1040, Short.MAX_VALUE)
                             .addComponent(jScrollPane18))
-                        .addGap(0, 180, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
@@ -2527,25 +2435,24 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(cadastrarProntuario1)
+                        .addGap(18, 18, 18)
+                        .addComponent(cancealarQuestionario))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 1259, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGap(924, 924, 924)
-                            .addComponent(cadastrarProntuario1)
-                            .addGap(18, 18, 18)
-                            .addComponent(cancealarQuestionario))
-                        .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(3426, Short.MAX_VALUE))
+                            .addContainerGap()
+                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(3258, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addContainerGap()
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2553,7 +2460,7 @@ public class Identificacao extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cadastrarProntuario1)
                     .addComponent(cancealarQuestionario))
-                .addGap(512, 512, 512))
+                .addContainerGap(719, Short.MAX_VALUE))
         );
 
         jScrollPane2.setViewportView(jPanel2);
@@ -2562,27 +2469,16 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1348, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1346, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 824, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1298, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Novo Prontuário", jPanel5);
-
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1348, Short.MAX_VALUE)
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 824, Short.MAX_VALUE)
-        );
-
-        jTabbedPane1.addTab("Consultas", jPanel6);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -2590,7 +2486,7 @@ public class Identificacao extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1346, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2734,221 +2630,267 @@ public class Identificacao extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void temVarizesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_temVarizesActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_temVarizesActionPerformed
+    private void resultPesquisa1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resultPesquisa1MouseClicked
+        visualizar.setVisible(true);
+        int linhaSelecionada=resultPesquisa1.getSelectedRow();
+        resultadoNome.setText(resultPesquisa1.getValueAt(linhaSelecionada,1).toString());
+        resultadoId.setText(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+        resultadoEmail.setText(resultPesquisa1.getValueAt(linhaSelecionada,4).toString());
+        resultadoCelular.setText(resultPesquisa1.getValueAt(linhaSelecionada,3).toString());
+        resultadoIdade.setText(resultPesquisa1.getValueAt(linhaSelecionada,2).toString());
+        try {
+            resultadoPesquisaPaciente(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaContato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaEndereco(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaFiliacao(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            resultadoPesquisaInformacoes(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            dadosContrato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+        } catch (SQLException ex) {
+            Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_resultPesquisa1MouseClicked
 
-    private void tonturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tonturaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tonturaActionPerformed
+    private void resultPesquisa2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resultPesquisa2MouseClicked
 
-    private void doresFortesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresFortesActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_doresFortesActionPerformed
+    }//GEN-LAST:event_resultPesquisa2MouseClicked
 
-    private void respiraBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_respiraBocaActionPerformed
+    private void emailResponsavelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailResponsavelActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_respiraBocaActionPerformed
+    }//GEN-LAST:event_emailResponsavelActionPerformed
 
-    private void hipertensoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hipertensoActionPerformed
+    private void visualizarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_visualizarMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_hipertensoActionPerformed
+    }//GEN-LAST:event_visualizarMouseClicked
 
-    private void pneumoniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pneumoniaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pneumoniaActionPerformed
-
-    private void problemaCoracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaCoracaoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_problemaCoracaoActionPerformed
-
-    private void marcapassoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_marcapassoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_marcapassoActionPerformed
-
-    private void diabeteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diabeteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_diabeteActionPerformed
-
-    private void tuberculoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tuberculoseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tuberculoseActionPerformed
-
-    private void osteoporoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_osteoporoseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_osteoporoseActionPerformed
-
-    private void reumatismoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reumatismoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_reumatismoActionPerformed
-
-    private void psicologicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_psicologicoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_psicologicoActionPerformed
-
-    private void sinusiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sinusiteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sinusiteActionPerformed
-
-    private void anticoncepcionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anticoncepcionalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_anticoncepcionalActionPerformed
-
-    private void eplepsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eplepsiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_eplepsiaActionPerformed
-
-    private void quimioterapiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quimioterapiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_quimioterapiaActionPerformed
-
-    private void tratamentoMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tratamentoMedicoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tratamentoMedicoActionPerformed
-
-    private void aidsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aidsActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_aidsActionPerformed
-
-    private void dstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dstActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_dstActionPerformed
-
-    private void leucemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leucemiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_leucemiaActionPerformed
-
-    private void transfusaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transfusaoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_transfusaoActionPerformed
-
-    private void cicatrizacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cicatrizacaoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cicatrizacaoActionPerformed
-
-    private void enxaquecaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enxaquecaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_enxaquecaActionPerformed
-
-    private void labirintiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_labirintiteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_labirintiteActionPerformed
-
-    private void sangramentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sangramentoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sangramentoActionPerformed
-
-    private void gravidezActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gravidezActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gravidezActionPerformed
-
-    private void hemodialiseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hemodialiseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_hemodialiseActionPerformed
-
-    private void problemaHormonalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaHormonalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_problemaHormonalActionPerformed
-
-    private void anemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anemiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_anemiaActionPerformed
-
-    private void cirroseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirroseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cirroseActionPerformed
-
-    private void pedraRinsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pedraRinsActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pedraRinsActionPerformed
-
-    private void fumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fumaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_fumaActionPerformed
-
-    private void hepatiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hepatiteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_hepatiteActionPerformed
-
-    private void hempfiliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hempfiliaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_hempfiliaActionPerformed
-
-    private void dorDenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dorDenteActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_dorDenteActionPerformed
-
-    private void cirurgiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirurgiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cirurgiaActionPerformed
-
-    private void radiografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radiografiaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_radiografiaActionPerformed
-
-    private void mastigaDoisLadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigaDoisLadosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_mastigaDoisLadosActionPerformed
-
-    private void alteracaoBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoBocaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_alteracaoBocaActionPerformed
-
-    private void gengivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gengivaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gengivaActionPerformed
-
-    private void halitoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_halitoseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_halitoseActionPerformed
-
-    private void afitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_afitaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_afitaActionPerformed
-
-    private void mastigarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_mastigarActionPerformed
-
-    private void mobilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mobilidadeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_mobilidadeActionPerformed
-
-    private void sensibilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sensibilidadeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sensibilidadeActionPerformed
-
-    private void doresPescocoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresPescocoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_doresPescocoActionPerformed
-
-    private void estalosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estalosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_estalosActionPerformed
-
-    private void linguaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_linguaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_linguaActionPerformed
-
-    private void rangerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rangerActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_rangerActionPerformed
-
-    private void sorrisoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sorrisoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sorrisoActionPerformed
-
-    private void periodentalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_periodentalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_periodentalActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        new TermosConsentimento().setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     private void alteracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_alteracaoActionPerformed
 
+    private void periodentalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_periodentalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_periodentalActionPerformed
+
+    private void sorrisoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sorrisoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sorrisoActionPerformed
+
+    private void rangerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rangerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rangerActionPerformed
+
+    private void linguaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_linguaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_linguaActionPerformed
+
+    private void estalosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estalosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_estalosActionPerformed
+
+    private void doresPescocoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresPescocoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_doresPescocoActionPerformed
+
+    private void sensibilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sensibilidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sensibilidadeActionPerformed
+
+    private void mobilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mobilidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mobilidadeActionPerformed
+
+    private void mastigarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mastigarActionPerformed
+
+    private void afitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_afitaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_afitaActionPerformed
+
+    private void halitoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_halitoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_halitoseActionPerformed
+
+    private void gengivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gengivaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gengivaActionPerformed
+
+    private void alteracaoBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoBocaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_alteracaoBocaActionPerformed
+
+    private void mastigaDoisLadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigaDoisLadosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mastigaDoisLadosActionPerformed
+
+    private void radiografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radiografiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_radiografiaActionPerformed
+
+    private void cirurgiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirurgiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cirurgiaActionPerformed
+
+    private void dorDenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dorDenteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dorDenteActionPerformed
+
+    private void hempfiliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hempfiliaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hempfiliaActionPerformed
+
+    private void hepatiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hepatiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hepatiteActionPerformed
+
+    private void fumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fumaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fumaActionPerformed
+
+    private void pedraRinsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pedraRinsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pedraRinsActionPerformed
+
+    private void cirroseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirroseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cirroseActionPerformed
+
+    private void anemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anemiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_anemiaActionPerformed
+
+    private void problemaHormonalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaHormonalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_problemaHormonalActionPerformed
+
+    private void hemodialiseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hemodialiseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hemodialiseActionPerformed
+
+    private void gravidezActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gravidezActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gravidezActionPerformed
+
+    private void sangramentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sangramentoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sangramentoActionPerformed
+
+    private void labirintiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_labirintiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_labirintiteActionPerformed
+
+    private void enxaquecaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enxaquecaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enxaquecaActionPerformed
+
+    private void cicatrizacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cicatrizacaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cicatrizacaoActionPerformed
+
+    private void transfusaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transfusaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_transfusaoActionPerformed
+
+    private void leucemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leucemiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_leucemiaActionPerformed
+
+    private void dstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dstActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dstActionPerformed
+
+    private void aidsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aidsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_aidsActionPerformed
+
+    private void tratamentoMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tratamentoMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tratamentoMedicoActionPerformed
+
+    private void quimioterapiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quimioterapiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_quimioterapiaActionPerformed
+
+    private void eplepsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eplepsiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_eplepsiaActionPerformed
+
+    private void anticoncepcionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anticoncepcionalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_anticoncepcionalActionPerformed
+
+    private void sinusiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sinusiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sinusiteActionPerformed
+
+    private void psicologicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_psicologicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_psicologicoActionPerformed
+
+    private void reumatismoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reumatismoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_reumatismoActionPerformed
+
+    private void osteoporoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_osteoporoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_osteoporoseActionPerformed
+
+    private void tuberculoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tuberculoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tuberculoseActionPerformed
+
+    private void diabeteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diabeteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_diabeteActionPerformed
+
+    private void marcapassoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_marcapassoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_marcapassoActionPerformed
+
+    private void problemaCoracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaCoracaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_problemaCoracaoActionPerformed
+
+    private void pneumoniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pneumoniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pneumoniaActionPerformed
+
+    private void hipertensoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hipertensoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hipertensoActionPerformed
+
+    private void respiraBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_respiraBocaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_respiraBocaActionPerformed
+
+    private void doresFortesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresFortesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_doresFortesActionPerformed
+
+    private void tonturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tonturaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tonturaActionPerformed
+
+    private void temVarizesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_temVarizesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_temVarizesActionPerformed
+
+    private void cancealarQuestionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancealarQuestionarioActionPerformed
+        doencaContagiosa.setText("");
+        alergiaMedicamento.setText("");
+        bebidaAlcoolica.setText("");
+        drogasIlicitas.setText("");
+        tomandoMedicamento.setText("");
+        parouFumar.setText("");
+        JOptionPane.showMessageDialog(rootPane, "Cadastro das informações de saúde cancelado!","Cancelar cadastro de dados de saúde",JOptionPane.CANCEL_OPTION);
+    }//GEN-LAST:event_cancealarQuestionarioActionPerformed
+
     private void cadastrarProntuario1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cadastrarProntuario1ActionPerformed
         String campoDoencaAtual2,campoAlergiaMedicamento,campoBebidaAlcoolica,campoDrogasIlicitas,
-                campoTomandoMedicamento,campoParouFumar,questoes ;
+        campoTomandoMedicamento,campoParouFumar,questoes ;
         String campoImplante, campoTempo, questoesOdonto;
         // pega os valores dos checkboxes
         questoes=(doresFortes.isSelected()?"1":"0");
@@ -2993,8 +2935,7 @@ public class Identificacao extends javax.swing.JFrame {
         campoDrogasIlicitas=drogasIlicitas.getText();
         campoTomandoMedicamento=tomandoMedicamento.getText();
         campoParouFumar=parouFumar.getText();
-        
-        
+
         questoesOdonto=(afita.isSelected()?"1":"0");
         questoesOdonto=questoesOdonto+(gengiva.isSelected()?"1":"0");
         questoesOdonto=questoesOdonto+(halitose.isSelected()?"1":"0");
@@ -3017,7 +2958,7 @@ public class Identificacao extends javax.swing.JFrame {
         campoTempo=tempo.getText();
         try {
             new CadQuestionario().botaoCadProntuario1(questoes,campoDoencaAtual2,campoAlergiaMedicamento,
-                    campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
+                campoBebidaAlcoolica,campoDrogasIlicitas,campoTomandoMedicamento,campoParouFumar);
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(rootPane, "Problemas no cadastro do questionário de saúde geral. Arquivo 'Identificacao.java' "+ex, "Problemas no cadastro da saúde geral", JOptionPane.ERROR_MESSAGE);
         }
@@ -3028,55 +2969,20 @@ public class Identificacao extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_cadastrarProntuario1ActionPerformed
 
-    private void cancealarQuestionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancealarQuestionarioActionPerformed
-        doencaContagiosa.setText("");
-        alergiaMedicamento.setText("");
-        bebidaAlcoolica.setText("");
-        drogasIlicitas.setText("");
-        tomandoMedicamento.setText("");
-        parouFumar.setText("");
-        JOptionPane.showMessageDialog(rootPane, "Cadastro das informações de saúde cancelado!","Cancelar cadastro de dados de saúde",JOptionPane.CANCEL_OPTION);
-    }//GEN-LAST:event_cancealarQuestionarioActionPerformed
-
-    private void resultPesquisa1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resultPesquisa1MouseClicked
-        visualizar.setVisible(true);
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        Prontuario questoesTela=new Prontuario();
+        questoesTela.setVisible(true);
         int linhaSelecionada=resultPesquisa1.getSelectedRow();
-        resultadoNome.setText(resultPesquisa1.getValueAt(linhaSelecionada,1).toString());
-        resultadoId.setText(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-        resultadoEmail.setText(resultPesquisa1.getValueAt(linhaSelecionada,4).toString());
-        resultadoCelular.setText(resultPesquisa1.getValueAt(linhaSelecionada,3).toString());
-        resultadoIdade.setText(resultPesquisa1.getValueAt(linhaSelecionada,2).toString());
+        String id=resultPesquisa1.getValueAt(linhaSelecionada,0).toString();
         try {
-            resultadoPesquisaPaciente(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-            resultadoPesquisaContato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-            resultadoPesquisaEndereco(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-            resultadoPesquisaFiliacao(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-            resultadoPesquisaInformacoes(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
-            dadosContrato(resultPesquisa1.getValueAt(linhaSelecionada,0).toString());
+            questoesTela.questoesAbertasSaudeGeral(id);
+            questoesTela.questoesAbertasOdonto(id);
         } catch (SQLException ex) {
             Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }//GEN-LAST:event_resultPesquisa1MouseClicked
-
-    private void resultPesquisa2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resultPesquisa2MouseClicked
-
-    }//GEN-LAST:event_resultPesquisa2MouseClicked
-
-    private void emailResponsavelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailResponsavelActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_emailResponsavelActionPerformed
-
-    private void visualizarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_visualizarMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_visualizarMouseClicked
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        new TermosConsentimento().setVisible(true);
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+        
+        
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -3179,7 +3085,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JTextArea intra_oral;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton8;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
@@ -3277,12 +3182,10 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
@@ -3319,7 +3222,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
@@ -3373,7 +3275,6 @@ public class Identificacao extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> sexo;
     private javax.swing.JCheckBox sinusite;
     private javax.swing.JCheckBox sorriso;
-    private javax.swing.JTable tabelaTratamento2;
     private javax.swing.JFormattedTextField telCelular;
     private javax.swing.JFormattedTextField telResidencial;
     private javax.swing.JFormattedTextField telTrabalho;

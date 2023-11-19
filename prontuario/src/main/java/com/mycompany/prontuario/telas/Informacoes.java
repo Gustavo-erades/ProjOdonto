@@ -33,10 +33,122 @@ public class Informacoes extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        doencaContagiosa = new javax.swing.JTextArea();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        tomandoMedicamento = new javax.swing.JTextArea();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        drogasIlicitas = new javax.swing.JTextArea();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        bebidaAlcoolica = new javax.swing.JTextArea();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        alergiaMedicamento = new javax.swing.JTextArea();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        parouFumar = new javax.swing.JTextArea();
+        temVarizes = new javax.swing.JCheckBox();
+        tontura = new javax.swing.JCheckBox();
+        doresFortes = new javax.swing.JCheckBox();
+        respiraBoca = new javax.swing.JCheckBox();
+        hipertenso = new javax.swing.JCheckBox();
+        pneumonia = new javax.swing.JCheckBox();
+        problemaCoracao = new javax.swing.JCheckBox();
+        marcapasso = new javax.swing.JCheckBox();
+        diabete = new javax.swing.JCheckBox();
+        tuberculose = new javax.swing.JCheckBox();
+        osteoporose = new javax.swing.JCheckBox();
+        reumatismo = new javax.swing.JCheckBox();
+        psicologico = new javax.swing.JCheckBox();
+        sinusite = new javax.swing.JCheckBox();
+        anticoncepcional = new javax.swing.JCheckBox();
+        eplepsia = new javax.swing.JCheckBox();
+        quimioterapia = new javax.swing.JCheckBox();
+        tratamentoMedico = new javax.swing.JCheckBox();
+        aids = new javax.swing.JCheckBox();
+        dst = new javax.swing.JCheckBox();
+        leucemia = new javax.swing.JCheckBox();
+        transfusao = new javax.swing.JCheckBox();
+        cicatrizacao = new javax.swing.JCheckBox();
+        enxaqueca = new javax.swing.JCheckBox();
+        labirintite = new javax.swing.JCheckBox();
+        sangramento = new javax.swing.JCheckBox();
+        gravidez = new javax.swing.JCheckBox();
+        hemodialise = new javax.swing.JCheckBox();
+        problemaHormonal = new javax.swing.JCheckBox();
+        anemia = new javax.swing.JCheckBox();
+        cirrose = new javax.swing.JCheckBox();
+        pedraRins = new javax.swing.JCheckBox();
+        fuma = new javax.swing.JCheckBox();
+        hepatite = new javax.swing.JCheckBox();
+        hempfilia = new javax.swing.JCheckBox();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        dorDente = new javax.swing.JCheckBox();
+        cirurgia = new javax.swing.JCheckBox();
+        radiografia = new javax.swing.JCheckBox();
+        mastigaDoisLados = new javax.swing.JCheckBox();
+        alteracaoBoca = new javax.swing.JCheckBox();
+        gengiva = new javax.swing.JCheckBox();
+        halitose = new javax.swing.JCheckBox();
+        afita = new javax.swing.JCheckBox();
+        mastigar = new javax.swing.JCheckBox();
+        mobilidade = new javax.swing.JCheckBox();
+        sensibilidade = new javax.swing.JCheckBox();
+        doresPescoco = new javax.swing.JCheckBox();
+        estalos = new javax.swing.JCheckBox();
+        lingua = new javax.swing.JCheckBox();
+        ranger = new javax.swing.JCheckBox();
+        sorriso = new javax.swing.JCheckBox();
+        periodental = new javax.swing.JCheckBox();
+        alteracao = new javax.swing.JCheckBox();
+        jSeparator2 = new javax.swing.JSeparator();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        implante = new javax.swing.JTextArea();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        tempo = new javax.swing.JTextArea();
 
         jButton1.setText("prontuário");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -89,33 +201,1008 @@ public class Informacoes extends javax.swing.JFrame {
 
         jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário saúde geral"));
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jScrollPane2.setViewportView(jTextArea2);
+        jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel25.setText("Já teve alguma doença contagiosa? Se SIM qual?");
+
+        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel26.setText("Se PAROU de fumar, por quanto tempo fumou, quantidade/dia e há quanto tempo parou?");
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel30.setText("Ingere bebida alcoólica? Se sim qual frequência?");
+
+        jLabel71.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel71.setText("Usa ou já usou drogas ilícitas? Se SIM qual e por quanto tempo?");
+
+        jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel72.setText("Está tomando algum medicamento? Se SIM quais?");
+
+        jLabel73.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel73.setText("Tem alergia a algum medicamento? Se SIM quais?");
+
+        doencaContagiosa.setColumns(20);
+        doencaContagiosa.setRows(5);
+        jScrollPane7.setViewportView(doencaContagiosa);
+
+        tomandoMedicamento.setColumns(20);
+        tomandoMedicamento.setRows(5);
+        jScrollPane9.setViewportView(tomandoMedicamento);
+
+        drogasIlicitas.setColumns(20);
+        drogasIlicitas.setRows(5);
+        jScrollPane13.setViewportView(drogasIlicitas);
+
+        bebidaAlcoolica.setColumns(20);
+        bebidaAlcoolica.setRows(5);
+        jScrollPane14.setViewportView(bebidaAlcoolica);
+
+        alergiaMedicamento.setColumns(20);
+        alergiaMedicamento.setRows(5);
+        jScrollPane15.setViewportView(alergiaMedicamento);
+
+        parouFumar.setColumns(20);
+        parouFumar.setRows(5);
+        jScrollPane16.setViewportView(parouFumar);
+
+        temVarizes.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        temVarizes.setText("Tem varizes");
+        temVarizes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                temVarizesActionPerformed(evt);
+            }
+        });
+
+        tontura.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        tontura.setText(" Quando se levanta depressa sente tontura");
+        tontura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tonturaActionPerformed(evt);
+            }
+        });
+
+        doresFortes.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        doresFortes.setText("Já sentiu ou sente dores fortes no peito");
+        doresFortes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                doresFortesActionPerformed(evt);
+            }
+        });
+
+        respiraBoca.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        respiraBoca.setText("Respira pela boca");
+        respiraBoca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                respiraBocaActionPerformed(evt);
+            }
+        });
+
+        hipertenso.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        hipertenso.setText("É hipertenso(a)");
+        hipertenso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hipertensoActionPerformed(evt);
+            }
+        });
+
+        pneumonia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        pneumonia.setText("Já teve pneumonia");
+        pneumonia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pneumoniaActionPerformed(evt);
+            }
+        });
+
+        problemaCoracao.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        problemaCoracao.setText("Possui algum problema no coração");
+        problemaCoracao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                problemaCoracaoActionPerformed(evt);
+            }
+        });
+
+        marcapasso.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        marcapasso.setText("Possui prótese cardíaca ou marcapasso");
+        marcapasso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                marcapassoActionPerformed(evt);
+            }
+        });
+
+        diabete.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        diabete.setText("Tem diabete");
+        diabete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                diabeteActionPerformed(evt);
+            }
+        });
+
+        tuberculose.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        tuberculose.setText("Já teve tuberculose");
+        tuberculose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tuberculoseActionPerformed(evt);
+            }
+        });
+
+        osteoporose.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        osteoporose.setText("Tem osteoporose");
+        osteoporose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                osteoporoseActionPerformed(evt);
+            }
+        });
+
+        reumatismo.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        reumatismo.setText("Tem reumatismo");
+        reumatismo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                reumatismoActionPerformed(evt);
+            }
+        });
+
+        psicologico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        psicologico.setText("Fez/já fez tratamento psicológico/psiquiátrico");
+        psicologico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                psicologicoActionPerformed(evt);
+            }
+        });
+
+        sinusite.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sinusite.setText("Tem/teve sinusite ou rinite");
+        sinusite.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sinusiteActionPerformed(evt);
+            }
+        });
+
+        anticoncepcional.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        anticoncepcional.setText("Toma anticoncepcional");
+        anticoncepcional.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                anticoncepcionalActionPerformed(evt);
+            }
+        });
+
+        eplepsia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        eplepsia.setText("Tem eplepsia");
+        eplepsia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eplepsiaActionPerformed(evt);
+            }
+        });
+
+        quimioterapia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        quimioterapia.setText("Já fez quimioterapia ou radioterapia");
+        quimioterapia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                quimioterapiaActionPerformed(evt);
+            }
+        });
+
+        tratamentoMedico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        tratamentoMedico.setText("Está agora sob tratamento médico");
+        tratamentoMedico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tratamentoMedicoActionPerformed(evt);
+            }
+        });
+
+        aids.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        aids.setText("Tem AIDS");
+        aids.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                aidsActionPerformed(evt);
+            }
+        });
+
+        dst.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        dst.setText("Tem/Teve Doença Sexualmente Transmissível");
+        dst.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dstActionPerformed(evt);
+            }
+        });
+
+        leucemia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        leucemia.setText("Tem/Teve leucemia");
+        leucemia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leucemiaActionPerformed(evt);
+            }
+        });
+
+        transfusao.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        transfusao.setText("Já fez transfusão sanguínea");
+        transfusao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                transfusaoActionPerformed(evt);
+            }
+        });
+
+        cicatrizacao.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        cicatrizacao.setText("A sua cicatrização demora a acontecer");
+        cicatrizacao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cicatrizacaoActionPerformed(evt);
+            }
+        });
+
+        enxaqueca.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        enxaqueca.setText("Tem enxaqueca");
+        enxaqueca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enxaquecaActionPerformed(evt);
+            }
+        });
+
+        labirintite.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        labirintite.setText("Tem labirintite");
+        labirintite.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                labirintiteActionPerformed(evt);
+            }
+        });
+
+        sangramento.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sangramento.setText("Quando se machuca sangra muito tempo");
+        sangramento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sangramentoActionPerformed(evt);
+            }
+        });
+
+        gravidez.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        gravidez.setText("Está grávida");
+        gravidez.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gravidezActionPerformed(evt);
+            }
+        });
+
+        hemodialise.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        hemodialise.setText("Faz/Fez hemodiálise");
+        hemodialise.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hemodialiseActionPerformed(evt);
+            }
+        });
+
+        problemaHormonal.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        problemaHormonal.setText("Tem algum problema hormonal");
+        problemaHormonal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                problemaHormonalActionPerformed(evt);
+            }
+        });
+
+        anemia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        anemia.setText("Tem/Teve anemia");
+        anemia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                anemiaActionPerformed(evt);
+            }
+        });
+
+        cirrose.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        cirrose.setText("Tem cirrose");
+        cirrose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cirroseActionPerformed(evt);
+            }
+        });
+
+        pedraRins.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        pedraRins.setText("Tem/Teve pedra nos rins");
+        pedraRins.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pedraRinsActionPerformed(evt);
+            }
+        });
+
+        fuma.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        fuma.setText("Fuma");
+        fuma.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fumaActionPerformed(evt);
+            }
+        });
+
+        hepatite.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        hepatite.setText("Já teve ou tem hepatite");
+        hepatite.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hepatiteActionPerformed(evt);
+            }
+        });
+
+        hempfilia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        hempfilia.setText("Tem/Teve hempfilia");
+        hempfilia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hempfiliaActionPerformed(evt);
+            }
+        });
+
+        jLabel16.setText("1.");
+
+        jLabel18.setText("2.");
+
+        jLabel20.setText("3.");
+
+        jLabel21.setText("4.");
+
+        jLabel22.setText("5.");
+
+        jLabel23.setText("6.");
+
+        jLabel24.setText("7.");
+
+        jLabel27.setText("8.");
+
+        jLabel29.setText("9.");
+
+        jLabel31.setText("10.");
+
+        jLabel32.setText("11.");
+
+        jLabel33.setText("12.");
+
+        jLabel34.setText("13.");
+
+        jLabel35.setText("14.");
+
+        jLabel36.setText("15.");
+
+        jLabel37.setText("16.");
+
+        jLabel38.setText("17.");
+
+        jLabel39.setText("18.");
+
+        jLabel40.setText("19.");
+
+        jLabel41.setText("20.");
+
+        jLabel42.setText("21");
+
+        jLabel43.setText("22.");
+
+        jLabel44.setText("23.");
+
+        jLabel45.setText("24.");
+
+        jLabel47.setText("27.");
+
+        jLabel48.setText("26.");
+
+        jLabel59.setText("28.");
+
+        jLabel60.setText("29.");
+
+        jLabel61.setText("30.");
+
+        jLabel63.setText("31.");
+
+        jLabel64.setText("32.");
+
+        jLabel65.setText("33.");
+
+        jLabel66.setText("34.");
+
+        jLabel67.setText("35.");
+
+        jLabel68.setText("25.");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel16)
+                    .addComponent(jLabel18)
+                    .addComponent(jLabel20)
+                    .addComponent(jLabel21)
+                    .addComponent(jLabel22)
+                    .addComponent(jLabel23)
+                    .addComponent(jLabel24)
+                    .addComponent(jLabel27)
+                    .addComponent(jLabel29)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel32)
+                    .addComponent(jLabel33))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(fuma)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel45))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(pedraRins)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel44))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(diabete)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel43))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(tuberculose)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel42))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(problemaCoracao)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel41))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(marcapasso)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel40))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(temVarizes)
+                            .addComponent(tontura)
+                            .addComponent(doresFortes))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                                .addComponent(jLabel35)
+                                .addGap(1, 1, 1))
+                            .addComponent(jLabel36, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel34, javax.swing.GroupLayout.Alignment.TRAILING)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(hipertenso)
+                            .addComponent(pneumonia)
+                            .addComponent(respiraBoca))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel37)
+                            .addComponent(jLabel38)
+                            .addComponent(jLabel39))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(hepatite)
+                    .addComponent(anemia)
+                    .addComponent(anticoncepcional)
+                    .addComponent(reumatismo)
+                    .addComponent(psicologico)
+                    .addComponent(eplepsia)
+                    .addComponent(sinusite)
+                    .addComponent(tratamentoMedico)
+                    .addComponent(dst)
+                    .addComponent(aids)
+                    .addComponent(osteoporose)
+                    .addComponent(quimioterapia))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel66, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel65, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel64, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel63, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel48, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel59, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel60, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel67, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel47, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel68, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labirintite)
+                    .addComponent(leucemia)
+                    .addComponent(transfusao)
+                    .addComponent(cicatrizacao)
+                    .addComponent(sangramento)
+                    .addComponent(enxaqueca)
+                    .addComponent(gravidez)
+                    .addComponent(problemaHormonal)
+                    .addComponent(hemodialise)
+                    .addComponent(cirrose)
+                    .addComponent(hempfilia))
+                .addGap(268, 268, 268))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jSeparator1)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jScrollPane7))
+                            .addComponent(jLabel25)
+                            .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel73)
+                            .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel72))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel26)
+                            .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(doresFortes)
+                                    .addComponent(jLabel16))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(temVarizes)
+                                    .addComponent(jLabel18))
+                                .addGap(28, 28, 28))
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(tontura)
+                                .addComponent(jLabel20)))
+                        .addGap(5, 5, 5)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hipertenso, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel21))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(pneumonia)
+                            .addComponent(jLabel22))
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(respiraBoca)
+                                    .addComponent(jLabel23))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(marcapasso)
+                                    .addComponent(jLabel24))
+                                .addGap(3, 3, 3)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(problemaCoracao, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel27))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(tuberculose)
+                                    .addComponent(jLabel29)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(diabete)
+                                    .addComponent(jLabel31)))))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(jPanel8Layout.createSequentialGroup()
+                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(psicologico)
+                                        .addComponent(jLabel34))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(osteoporose)
+                                    .addGap(28, 28, 28))
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(reumatismo)
+                                    .addComponent(jLabel36)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addComponent(jLabel35)))
+                        .addGap(5, 5, 5)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(anticoncepcional, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(eplepsia)
+                                    .addComponent(jLabel38))
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel8Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(sinusite)
+                                            .addComponent(jLabel39))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(tratamentoMedico)
+                                            .addComponent(jLabel40))
+                                        .addGap(3, 3, 3)
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(quimioterapia, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel41))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(dst)
+                                            .addComponent(jLabel42)))
+                                    .addGroup(jPanel8Layout.createSequentialGroup()
+                                        .addGap(123, 123, 123)
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(aids)
+                                            .addComponent(jLabel43)))))
+                            .addComponent(jLabel37)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(cicatrizacao)
+                                    .addComponent(jLabel68))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(leucemia)
+                                    .addComponent(jLabel48))
+                                .addGap(28, 28, 28))
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(transfusao)
+                                .addComponent(jLabel47)))
+                        .addGap(5, 5, 5)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(labirintite, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel59))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(sangramento)
+                            .addComponent(jLabel60))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(enxaqueca)
+                            .addComponent(jLabel61))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(gravidez, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel63))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel64)
+                            .addComponent(problemaHormonal))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel65)
+                            .addComponent(hemodialise))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel66)
+                            .addComponent(cirrose))))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(11, 11, 11)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(pedraRins)
+                            .addComponent(jLabel32))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(fuma)
+                            .addComponent(jLabel33)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel67)
+                            .addComponent(hempfilia)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(anemia)
+                            .addComponent(jLabel44))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hepatite)
+                            .addComponent(jLabel45))))
+                .addGap(45, 45, 45)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel30)
+                            .addComponent(jLabel73))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel26)
+                        .addGap(12, 12, 12)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel25)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel71)
+                            .addComponent(jLabel72))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Questionário Odontológico"));
+
+        dorDente.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        dorDente.setText("Sente alguma dor?");
+        dorDente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dorDenteActionPerformed(evt);
+            }
+        });
+
+        cirurgia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        cirurgia.setText("Já submeteu-se a cirurgia odontológica?");
+        cirurgia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cirurgiaActionPerformed(evt);
+            }
+        });
+
+        radiografia.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        radiografia.setText("Fez radiografias recentemente?");
+        radiografia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                radiografiaActionPerformed(evt);
+            }
+        });
+
+        mastigaDoisLados.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mastigaDoisLados.setText("Mastiga dos dois lados da boca?");
+        mastigaDoisLados.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mastigaDoisLadosActionPerformed(evt);
+            }
+        });
+
+        alteracaoBoca.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        alteracaoBoca.setText("Observou alguma alteração de forma, tamanho ou cor na boca?");
+        alteracaoBoca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alteracaoBocaActionPerformed(evt);
+            }
+        });
+
+        gengiva.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        gengiva.setText("Sua gengiva costuma sangrar?");
+        gengiva.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gengivaActionPerformed(evt);
+            }
+        });
+
+        halitose.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        halitose.setText("Apresenta mau hálito (halitose)?");
+        halitose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                halitoseActionPerformed(evt);
+            }
+        });
+
+        afita.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        afita.setText("Costuma ter afitas ou herpes?");
+        afita.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                afitaActionPerformed(evt);
+            }
+        });
+
+        mastigar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mastigar.setText("Tem dificuldade em abrir a boca e mastigar?");
+        mastigar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mastigarActionPerformed(evt);
+            }
+        });
+
+        mobilidade.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        mobilidade.setText("Tem mobilidade nos dentes?");
+        mobilidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mobilidadeActionPerformed(evt);
+            }
+        });
+
+        sensibilidade.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sensibilidade.setText("possui sensibilidade nos dentes com quente/frio?");
+        sensibilidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sensibilidadeActionPerformed(evt);
+            }
+        });
+
+        doresPescoco.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        doresPescoco.setText("Acorda com dores de cabeça e/ou no pescoço?");
+        doresPescoco.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                doresPescocoActionPerformed(evt);
+            }
+        });
+
+        estalos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        estalos.setText("Ouve estalos quando abre ou fecha a boca?");
+        estalos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                estalosActionPerformed(evt);
+            }
+        });
+
+        lingua.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lingua.setText("Morde língua, lábios ou bochechas?");
+        lingua.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                linguaActionPerformed(evt);
+            }
+        });
+
+        ranger.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ranger.setText("Costuma apertar ou ranger os dentes?");
+        ranger.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rangerActionPerformed(evt);
+            }
+        });
+
+        sorriso.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sorriso.setText("O que o/a incomoda no seu sorriso?");
+        sorriso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sorrisoActionPerformed(evt);
+            }
+        });
+
+        periodental.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        periodental.setText("Já submeteu-se a tratamento periodental (gengiva)?");
+        periodental.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                periodentalActionPerformed(evt);
+            }
+        });
+
+        alteracao.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        alteracao.setText("No rosto, alguma alteração de forma, tamanho ou cor?");
+        alteracao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                alteracaoActionPerformed(evt);
+            }
+        });
+
+        jLabel46.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel46.setText("Já realizou implantes dentários? Se sim, como foi a sua experiência?");
+
+        jLabel74.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel74.setText("Quanto tempo tem seu último tratamento odontológico?");
+
+        implante.setColumns(20);
+        implante.setRows(5);
+        jScrollPane17.setViewportView(implante);
+
+        tempo.setColumns(20);
+        tempo.setRows(5);
+        jScrollPane18.setViewportView(tempo);
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator2)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(mobilidade)
+                                    .addComponent(gengiva)
+                                    .addComponent(halitose)
+                                    .addComponent(afita)
+                                    .addComponent(sensibilidade)
+                                    .addComponent(mastigar)
+                                    .addComponent(doresPescoco)
+                                    .addComponent(estalos)
+                                    .addComponent(ranger))
+                                .addGap(117, 117, 117)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(cirurgia)
+                                    .addComponent(sorriso)
+                                    .addComponent(periodental)
+                                    .addComponent(alteracao)
+                                    .addComponent(radiografia)
+                                    .addComponent(lingua)
+                                    .addComponent(mastigaDoisLados)
+                                    .addComponent(alteracaoBoca)
+                                    .addComponent(dorDente)))
+                            .addComponent(jLabel46)
+                            .addComponent(jLabel74)
+                            .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 1040, Short.MAX_VALUE)
+                            .addComponent(jScrollPane18))
+                        .addGap(0, 180, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(29, 29, 29)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(afita)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(gengiva)
+                                .addGap(28, 28, 28))
+                            .addComponent(halitose))
+                        .addGap(5, 5, 5)
+                        .addComponent(mobilidade, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(sensibilidade)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(mastigar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(estalos)
+                        .addGap(3, 3, 3)
+                        .addComponent(doresPescoco, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ranger))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(alteracao)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(sorriso)
+                                .addGap(28, 28, 28))
+                            .addComponent(periodental))
+                        .addGap(5, 5, 5)
+                        .addComponent(cirurgia, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(radiografia)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(dorDente)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lingua)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(mastigaDoisLados)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(alteracaoBoca)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel46)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel74)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(57, 57, 57)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(142, Short.MAX_VALUE))
+            .addGap(0, 1271, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 1259, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(44, 44, 44)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(93, Short.MAX_VALUE))
+            .addGap(0, 1258, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         jScrollPane6.setViewportView(jPanel1);
@@ -125,16 +1212,16 @@ public class Informacoes extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(239, Short.MAX_VALUE)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 435, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(163, 163, 163))
+                .addContainerGap(240, Short.MAX_VALUE)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(87, 87, 87)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(232, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(87, Short.MAX_VALUE)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 563, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -147,6 +1234,218 @@ public class Informacoes extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void temVarizesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_temVarizesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_temVarizesActionPerformed
+
+    private void tonturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tonturaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tonturaActionPerformed
+
+    private void doresFortesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresFortesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_doresFortesActionPerformed
+
+    private void respiraBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_respiraBocaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_respiraBocaActionPerformed
+
+    private void hipertensoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hipertensoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hipertensoActionPerformed
+
+    private void pneumoniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pneumoniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pneumoniaActionPerformed
+
+    private void problemaCoracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaCoracaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_problemaCoracaoActionPerformed
+
+    private void marcapassoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_marcapassoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_marcapassoActionPerformed
+
+    private void diabeteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diabeteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_diabeteActionPerformed
+
+    private void tuberculoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tuberculoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tuberculoseActionPerformed
+
+    private void osteoporoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_osteoporoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_osteoporoseActionPerformed
+
+    private void reumatismoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reumatismoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_reumatismoActionPerformed
+
+    private void psicologicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_psicologicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_psicologicoActionPerformed
+
+    private void sinusiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sinusiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sinusiteActionPerformed
+
+    private void anticoncepcionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anticoncepcionalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_anticoncepcionalActionPerformed
+
+    private void eplepsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eplepsiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_eplepsiaActionPerformed
+
+    private void quimioterapiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quimioterapiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_quimioterapiaActionPerformed
+
+    private void tratamentoMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tratamentoMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tratamentoMedicoActionPerformed
+
+    private void aidsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aidsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_aidsActionPerformed
+
+    private void dstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dstActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dstActionPerformed
+
+    private void leucemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leucemiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_leucemiaActionPerformed
+
+    private void transfusaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transfusaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_transfusaoActionPerformed
+
+    private void cicatrizacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cicatrizacaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cicatrizacaoActionPerformed
+
+    private void enxaquecaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enxaquecaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enxaquecaActionPerformed
+
+    private void labirintiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_labirintiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_labirintiteActionPerformed
+
+    private void sangramentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sangramentoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sangramentoActionPerformed
+
+    private void gravidezActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gravidezActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gravidezActionPerformed
+
+    private void hemodialiseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hemodialiseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hemodialiseActionPerformed
+
+    private void problemaHormonalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_problemaHormonalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_problemaHormonalActionPerformed
+
+    private void anemiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anemiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_anemiaActionPerformed
+
+    private void cirroseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirroseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cirroseActionPerformed
+
+    private void pedraRinsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pedraRinsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pedraRinsActionPerformed
+
+    private void fumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fumaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fumaActionPerformed
+
+    private void hepatiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hepatiteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hepatiteActionPerformed
+
+    private void hempfiliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hempfiliaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hempfiliaActionPerformed
+
+    private void dorDenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dorDenteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dorDenteActionPerformed
+
+    private void cirurgiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cirurgiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cirurgiaActionPerformed
+
+    private void radiografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_radiografiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_radiografiaActionPerformed
+
+    private void mastigaDoisLadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigaDoisLadosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mastigaDoisLadosActionPerformed
+
+    private void alteracaoBocaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoBocaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_alteracaoBocaActionPerformed
+
+    private void gengivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gengivaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gengivaActionPerformed
+
+    private void halitoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_halitoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_halitoseActionPerformed
+
+    private void afitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_afitaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_afitaActionPerformed
+
+    private void mastigarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mastigarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mastigarActionPerformed
+
+    private void mobilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mobilidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mobilidadeActionPerformed
+
+    private void sensibilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sensibilidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sensibilidadeActionPerformed
+
+    private void doresPescocoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doresPescocoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_doresPescocoActionPerformed
+
+    private void estalosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estalosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_estalosActionPerformed
+
+    private void linguaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_linguaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_linguaActionPerformed
+
+    private void rangerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rangerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rangerActionPerformed
+
+    private void sorrisoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sorrisoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sorrisoActionPerformed
+
+    private void periodentalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_periodentalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_periodentalActionPerformed
+
+    private void alteracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alteracaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_alteracaoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -184,18 +1483,128 @@ public class Informacoes extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox afita;
+    private javax.swing.JCheckBox aids;
+    private javax.swing.JTextArea alergiaMedicamento;
+    private javax.swing.JCheckBox alteracao;
+    private javax.swing.JCheckBox alteracaoBoca;
+    private javax.swing.JCheckBox anemia;
+    private javax.swing.JCheckBox anticoncepcional;
+    private javax.swing.JTextArea bebidaAlcoolica;
+    private javax.swing.JCheckBox cicatrizacao;
+    private javax.swing.JCheckBox cirrose;
+    private javax.swing.JCheckBox cirurgia;
+    private javax.swing.JCheckBox diabete;
+    private javax.swing.JTextArea doencaContagiosa;
+    private javax.swing.JCheckBox dorDente;
+    private javax.swing.JCheckBox doresFortes;
+    private javax.swing.JCheckBox doresPescoco;
+    private javax.swing.JTextArea drogasIlicitas;
+    private javax.swing.JCheckBox dst;
+    private javax.swing.JCheckBox enxaqueca;
+    private javax.swing.JCheckBox eplepsia;
+    private javax.swing.JCheckBox estalos;
+    private javax.swing.JCheckBox fuma;
+    private javax.swing.JCheckBox gengiva;
+    private javax.swing.JCheckBox gravidez;
+    private javax.swing.JCheckBox halitose;
+    private javax.swing.JCheckBox hemodialise;
+    private javax.swing.JCheckBox hempfilia;
+    private javax.swing.JCheckBox hepatite;
+    private javax.swing.JCheckBox hipertenso;
+    private javax.swing.JTextArea implante;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
     private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JCheckBox labirintite;
+    private javax.swing.JCheckBox leucemia;
+    private javax.swing.JCheckBox lingua;
+    private javax.swing.JCheckBox marcapasso;
+    private javax.swing.JCheckBox mastigaDoisLados;
+    private javax.swing.JCheckBox mastigar;
+    private javax.swing.JCheckBox mobilidade;
+    private javax.swing.JCheckBox osteoporose;
+    private javax.swing.JTextArea parouFumar;
+    private javax.swing.JCheckBox pedraRins;
+    private javax.swing.JCheckBox periodental;
+    private javax.swing.JCheckBox pneumonia;
+    private javax.swing.JCheckBox problemaCoracao;
+    private javax.swing.JCheckBox problemaHormonal;
+    private javax.swing.JCheckBox psicologico;
+    private javax.swing.JCheckBox quimioterapia;
+    private javax.swing.JCheckBox radiografia;
+    private javax.swing.JCheckBox ranger;
+    private javax.swing.JCheckBox respiraBoca;
+    private javax.swing.JCheckBox reumatismo;
+    private javax.swing.JCheckBox sangramento;
+    private javax.swing.JCheckBox sensibilidade;
+    private javax.swing.JCheckBox sinusite;
+    private javax.swing.JCheckBox sorriso;
+    private javax.swing.JCheckBox temVarizes;
+    private javax.swing.JTextArea tempo;
+    private javax.swing.JTextArea tomandoMedicamento;
+    private javax.swing.JCheckBox tontura;
+    private javax.swing.JCheckBox transfusao;
+    private javax.swing.JCheckBox tratamentoMedico;
+    private javax.swing.JCheckBox tuberculose;
     // End of variables declaration//GEN-END:variables
 }
