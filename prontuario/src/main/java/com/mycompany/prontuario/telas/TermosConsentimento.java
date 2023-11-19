@@ -37,9 +37,10 @@ public class TermosConsentimento extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Aceite dos termos de consentimento");
-        setPreferredSize(new java.awt.Dimension(470, 550));
+        setPreferredSize(new java.awt.Dimension(490, 560));
         setResizable(false);
 
+        textoTela.setEditable(false);
         textoTela.setColumns(20);
         textoTela.setRows(5);
         jScrollPane4.setViewportView(textoTela);
