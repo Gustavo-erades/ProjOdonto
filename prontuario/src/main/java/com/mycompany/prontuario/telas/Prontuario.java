@@ -32,6 +32,15 @@ public class Prontuario extends javax.swing.JFrame {
             tempo.setText(rs[0].getString("tempo"));
         }
     }
+    public void questoesSaudeGeral(String id) throws SQLException{
+        String sql="SELECT questoes FROM PACIENTE_SAUDE_GERAL WHERE ID="+id+";";
+        ResultSet[] rs=new ResultSet[1];
+        preparedStatement= Conexao.getConexao().prepareStatement(sql);
+        rs[0]=preparedStatement.executeQuery();
+        while(rs[0].next()){
+            implante.setText(rs[0].getString("questoes"));
+        }
+    }
 
     /**
      * Creates new form Prontuario
