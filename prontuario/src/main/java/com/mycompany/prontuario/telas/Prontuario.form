@@ -32,8 +32,9 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane13" min="-2" pref="868" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="jScrollPane13" min="-2" pref="815" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -393,15 +394,353 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <EmptySpace min="0" pref="748" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="marcapasso" min="-2" pref="243" max="-2" attributes="0"/>
+                                                      <Component id="eplepsia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="doresFortes" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="pneumonia" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="temVarizes" min="-2" pref="88" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                                                      <Component id="respiraBoca" min="-2" pref="121" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="pedraRins" min="-2" pref="161" max="-2" attributes="0"/>
+                                              <Component id="fuma" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="diabete" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="psicologico" min="-2" max="-2" attributes="0"/>
+                                              <Component id="osteoporose" min="-2" pref="123" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="quimioterapia" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="tratamentoMedico" min="-2" pref="243" max="-2" attributes="0"/>
+                                                      <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="aids" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="dst" min="-2" max="-2" attributes="0"/>
+                                              <Component id="anemia" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                                              <Component id="hepatite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hemodialise" min="-2" max="-2" attributes="0"/>
+                                              <Component id="cirrose" min="-2" pref="161" max="-2" attributes="0"/>
+                                              <Component id="hempfilia" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <EmptySpace min="0" pref="111" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tuberculose" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="diabete" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="pedraRins" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="hipertenso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="problemaCoracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fuma" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eplepsia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dst" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="osteoporose" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sinusite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aids" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="anemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="anticoncepcional" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="quimioterapia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hepatite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hemodialise" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cirrose" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gravidez" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hempfilia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="labirintite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="problemaHormonal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                         </DimensionLayout>
                       </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JCheckBox" name="doresFortes">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; sentiu ou sente dores fortes no peito"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="temVarizes">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem varizes"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="temVarizesActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="tontura">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value=" Quando se levanta depressa sente tontura"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="hipertenso">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xc9; hipertenso(a)"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="pneumonia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; teve pneumonia"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="respiraBoca">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Respira pela boca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="marcapasso">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Possui pr&#xf3;tese card&#xed;aca ou marcapasso"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="problemaCoracao">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Possui algum problema no cora&#xe7;&#xe3;o"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="tuberculose">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; teve tuberculose"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="diabete">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem diabete"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="pedraRins">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/Teve pedra nos rins"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="fuma">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Fuma"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="aids">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem AIDS"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="dst">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/Teve Doen&#xe7;a Sexualmente Transmiss&#xed;vel"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="quimioterapia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; fez quimioterapia ou radioterapia"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="tratamentoMedico">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Est&#xe1; agora sob tratamento m&#xe9;dico"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="sinusite">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/teve sinusite ou rinite"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="eplepsia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem eplepsia"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="psicologico">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Fez/j&#xe1; fez tratamento psicol&#xf3;gico/psiqui&#xe1;trico"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="anticoncepcional">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Toma anticoncepcional"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="reumatismo">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem reumatismo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="osteoporose">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem osteoporose"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="osteoporoseActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="hepatite">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; teve ou tem hepatite"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="anemia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/Teve anemia"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="cirrose">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem cirrose"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="hempfilia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/Teve hempfilia"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="leucemia">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem/Teve leucemia"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="leucemiaActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="transfusao">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J&#xe1; fez transfus&#xe3;o sangu&#xed;nea"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="labirintite">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem labirintite"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="cicatrizacao">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="A sua cicatriza&#xe7;&#xe3;o demora a acontecer"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="sangramento">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Quando se machuca sangra muito tempo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="enxaqueca">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem enxaqueca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="gravidez">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Est&#xe1; gr&#xe1;vida"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="problemaHormonal">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tem algum problema hormonal"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="hemodialise">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Faz/Fez hemodi&#xe1;lise"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hemodialiseActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
                     </Container>
                   </SubComponents>
                 </Container>
