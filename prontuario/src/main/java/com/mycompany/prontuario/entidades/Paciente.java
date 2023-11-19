@@ -142,11 +142,4 @@ public class Paciente {
     public void setEmailResponsavel(String emailResponsavel){
         this.emailResponsavel=emailResponsavel;
     }
-    private String idContrato;
-    public String getIdContrato(){
-        return idContrato;
-    }
-    public void setIdContrato(String idContrato){
-        this.idContrato=idContrato;
-    }
 }

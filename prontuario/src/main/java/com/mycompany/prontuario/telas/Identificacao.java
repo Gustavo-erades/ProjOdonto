@@ -165,13 +165,12 @@ public class Identificacao extends javax.swing.JFrame {
     }
     public void dadosContrato(String id) throws SQLException{
         String sql="SELECT id,nome,cpf,rg FROM PACIENTE WHERE ID="+id+";";
-        ResultSet[] rs=new ResultSet[4];
+        ResultSet[] rs=new ResultSet[3];
         preparedStatement1= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement1.executeQuery();
         while(rs[0].next()){
             new Contrato().contratoPaciente(rs[0].getString("NOME"),
-                    rs[0].getString("CPF"),rs[0].getString("RG"),
-                    rs[0].getString("ID"));  
+                    rs[0].getString("CPF"),rs[0].getString("RG"));
         }
     }
     
