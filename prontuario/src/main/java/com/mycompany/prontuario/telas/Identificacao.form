@@ -1822,6 +1822,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="102" attributes="0">
                                       <Component id="cadastrarProntuario1" min="-2" max="-2" attributes="0"/>
@@ -1829,14 +1830,8 @@
                                       <Component id="cancealarQuestionario" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jPanel8" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jPanel9" max="32767" attributes="0"/>
-                                      </Group>
+                                      <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace pref="3258" max="32767" attributes="0"/>
@@ -1963,10 +1958,8 @@
                                       <Component id="tratamentoMedico" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="dst" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="aids" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                          <Component id="osteoporose" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="osteoporose" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="56" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">

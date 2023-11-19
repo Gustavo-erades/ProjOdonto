@@ -3121,6 +3121,7 @@ public class Identificacao extends javax.swing.JFrame {
         try {
             questoesTela.questoesAbertasSaudeGeral(id);
             questoesTela.questoesAbertasOdonto(id);
+            questoesTela.questoesSaudeGeral(id);
         } catch (SQLException ex) {
             Logger.getLogger(Identificacao.class.getName()).log(Level.SEVERE, null, ex);
         }
