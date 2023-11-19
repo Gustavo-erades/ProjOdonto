@@ -395,52 +395,46 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="osteoporose" min="-2" pref="269" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="eplepsia" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="pneumonia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="tratamentoMedico" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
-                                                      <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="respiraBoca" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
-                                                      <Component id="marcapasso" min="-2" pref="267" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Component id="doresFortes" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="temVarizes" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                                              <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="osteoporose" min="-2" pref="269" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="fuma" min="-2" pref="95" max="-2" attributes="0"/>
-                                              <Component id="diabete" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
-                                              <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
-                                              <Component id="pedraRins" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                                              <Component id="eplepsia" min="-2" max="-2" attributes="0"/>
+                                              <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pneumonia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="tratamentoMedico" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
+                                              <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="respiraBoca" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                                              <Component id="marcapasso" min="-2" pref="267" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <Group type="102" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="psicologico" min="-2" max="-2" attributes="0"/>
-                                              <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
+                                      <Component id="doresFortes" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="temVarizes" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                                      <Component id="psicologico" min="-2" max="-2" attributes="0"/>
+                                      <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="fuma" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Component id="diabete" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
+                                      <Component id="pedraRins" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="aids" min="-2" pref="95" max="-2" attributes="0"/>
                                               <Component id="dst" min="-2" max="-2" attributes="0"/>
@@ -452,7 +446,7 @@
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace pref="24" max="32767" attributes="0"/>
+                                  <EmptySpace pref="13" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -460,72 +454,86 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="tuberculose" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="diabete" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="pedraRins" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="hipertenso" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="problemaCoracao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="fuma" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="dst" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="eplepsia" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                          <Component id="aids" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <Component id="sinusite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="hipertenso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="problemaCoracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="eplepsia" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="osteoporose" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="anticoncepcional" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="quimioterapia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="gravidez" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <Component id="osteoporose" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="anemia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="anticoncepcional" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="quimioterapia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="hepatite" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="hemodialise" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cirrose" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="gravidez" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="hempfilia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="diabete" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="pedraRins" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="fuma" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="dst" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="aids" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="anemia" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="hepatite" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="hemodialise" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="cirrose" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="hempfilia" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -595,6 +603,9 @@
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Tem/Teve pedra nos rins"/>
                           </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pedraRinsActionPerformed"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="fuma">
                           <Properties>

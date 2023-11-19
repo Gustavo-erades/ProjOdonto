@@ -3118,8 +3118,9 @@ public class Identificacao extends javax.swing.JFrame {
         questoesTela.setVisible(true);
         int linhaSelecionada=resultPesquisa1.getSelectedRow();
         String id=resultPesquisa1.getValueAt(linhaSelecionada,0).toString();
+        String nome=resultPesquisa1.getValueAt(linhaSelecionada,1).toString();
         try {
-            questoesTela.questoesAbertasSaudeGeral(id);
+            questoesTela.questoesAbertasSaudeGeral(id,nome);
             questoesTela.questoesAbertasOdonto(id);
             questoesTela.questoesSaudeGeral(id);
         } catch (SQLException ex) {

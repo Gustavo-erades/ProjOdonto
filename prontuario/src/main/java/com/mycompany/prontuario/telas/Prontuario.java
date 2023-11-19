@@ -8,7 +8,10 @@ import java.sql.SQLException;
 
 public class Prontuario extends javax.swing.JFrame {
     PreparedStatement preparedStatement;
-    public void questoesAbertasSaudeGeral(String id) throws SQLException{
+    public void questoesAbertasSaudeGeral(String id,String nome) throws SQLException{
+        
+        resultadoId.setText(id);
+        resultadoNome.setText(nome);
         String sql="SELECT doenca_contagiosa,alergia,bebida,drogas,medicamento,fumo FROM PACIENTE_SAUDE_GERAL WHERE ID="+id+";";
         ResultSet[] rs=new ResultSet[6];
         preparedStatement= Conexao.getConexao().prepareStatement(sql);
@@ -33,14 +36,121 @@ public class Prontuario extends javax.swing.JFrame {
         }
     }
     public void questoesSaudeGeral(String id) throws SQLException{
-        /*String sql="SELECT questoes FROM PACIENTE_SAUDE_GERAL WHERE ID="+id+";";
+        char[] array;
+        String sql="SELECT questoes FROM PACIENTE_SAUDE_GERAL WHERE ID=3;";
         ResultSet[] rs=new ResultSet[1];
         preparedStatement= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement.executeQuery();
         while(rs[0].next()){
-            implante.setText(rs[0].getString("questoes"));
-        }*/
-        doresFortes.setSelected(true);
+            array = rs[0].getString("questoes").toCharArray();
+            if(Character.compare(array[0],'1') == 0){
+                doresFortes.setSelected(true);
+            }
+            if(Character.compare(array[1],'1') == 0){
+                temVarizes.setSelected(true);
+            }
+            if(Character.compare(array[2],'1') == 0){
+                tontura.setSelected(true);
+            }
+            if(Character.compare(array[3],'1') == 0){
+                hipertenso.setSelected(true);
+            }
+            if(Character.compare(array[4],'1') == 0){
+                pneumonia.setSelected(true);
+            }
+            if(Character.compare(array[5],'1') == 0){
+                respiraBoca.setSelected(true);
+            }
+            if(Character.compare(array[6],'1') == 0){
+                marcapasso.setSelected(true);
+            }
+            if(Character.compare(array[7],'1') == 0){
+                problemaCoracao.setSelected(true);
+            }
+            if(Character.compare(array[8],'1') == 0){
+                tuberculose.setSelected(true);
+            }
+            if(Character.compare(array[9],'1') == 0){
+                diabete.setSelected(true);
+            }
+            if(Character.compare(array[10],'1') == 0){
+                pedraRins.setSelected(true);
+            }
+            if(Character.compare(array[11],'1') == 0){
+                fuma.setSelected(true);
+            }
+            if(Character.compare(array[12],'1') == 0){
+                psicologico.setSelected(true);
+            }
+            if(Character.compare(array[13],'1') == 0){
+                osteoporose.setSelected(true);
+            }
+            if(Character.compare(array[14],'1') == 0){
+                reumatismo.setSelected(true);
+            }
+            if(Character.compare(array[15],'1') == 0){
+                anticoncepcional.setSelected(true);
+            }
+            if(Character.compare(array[16],'1') == 0){
+                eplepsia.setSelected(true);
+            }
+            if(Character.compare(array[17],'1') == 0){
+                sinusite.setSelected(true);
+            }
+            if(Character.compare(array[18],'1') == 0){
+                tratamentoMedico.setSelected(true);
+            }
+            if(Character.compare(array[19],'1') == 0){
+                quimioterapia.setSelected(true);
+            }
+            if(Character.compare(array[20],'1') == 0){
+                dst.setSelected(true);
+            }
+            if(Character.compare(array[21],'1') == 0){
+                aids.setSelected(true);
+            }
+            if(Character.compare(array[22],'1') == 0){
+                anemia.setSelected(true);
+            }
+            if(Character.compare(array[23],'1') == 0){
+                hepatite.setSelected(true);
+            }
+            if(Character.compare(array[24],'1') == 0){
+                cicatrizacao.setSelected(true);
+            }
+            if(Character.compare(array[25],'1') == 0){
+                leucemia.setSelected(true);
+            }
+            if(Character.compare(array[26],'1') == 0){
+                transfusao.setSelected(true);
+            }
+            if(Character.compare(array[27],'1') == 0){
+                labirintite.setSelected(true);
+            }
+            if(Character.compare(array[28],'1') == 0){
+                sangramento.setSelected(true);
+            }
+            if(Character.compare(array[29],'1') == 0){
+                enxaqueca.setSelected(true);
+            }
+            if(Character.compare(array[30],'1') == 0){
+                gravidez.setSelected(true);
+            }
+            if(Character.compare(array[31],'1') == 0){
+                problemaHormonal.setSelected(true);
+            }
+            if(Character.compare(array[32],'1') == 0){
+                hemodialise.setSelected(true);
+            }
+            if(Character.compare(array[33],'1') == 0){
+                cirrose.setSelected(true);
+            }
+            if(Character.compare(array[34],'1') == 0){
+                hempfilia.setSelected(true);
+            }
+            
+        }
+        
     }
 
     /**
@@ -52,7 +162,6 @@ public class Prontuario extends javax.swing.JFrame {
         labirintite.setEnabled(false);
         leucemia.setEnabled(false);
         marcapasso.setEnabled(false);
-        medicamento.setEnabled(false);
         osteoporose.setEnabled(false);
         pedraRins.setEnabled(false);
         pneumonia.setEnabled(false);
@@ -71,16 +180,12 @@ public class Prontuario extends javax.swing.JFrame {
         tratamentoMedico.setEnabled(false);
         tuberculose.setEnabled(false);
         aids.setEnabled(false);
-        alergia.setEnabled(false);
         anemia.setEnabled(false);
         anticoncepcional.setEnabled(false);
-        bebida.setEnabled(false);
         cicatrizacao.setEnabled(false);
         cirrose.setEnabled(false);
         diabete.setEnabled(false);
-        doencaContagiosa.setEnabled(false);
         doresFortes.setEnabled(false);
-        drogas.setEnabled(false);
         dst.setEnabled(false);
         enxaqueca.setEnabled(false);
         eplepsia.setEnabled(false);
@@ -264,6 +369,11 @@ public class Prontuario extends javax.swing.JFrame {
         diabete.setText("Tem diabete");
 
         pedraRins.setText("Tem/Teve pedra nos rins");
+        pedraRins.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pedraRinsActionPerformed(evt);
+            }
+        });
 
         fuma.setText("Fuma");
 
@@ -337,43 +447,40 @@ public class Prontuario extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(tontura)
-                                    .addComponent(hipertenso)
-                                    .addComponent(osteoporose, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(2, 2, 2)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(eplepsia)
-                                    .addComponent(problemaCoracao)
-                                    .addComponent(pneumonia)
-                                    .addComponent(sinusite)
-                                    .addComponent(tratamentoMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(quimioterapia)
-                                    .addComponent(sangramento)
-                                    .addComponent(enxaqueca)
-                                    .addComponent(gravidez)
-                                    .addComponent(problemaHormonal)
-                                    .addComponent(respiraBoca, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(marcapasso, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(doresFortes)
-                            .addComponent(temVarizes, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(7, 7, 7)
+                            .addComponent(tontura)
+                            .addComponent(hipertenso)
+                            .addComponent(osteoporose, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(2, 2, 2)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(fuma, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(diabete, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tuberculose)
-                            .addComponent(pedraRins, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(eplepsia)
+                            .addComponent(problemaCoracao)
+                            .addComponent(pneumonia)
+                            .addComponent(sinusite)
+                            .addComponent(tratamentoMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(quimioterapia)
+                            .addComponent(sangramento)
+                            .addComponent(enxaqueca)
+                            .addComponent(gravidez)
+                            .addComponent(problemaHormonal)
+                            .addComponent(respiraBoca, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(marcapasso, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(doresFortes)
+                    .addComponent(temVarizes, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(psicologico)
+                    .addComponent(reumatismo)
+                    .addComponent(anticoncepcional)
+                    .addComponent(leucemia)
+                    .addComponent(transfusao)
+                    .addComponent(labirintite)
+                    .addComponent(cicatrizacao))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(fuma, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(diabete, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tuberculose)
+                    .addComponent(pedraRins, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(psicologico)
-                            .addComponent(reumatismo)
-                            .addComponent(anticoncepcional)
-                            .addComponent(leucemia)
-                            .addComponent(transfusao)
-                            .addComponent(labirintite)
-                            .addComponent(cicatrizacao))
-                        .addGap(278, 278, 278)
+                        .addGap(2, 2, 2)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(aids, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(dst)
@@ -382,67 +489,79 @@ public class Prontuario extends javax.swing.JFrame {
                             .addComponent(hemodialise)
                             .addComponent(cirrose, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(hempfilia))))
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(13, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(doresFortes)
-                    .addComponent(pneumonia)
-                    .addComponent(tuberculose))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(temVarizes)
-                    .addComponent(respiraBoca)
-                    .addComponent(diabete))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tontura)
-                    .addComponent(marcapasso)
-                    .addComponent(pedraRins))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(hipertenso)
-                    .addComponent(problemaCoracao)
-                    .addComponent(fuma))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(psicologico)
-                    .addComponent(dst)
-                    .addComponent(eplepsia, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(doresFortes)
+                            .addComponent(pneumonia))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(temVarizes)
+                            .addComponent(respiraBoca))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(tontura)
+                            .addComponent(marcapasso))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(hipertenso)
+                            .addComponent(problemaCoracao))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(psicologico)
+                            .addComponent(eplepsia, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(sinusite)
+                            .addComponent(osteoporose))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(reumatismo)
+                            .addComponent(tratamentoMedico))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(anticoncepcional)
+                            .addComponent(quimioterapia))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(cicatrizacao)
+                            .addComponent(sangramento))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(leucemia)
+                            .addComponent(enxaqueca))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(transfusao)
+                            .addComponent(gravidez)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(tuberculose)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(diabete)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pedraRins)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(fuma)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(dst)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(aids, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(sinusite))
-                    .addComponent(osteoporose))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(reumatismo)
-                    .addComponent(tratamentoMedico)
-                    .addComponent(anemia))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(anticoncepcional)
-                    .addComponent(quimioterapia)
-                    .addComponent(hepatite))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cicatrizacao)
-                    .addComponent(sangramento)
-                    .addComponent(hemodialise))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(leucemia)
-                    .addComponent(enxaqueca)
-                    .addComponent(cirrose))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(transfusao)
-                    .addComponent(gravidez)
-                    .addComponent(hempfilia))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(anemia)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(hepatite)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(hemodialise)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(cirrose)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(hempfilia)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(labirintite)
@@ -631,6 +750,10 @@ public class Prontuario extends javax.swing.JFrame {
     private void hemodialiseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hemodialiseActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_hemodialiseActionPerformed
+
+    private void pedraRinsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pedraRinsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pedraRinsActionPerformed
 
     /**
      * @param args the command line arguments
