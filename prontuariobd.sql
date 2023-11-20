@@ -62,4 +62,4 @@ create table prontuariobd.paciente_quest_odonto(
     id int not null auto_increment,
     primary key (id)
 );
-alter table prontuariobd.paciente add column contrato blob after email_responsavel;
+

@@ -46,6 +46,57 @@ public class Prontuario extends javax.swing.JFrame {
             if(Character.compare(array[0],'1') == 0){
                 afita.setSelected(true);
             }
+            if(Character.compare(array[1],'1') == 0){
+                gengiva.setSelected(true);
+            }
+            if(Character.compare(array[2],'1') == 0){
+                halitose.setSelected(true);
+            }
+            if(Character.compare(array[3],'1') == 0){
+                mobilidade.setSelected(true);
+            }
+            if(Character.compare(array[4],'1') == 0){
+                sensibilidade.setSelected(true);
+            }
+            if(Character.compare(array[5],'1') == 0){
+                mastigar.setSelected(true);
+            }
+            if(Character.compare(array[6],'1') == 0){
+                estalos.setSelected(true);
+            }
+            if(Character.compare(array[7],'1') == 0){
+                dorCabeca.setSelected(true);
+            }
+            if(Character.compare(array[8],'1') == 0){
+                ranger.setSelected(true);
+            }
+            if(Character.compare(array[9],'1') == 0){
+                alteracao.setSelected(true);
+            }
+            if(Character.compare(array[10],'1') == 0){
+                sorriso.setSelected(true);
+            }
+            if(Character.compare(array[11],'1') == 0){
+                periodental.setSelected(true);
+            }
+            if(Character.compare(array[12],'1') == 0){
+                cirurgia.setSelected(true);
+            }
+            if(Character.compare(array[13],'1') == 0){
+                radiografia.setSelected(true);
+            }
+            if(Character.compare(array[14],'1') == 0){
+                dor.setSelected(true);
+            }
+            if(Character.compare(array[15],'1') == 0){
+                lingua.setSelected(true);
+            }
+            if(Character.compare(array[16],'1') == 0){
+                mastigaDoisLados.setSelected(true);
+            }
+            if(Character.compare(array[17],'1') == 0){
+                alteracaoBoca.setSelected(true);
+            }
         }
     }
     public void questoesSaudeGeral(String id) throws SQLException{
@@ -208,7 +259,6 @@ public class Prontuario extends javax.swing.JFrame {
         hempfilia.setEnabled(false);
         hepatite.setEnabled(false);
         hipertenso.setEnabled(false);
-        
         afita.setEnabled(false);
         gengiva.setEnabled(false);
         mobilidade.setEnabled(false);
@@ -228,7 +278,6 @@ public class Prontuario extends javax.swing.JFrame {
         mastigaDoisLados.setEnabled(false);
         alteracaoBoca.setEnabled(false);
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
