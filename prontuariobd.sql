@@ -3,8 +3,8 @@ use prontuariobd;
 create table paciente(
 	nome varchar(150),
     id int not null auto_increment,
-	cpf int not null,
-	rg int not null,
+	cpf varchar(15) not null,
+	rg varchar(10) not null,
     idade int not null,
     telefone varchar(20),
     email varchar(100),
