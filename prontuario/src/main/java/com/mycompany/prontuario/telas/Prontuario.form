@@ -102,26 +102,25 @@
                                           <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="jScrollPane11" alignment="0" min="-2" pref="752" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="jScrollPane7" min="-2" pref="365" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
-                                              </Group>
+                                  <Component id="jScrollPane9" alignment="0" min="-2" pref="800" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane11" alignment="0" min="-2" pref="796" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jScrollPane7" min="-2" pref="365" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jScrollPane8" min="-2" pref="356" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane8" min="-2" pref="356" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
-                                  <Component id="jScrollPane9" alignment="0" min="-2" pref="800" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="35" max="32767" attributes="0"/>
                           </Group>
@@ -194,7 +193,7 @@
                       <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jScrollPane7" min="-2" max="-2" attributes="0"/>
-                          <Component id="jScrollPane8" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="82" max="32767" attributes="0"/>
                   </Group>
@@ -395,46 +394,52 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="osteoporose" min="-2" pref="269" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="tontura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="hipertenso" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="osteoporose" min="-2" pref="269" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="eplepsia" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="pneumonia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="tratamentoMedico" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
+                                                      <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="respiraBoca" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                                                      <Component id="marcapasso" min="-2" pref="267" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="doresFortes" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="temVarizes" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="eplepsia" min="-2" max="-2" attributes="0"/>
-                                              <Component id="problemaCoracao" min="-2" max="-2" attributes="0"/>
-                                              <Component id="pneumonia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="tratamentoMedico" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
-                                              <Component id="quimioterapia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="sangramento" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="enxaqueca" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="gravidez" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="problemaHormonal" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="respiraBoca" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
-                                              <Component id="marcapasso" min="-2" pref="267" max="-2" attributes="0"/>
+                                              <Component id="fuma" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="diabete" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pedraRins" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <Component id="doresFortes" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="temVarizes" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
-                                      <Component id="psicologico" min="-2" max="-2" attributes="0"/>
-                                      <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="fuma" min="-2" pref="95" max="-2" attributes="0"/>
-                                      <Component id="diabete" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
-                                      <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
-                                      <Component id="pedraRins" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="psicologico" min="-2" max="-2" attributes="0"/>
+                                              <Component id="reumatismo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="anticoncepcional" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="leucemia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="transfusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labirintite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="cicatrizacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="aids" min="-2" pref="95" max="-2" attributes="0"/>
                                               <Component id="dst" min="-2" max="-2" attributes="0"/>
@@ -446,7 +451,7 @@
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace pref="13" max="32767" attributes="0"/>
+                                  <EmptySpace pref="24" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -454,86 +459,72 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="hipertenso" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="problemaCoracao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="eplepsia" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="sinusite" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="osteoporose" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="anticoncepcional" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="quimioterapia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="gravidez" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="doresFortes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="pneumonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tuberculose" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="temVarizes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="respiraBoca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="diabete" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tontura" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="marcapasso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="pedraRins" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="hipertenso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="problemaCoracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fuma" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="psicologico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dst" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="eplepsia" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="aids" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="sinusite" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="tuberculose" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="diabete" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="pedraRins" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="fuma" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="dst" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="aids" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="anemia" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="hepatite" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="hemodialise" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="cirrose" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="hempfilia" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="osteoporose" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="reumatismo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tratamentoMedico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="anemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="anticoncepcional" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="quimioterapia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hepatite" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cicatrizacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sangramento" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hemodialise" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="leucemia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="enxaqueca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cirrose" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="transfusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gravidez" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="hempfilia" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -746,9 +737,195 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane12">
+                <Container class="javax.swing.JPanel" name="jPanel3">
 
-                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="afita" max="32767" attributes="0"/>
+                                  <Component id="gengiva" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="mobilidade" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="mastigar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="estalos" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="sensibilidade" min="-2" pref="304" max="-2" attributes="0"/>
+                                          <Component id="radiografia" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                                          <Component id="dor" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="lingua" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dorCabeca" min="-2" pref="290" max="-2" attributes="0"/>
+                                  <Component id="ranger" alignment="0" min="-2" pref="275" max="-2" attributes="0"/>
+                                  <Component id="alteracao" min="-2" pref="331" max="-2" attributes="0"/>
+                                  <Component id="sorriso" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
+                                  <Component id="periodental" alignment="0" min="-2" pref="314" max="-2" attributes="0"/>
+                                  <Component id="cirurgia" alignment="0" min="-2" pref="253" max="-2" attributes="0"/>
+                                  <Component id="mastigaDoisLados" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
+                                  <Component id="alteracaoBoca" min="-2" pref="381" max="-2" attributes="0"/>
+                                  <Component id="halitose" min="-2" pref="381" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="afita" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="gengiva" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="mobilidade" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sensibilidade" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="mastigar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="estalos" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dorCabeca" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="ranger" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="alteracao" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sorriso" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="periodental" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cirurgia" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="radiografia" min="-2" max="-2" attributes="0"/>
+                                  <Component id="mastigaDoisLados" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dor" min="-2" max="-2" attributes="0"/>
+                                  <Component id="alteracaoBoca" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lingua" min="-2" max="-2" attributes="0"/>
+                                  <Component id="halitose" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JCheckBox" name="afita">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Costuma ter afitas ou herpes?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="mobilidade">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Tem mobilidade nos dentes?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="gengiva">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sua gengiva costuma sangrar?"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gengivaActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="sensibilidade">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="possui sensibilidade nos dentes com quente/frio?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="mastigar">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Tem dificuldade em abrir a boca e mastigar?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="estalos">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ouve estalos quando abre ou fecha a boca?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="dorCabeca">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Acorda com dores de cabe&#xe7;a e/ou no pesco&#xe7;o?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="alteracao">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="No rosto, alguma altera&#xe7;&#xe3;o de forma, tamanho ou cor?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="ranger">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Costuma apertar ou ranger os dentes?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="sorriso">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="O que o/a incomoda no seu sorriso?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="periodental">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="J&#xe1; submeteu-se a tratamento periodental (gengiva)?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="cirurgia">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="J&#xe1; submeteu-se a cirurgia odontol&#xf3;gica?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="radiografia">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fez radiografias recentemente?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="dor">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sente alguma dor?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="mastigaDoisLados">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Mastiga dos dois lados da boca?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="alteracaoBoca">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Observou alguma altera&#xe7;&#xe3;o de forma, tamanho ou cor na boca?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="lingua">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Morde l&#xed;ngua, l&#xe1;bios ou bochechas?"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="halitose">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Apresenta mau h&#xe1;lito (halitose)?"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="halitoseActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
                 </Container>
               </SubComponents>
             </Container>

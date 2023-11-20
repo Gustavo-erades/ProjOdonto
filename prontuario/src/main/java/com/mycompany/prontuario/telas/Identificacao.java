@@ -1927,9 +1927,8 @@ public class Identificacao extends javax.swing.JFrame {
                     .addComponent(tratamentoMedico)
                     .addComponent(dst)
                     .addComponent(aids)
-                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(osteoporose, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(quimioterapia, javax.swing.GroupLayout.Alignment.LEADING)))
+                    .addComponent(osteoporose)
+                    .addComponent(quimioterapia))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel66, javax.swing.GroupLayout.Alignment.TRAILING)
@@ -2355,23 +2354,23 @@ public class Identificacao extends javax.swing.JFrame {
 
         jLabel101.setText("9.");
 
-        jLabel102.setText("9.");
+        jLabel102.setText("10.");
 
-        jLabel103.setText("10.");
+        jLabel103.setText("11.");
 
-        jLabel104.setText("11.");
+        jLabel104.setText("12.");
 
-        jLabel105.setText("12.");
+        jLabel105.setText("13.");
 
-        jLabel106.setText("13.");
+        jLabel106.setText("14.");
 
-        jLabel107.setText("14.");
+        jLabel107.setText("15.");
 
-        jLabel108.setText("15.");
+        jLabel108.setText("16.");
 
-        jLabel109.setText("16.");
+        jLabel109.setText("17.");
 
-        jLabel110.setText("17.");
+        jLabel110.setText("18.");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -2579,19 +2578,16 @@ public class Identificacao extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(cadastrarProntuario1)
                         .addGap(18, 18, 18)
                         .addComponent(cancealarQuestionario))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(3258, Short.MAX_VALUE))
+                        .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap(3261, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -35,9 +35,22 @@ public class Prontuario extends javax.swing.JFrame {
             tempo.setText(rs[0].getString("tempo"));
         }
     }
+    public void questoesOdonto(String id) throws SQLException{
+        char[] array;
+        String sql="SELECT questoes FROM PACIENTE_QUEST_ODONTO WHERE ID="+id+";";
+        ResultSet[] rs=new ResultSet[1];
+        preparedStatement= Conexao.getConexao().prepareStatement(sql);
+        rs[0]=preparedStatement.executeQuery();
+        while(rs[0].next()){
+            array = rs[0].getString("questoes").toCharArray();
+            if(Character.compare(array[0],'1') == 0){
+                afita.setSelected(true);
+            }
+        }
+    }
     public void questoesSaudeGeral(String id) throws SQLException{
         char[] array;
-        String sql="SELECT questoes FROM PACIENTE_SAUDE_GERAL WHERE ID=3;";
+        String sql="SELECT questoes FROM PACIENTE_SAUDE_GERAL WHERE ID="+id+";";
         ResultSet[] rs=new ResultSet[1];
         preparedStatement= Conexao.getConexao().prepareStatement(sql);
         rs[0]=preparedStatement.executeQuery();
@@ -195,6 +208,25 @@ public class Prontuario extends javax.swing.JFrame {
         hempfilia.setEnabled(false);
         hepatite.setEnabled(false);
         hipertenso.setEnabled(false);
+        
+        afita.setEnabled(false);
+        gengiva.setEnabled(false);
+        mobilidade.setEnabled(false);
+        halitose.setEnabled(false);
+        sensibilidade.setEnabled(false);
+        mastigar.setEnabled(false);
+        estalos.setEnabled(false);
+        dorCabeca.setEnabled(false);
+        ranger.setEnabled(false);
+        alteracao.setEnabled(false);
+        sorriso.setEnabled(false);
+        periodental.setEnabled(false);
+        cirurgia.setEnabled(false);
+        radiografia.setEnabled(false);
+        dor.setEnabled(false);
+        lingua.setEnabled(false);
+        mastigaDoisLados.setEnabled(false);
+        alteracaoBoca.setEnabled(false);
     }
 
     /**
@@ -270,7 +302,25 @@ public class Prontuario extends javax.swing.JFrame {
         problemaHormonal = new javax.swing.JCheckBox();
         hemodialise = new javax.swing.JCheckBox();
         jScrollPane11 = new javax.swing.JScrollPane();
-        jScrollPane12 = new javax.swing.JScrollPane();
+        jPanel3 = new javax.swing.JPanel();
+        afita = new javax.swing.JCheckBox();
+        mobilidade = new javax.swing.JCheckBox();
+        gengiva = new javax.swing.JCheckBox();
+        sensibilidade = new javax.swing.JCheckBox();
+        mastigar = new javax.swing.JCheckBox();
+        estalos = new javax.swing.JCheckBox();
+        dorCabeca = new javax.swing.JCheckBox();
+        alteracao = new javax.swing.JCheckBox();
+        ranger = new javax.swing.JCheckBox();
+        sorriso = new javax.swing.JCheckBox();
+        periodental = new javax.swing.JCheckBox();
+        cirurgia = new javax.swing.JCheckBox();
+        radiografia = new javax.swing.JCheckBox();
+        dor = new javax.swing.JCheckBox();
+        mastigaDoisLados = new javax.swing.JCheckBox();
+        alteracaoBoca = new javax.swing.JCheckBox();
+        lingua = new javax.swing.JCheckBox();
+        halitose = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -447,40 +497,43 @@ public class Prontuario extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(tontura)
-                            .addComponent(hipertenso)
-                            .addComponent(osteoporose, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(tontura)
+                                    .addComponent(hipertenso)
+                                    .addComponent(osteoporose, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(2, 2, 2)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(eplepsia)
+                                    .addComponent(problemaCoracao)
+                                    .addComponent(pneumonia)
+                                    .addComponent(sinusite)
+                                    .addComponent(tratamentoMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(quimioterapia)
+                                    .addComponent(sangramento)
+                                    .addComponent(enxaqueca)
+                                    .addComponent(gravidez)
+                                    .addComponent(problemaHormonal)
+                                    .addComponent(respiraBoca, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(marcapasso, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(doresFortes)
+                            .addComponent(temVarizes, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(7, 7, 7)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(eplepsia)
-                            .addComponent(problemaCoracao)
-                            .addComponent(pneumonia)
-                            .addComponent(sinusite)
-                            .addComponent(tratamentoMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(quimioterapia)
-                            .addComponent(sangramento)
-                            .addComponent(enxaqueca)
-                            .addComponent(gravidez)
-                            .addComponent(problemaHormonal)
-                            .addComponent(respiraBoca, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(marcapasso, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(doresFortes)
-                    .addComponent(temVarizes, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(psicologico)
-                    .addComponent(reumatismo)
-                    .addComponent(anticoncepcional)
-                    .addComponent(leucemia)
-                    .addComponent(transfusao)
-                    .addComponent(labirintite)
-                    .addComponent(cicatrizacao))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(fuma, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(diabete, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tuberculose)
-                    .addComponent(pedraRins, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(fuma, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(diabete, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tuberculose)
+                            .addComponent(pedraRins, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(2, 2, 2)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(psicologico)
+                            .addComponent(reumatismo)
+                            .addComponent(anticoncepcional)
+                            .addComponent(leucemia)
+                            .addComponent(transfusao)
+                            .addComponent(labirintite)
+                            .addComponent(cicatrizacao))
+                        .addGap(278, 278, 278)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(aids, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(dst)
@@ -489,79 +542,67 @@ public class Prontuario extends javax.swing.JFrame {
                             .addComponent(hemodialise)
                             .addComponent(cirrose, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(hempfilia))))
-                .addContainerGap(13, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(doresFortes)
-                            .addComponent(pneumonia))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(temVarizes)
-                            .addComponent(respiraBoca))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tontura)
-                            .addComponent(marcapasso))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(hipertenso)
-                            .addComponent(problemaCoracao))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(psicologico)
-                            .addComponent(eplepsia, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(sinusite)
-                            .addComponent(osteoporose))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(reumatismo)
-                            .addComponent(tratamentoMedico))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(anticoncepcional)
-                            .addComponent(quimioterapia))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(cicatrizacao)
-                            .addComponent(sangramento))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(leucemia)
-                            .addComponent(enxaqueca))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(transfusao)
-                            .addComponent(gravidez)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(tuberculose)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(diabete)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pedraRins)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fuma)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(dst)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(doresFortes)
+                    .addComponent(pneumonia)
+                    .addComponent(tuberculose))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(temVarizes)
+                    .addComponent(respiraBoca)
+                    .addComponent(diabete))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tontura)
+                    .addComponent(marcapasso)
+                    .addComponent(pedraRins))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(hipertenso)
+                    .addComponent(problemaCoracao)
+                    .addComponent(fuma))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(psicologico)
+                    .addComponent(dst)
+                    .addComponent(eplepsia, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(aids, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(anemia)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hepatite)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hemodialise)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cirrose)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(hempfilia)))
+                        .addComponent(sinusite))
+                    .addComponent(osteoporose))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(reumatismo)
+                    .addComponent(tratamentoMedico)
+                    .addComponent(anemia))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(anticoncepcional)
+                    .addComponent(quimioterapia)
+                    .addComponent(hepatite))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cicatrizacao)
+                    .addComponent(sangramento)
+                    .addComponent(hemodialise))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(leucemia)
+                    .addComponent(enxaqueca)
+                    .addComponent(cirrose))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(transfusao)
+                    .addComponent(gravidez)
+                    .addComponent(hempfilia))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(labirintite)
@@ -573,7 +614,129 @@ public class Prontuario extends javax.swing.JFrame {
 
         jScrollPane9.setViewportView(jScrollPane10);
 
-        jScrollPane11.setViewportView(jScrollPane12);
+        afita.setText("Costuma ter afitas ou herpes?");
+
+        mobilidade.setText("Tem mobilidade nos dentes?");
+
+        gengiva.setText("Sua gengiva costuma sangrar?");
+        gengiva.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gengivaActionPerformed(evt);
+            }
+        });
+
+        sensibilidade.setText("possui sensibilidade nos dentes com quente/frio?");
+
+        mastigar.setText("Tem dificuldade em abrir a boca e mastigar?");
+
+        estalos.setText("Ouve estalos quando abre ou fecha a boca?");
+
+        dorCabeca.setText("Acorda com dores de cabeça e/ou no pescoço?");
+
+        alteracao.setText("No rosto, alguma alteração de forma, tamanho ou cor?");
+
+        ranger.setText("Costuma apertar ou ranger os dentes?");
+
+        sorriso.setText("O que o/a incomoda no seu sorriso?");
+
+        periodental.setText("Já submeteu-se a tratamento periodental (gengiva)?");
+
+        cirurgia.setText("Já submeteu-se a cirurgia odontológica?");
+
+        radiografia.setText("Fez radiografias recentemente?");
+
+        dor.setText("Sente alguma dor?");
+
+        mastigaDoisLados.setText("Mastiga dos dois lados da boca?");
+
+        alteracaoBoca.setText("Observou alguma alteração de forma, tamanho ou cor na boca?");
+
+        lingua.setText("Morde língua, lábios ou bochechas?");
+
+        halitose.setText("Apresenta mau hálito (halitose)?");
+        halitose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                halitoseActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(afita, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(gengiva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(mobilidade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(mastigar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(estalos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(sensibilidade, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(radiografia, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(dor, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lingua, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(dorCabeca, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ranger, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(alteracao, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sorriso, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(periodental, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cirurgia, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(mastigaDoisLados, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(alteracaoBoca, javax.swing.GroupLayout.PREFERRED_SIZE, 381, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(halitose, javax.swing.GroupLayout.PREFERRED_SIZE, 381, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(227, 227, 227))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(afita)
+                        .addGap(9, 9, 9)
+                        .addComponent(gengiva)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(mobilidade)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(sensibilidade)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(mastigar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(estalos))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(dorCabeca)
+                        .addGap(9, 9, 9)
+                        .addComponent(ranger)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(alteracao)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(sorriso)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(periodental)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(cirurgia)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(radiografia)
+                    .addComponent(mastigaDoisLados))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(dor)
+                    .addComponent(alteracaoBoca))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lingua)
+                    .addComponent(halitose))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jScrollPane11.setViewportView(jPanel3);
 
         jLabel3.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel3.setText("Já teve alguma doença contagiosa? Se SIM qual?");
@@ -639,20 +802,20 @@ public class Prontuario extends javax.swing.JFrame {
                                         .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(jLabel6)
                                     .addComponent(jLabel8)))
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jScrollPane11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 752, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                            .addComponent(jLabel9)
-                                            .addGap(117, 117, 117)))
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel10)
-                                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 796, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(31, 31, 31))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jLabel9)
+                                        .addGap(117, 117, 117)))
+                                .addGap(75, 75, 75)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel10)
+                                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(0, 35, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -708,7 +871,7 @@ public class Prontuario extends javax.swing.JFrame {
                 .addGap(3, 3, 3)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(82, Short.MAX_VALUE))
         );
 
@@ -755,6 +918,14 @@ public class Prontuario extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_pedraRinsActionPerformed
 
+    private void gengivaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gengivaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gengivaActionPerformed
+
+    private void halitoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_halitoseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_halitoseActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -791,23 +962,32 @@ public class Prontuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox afita;
     private javax.swing.JCheckBox aids;
     private javax.swing.JTextArea alergia;
+    private javax.swing.JCheckBox alteracao;
+    private javax.swing.JCheckBox alteracaoBoca;
     private javax.swing.JCheckBox anemia;
     private javax.swing.JCheckBox anticoncepcional;
     private javax.swing.JTextArea bebida;
     private javax.swing.JCheckBox cicatrizacao;
     private javax.swing.JCheckBox cirrose;
+    private javax.swing.JCheckBox cirurgia;
     private javax.swing.JCheckBox diabete;
     private javax.swing.JTextArea doencaContagiosa;
+    private javax.swing.JCheckBox dor;
+    private javax.swing.JCheckBox dorCabeca;
     private javax.swing.JCheckBox doresFortes;
     private javax.swing.JTextArea drogas;
     private javax.swing.JCheckBox dst;
     private javax.swing.JCheckBox enxaqueca;
     private javax.swing.JCheckBox eplepsia;
+    private javax.swing.JCheckBox estalos;
     private javax.swing.JCheckBox fuma;
     private javax.swing.JTextArea fumo;
+    private javax.swing.JCheckBox gengiva;
     private javax.swing.JCheckBox gravidez;
+    private javax.swing.JCheckBox halitose;
     private javax.swing.JCheckBox hemodialise;
     private javax.swing.JCheckBox hempfilia;
     private javax.swing.JCheckBox hepatite;
@@ -827,10 +1007,10 @@ public class Prontuario extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane2;
@@ -843,21 +1023,30 @@ public class Prontuario extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JCheckBox labirintite;
     private javax.swing.JCheckBox leucemia;
+    private javax.swing.JCheckBox lingua;
     private javax.swing.JCheckBox marcapasso;
+    private javax.swing.JCheckBox mastigaDoisLados;
+    private javax.swing.JCheckBox mastigar;
     private javax.swing.JTextArea medicamento;
+    private javax.swing.JCheckBox mobilidade;
     private javax.swing.JCheckBox osteoporose;
     private javax.swing.JCheckBox pedraRins;
+    private javax.swing.JCheckBox periodental;
     private javax.swing.JCheckBox pneumonia;
     private javax.swing.JCheckBox problemaCoracao;
     private javax.swing.JCheckBox problemaHormonal;
     private javax.swing.JCheckBox psicologico;
     private javax.swing.JCheckBox quimioterapia;
+    private javax.swing.JCheckBox radiografia;
+    private javax.swing.JCheckBox ranger;
     private javax.swing.JCheckBox respiraBoca;
     private javax.swing.JLabel resultadoId;
     private javax.swing.JLabel resultadoNome;
     private javax.swing.JCheckBox reumatismo;
     private javax.swing.JCheckBox sangramento;
+    private javax.swing.JCheckBox sensibilidade;
     private javax.swing.JCheckBox sinusite;
+    private javax.swing.JCheckBox sorriso;
     private javax.swing.JCheckBox temVarizes;
     private javax.swing.JTextArea tempo;
     private javax.swing.JCheckBox tontura;
