@@ -12,3 +12,9 @@
 ### prontuário
 ![tela01](https://github.com/Gustavo-erades/ProjOdonto/assets/108373134/8e3df1ee-b3fb-41fc-9ab5-78e90957e0f5)
 -   Essa é a tela inicial da aplicação e realiza algumas operações de consulta ao banco de dados
+-   A tabela de consulta se inicia vazia e conforme forem sendo feitos os cadastros dos pacientes ela é atualizada
+-   O campo de pesuisa usa o operador LIKE para buscar no banco de dados por qualquer coisa parecida com o que foi digitado.
+![tela01 1](https://github.com/Gustavo-erades/ProjOdonto/assets/108373134/01ee3e1e-2cb5-4386-9e94-6f98b7a8ffcc)
+-   Após alguma linha da tabela ser selecionada o botão "visualizar" é exibido
+-   Quando esse botão é pressionado uma nova sessão é exibida e nela são retornados diversos dados de algumas tabelas do banco de dados
+-   Os dados retornados são referentes aos dados pessoais e às informações iniciais fornecidas pelo paciente na tela "Novo paciente". 
