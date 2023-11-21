@@ -10,4 +10,5 @@
       -  Novo prontuário
 -  Todas as telas possuem integração com banco de dados MySQL e podem ser resumidas em operações de SELECT e INSERT INTO
 ### prontuário
-
+![tela01](https://github.com/Gustavo-erades/ProjOdonto/assets/108373134/8e3df1ee-b3fb-41fc-9ab5-78e90957e0f5)
+-   Essa é a tela inicial da aplicação e realiza algumas operações de consulta ao banco de dados
