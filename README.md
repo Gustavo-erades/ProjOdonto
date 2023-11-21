@@ -8,4 +8,6 @@
       -  Prontuário
       -  Novo paciente
       -  Novo prontuário
-        
+-  Todas as telas possuem integração com banco de dados MySQL e podem ser resumidas em operações de SELECT e INSERT INTO
+### prontuário
+
